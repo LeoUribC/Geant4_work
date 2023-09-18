@@ -1,0 +1,8 @@
+/home/mediosdigitales/Descargas/tarea1/build/CMakeFiles/exampleED.dir
+/home/mediosdigitales/Descargas/tarea1/build/CMakeFiles/ED.dir
+/home/mediosdigitales/Descargas/tarea1/build/CMakeFiles/edit_cache.dir
+/home/mediosdigitales/Descargas/tarea1/build/CMakeFiles/rebuild_cache.dir
+/home/mediosdigitales/Descargas/tarea1/build/CMakeFiles/list_install_components.dir
+/home/mediosdigitales/Descargas/tarea1/build/CMakeFiles/install.dir
+/home/mediosdigitales/Descargas/tarea1/build/CMakeFiles/install/local.dir
+/home/mediosdigitales/Descargas/tarea1/build/CMakeFiles/install/strip.dir
