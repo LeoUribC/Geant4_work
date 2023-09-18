@@ -34,6 +34,7 @@
 #include "G4VUserPrimaryGeneratorAction.hh"
 
 class G4Event;
+class G4ParticleGun;
 
 /// The first primary generator action class.
 
