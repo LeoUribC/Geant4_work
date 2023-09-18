@@ -41,17 +41,6 @@
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 EDPrimaryGeneratorAction::EDPrimaryGeneratorAction()
-: G4VUserPrimaryGeneratorAction()
-{}
-
-//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
-
-EDPrimaryGeneratorAction::~EDPrimaryGeneratorAction()
-{}
-
-//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
-
-void EDPrimaryGeneratorAction::GeneratePrimaries(G4Event* event)
 {
   //this function is called at the begining of ecah event
   //
@@ -67,28 +56,30 @@ void EDPrimaryGeneratorAction::GeneratePrimaries(G4Event* event)
   G4ParticleGun* ParticleGun = new G4ParticleGun();
   
   // Get particle definition from G4ParticleTable
-  G4ParticleTable* particleTable = G4ParticleTable::GetParticleTable();
-  G4ParticleDefinition* particleDefinition 
-    = particleTable->FindParticle(particleName);
-  if ( ! particleDefinition ) {
-    G4cerr << "Error: " << particleName << " not found in G4ParticleTable" << G4endl;
-    exit(1);
-  }  
-    
+  G4ParticleDefinition* particleDefinition
+    = G4ParticleTable::GetParticleTable()->FindParticle("proton");
+
+  fParticleGun->SetParticleDefinition(particleDefinition);
+  fParticleGun->SetParticleMomentumDirection(G4ThreeVector(0.,0.,1.));
+  fParticleGun->SetParticleEnergy(3.0*GeV);  
   // Create primary particle
   G4PrimaryParticle* primaryParticle = new G4PrimaryParticle(particleDefinition);
   primaryParticle->SetMomentum(momentum.x(), momentum.y(), momentum.z());
   primaryParticle->SetMass(particleDefinition->GetPDGMass());
   primaryParticle->SetCharge( particleDefinition->GetPDGCharge());
 
-  // Create vertex 
-  G4PrimaryVertex* vertex = new G4PrimaryVertex(position, time);
-  vertex->SetPrimary(primaryParticle);
-  event->AddPrimaryVertex(vertex);
 }
 
-void EDPrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
+//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
+
+EDPrimaryGeneratorAction::~EDPrimaryGeneratorAction()
+{}
+
+//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
+
+void EDPrimaryGeneratorAction::GeneratePrimaries(G4Event* event)
 {
+  
   G4double worldZHalfLength = 0;
   G4LogicalVolume* worldLV
     = G4LogicalVolumeStore::GetInstance()->GetVolume("World");
@@ -102,6 +93,12 @@ void EDPrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
   }
   ParticleGun->SetParticlePosition(G4ThreeVector(0., 0., -worldZHalfLength))
   ParticleGun->GeneratePrimaryVertex(anEvent);
+
+  // Create vertex 
+  G4PrimaryVertex* vertex = new G4PrimaryVertex(position, time);
+  vertex->SetPrimary(primaryParticle);
+  event->AddPrimaryVertex(vertex);
 }
+
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
