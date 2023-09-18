@@ -29,6 +29,10 @@
 /// \brief Implementation of the EDPrimaryGeneratorAction class
 
 #include "EDPrimaryGeneratorAction.hh"
+
+#include "G4LogicalVolumeStore.hh"
+#include "G4LogicalVolume.hh"
+#include "G4Box.hh"
 #include "G4ParticleGun.hh"
 #include "G4Event.hh"
 #include "G4ParticleTable.hh"
@@ -36,6 +40,7 @@
 #include "G4PrimaryParticle.hh"
 #include "G4PrimaryVertex.hh"
 #include "G4SystemOfUnits.hh"
+#include "Randomize.hh"
 #include "G4ios.hh"
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
