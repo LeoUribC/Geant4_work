@@ -55,7 +55,7 @@ EDPrimaryGeneratorAction::EDPrimaryGeneratorAction()
   //G4String particleName = "geantino";
   G4ThreeVector position(0, 0, -9.*m);   
   G4ThreeVector momentum(0, 0, 1.*GeV);
-  G4double time = 0;
+  
 
 
   G4ParticleGun* ParticleGun = new G4ParticleGun();
@@ -64,9 +64,9 @@ EDPrimaryGeneratorAction::EDPrimaryGeneratorAction()
   G4ParticleDefinition* particleDefinition
     = G4ParticleTable::GetParticleTable()->FindParticle("proton");
 
-  fParticleGun->SetParticleDefinition(particleDefinition);
-  fParticleGun->SetParticleMomentumDirection(G4ThreeVector(0.,0.,1.));
-  fParticleGun->SetParticleEnergy(3.0*GeV);  
+  ParticleGun->SetParticleDefinition(particleDefinition);
+  ParticleGun->SetParticleMomentumDirection(G4ThreeVector(0.,0.,1.));
+  ParticleGun->SetParticleEnergy(3.0*GeV);  
   // Create primary particle
   G4PrimaryParticle* primaryParticle = new G4PrimaryParticle(particleDefinition);
   primaryParticle->SetMomentum(momentum.x(), momentum.y(), momentum.z());
@@ -78,7 +78,9 @@ EDPrimaryGeneratorAction::EDPrimaryGeneratorAction()
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 EDPrimaryGeneratorAction::~EDPrimaryGeneratorAction()
-{}
+{
+  delete ParticleGun;
+}
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
@@ -86,6 +88,7 @@ void EDPrimaryGeneratorAction::GeneratePrimaries(G4Event* event)
 {
   
   G4double worldZHalfLength = 0;
+  G4double time = 0;
   G4LogicalVolume* worldLV
     = G4LogicalVolumeStore::GetInstance()->GetVolume("World");
   G4Box* worldBox = nullptr;
@@ -99,10 +102,7 @@ void EDPrimaryGeneratorAction::GeneratePrimaries(G4Event* event)
   ParticleGun->SetParticlePosition(G4ThreeVector(0., 0., -worldZHalfLength))
   ParticleGun->GeneratePrimaryVertex(anEvent);
 
-  // Create vertex 
-  G4PrimaryVertex* vertex = new G4PrimaryVertex(position, time);
-  vertex->SetPrimary(primaryParticle);
-  event->AddPrimaryVertex(vertex);
+  
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
