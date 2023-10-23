@@ -67,11 +67,11 @@ void EDChamberSD::Initialize(G4HCofThisEvent* hce)
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-G4bool EDChamberSD::ProcessHits(G4Step* step, 
+void EDChamberSD::ProcessHits(G4Step* step, 
                                 G4TouchableHistory* /*history*/)
 {
   // Change the following line to get the charge of the tracked particle
-  G4double charge = 0;
+  G4double charge = step->GetTrack()->GetDefinition()->GetPDGCharge();  // getting the right charge
   if ( charge == 0. ) return false;
   
   // Create new hit
@@ -88,14 +88,16 @@ G4bool EDChamberSD::ProcessHits(G4Step* step,
   
   // Time
   // add code to retrieve global time and save it in newHit
+  newHit->SetGlobalTime(step->GetPreStepPoint()->GetGlobalTime());
  
   // Position
   // add code to retrieve global position and save it in newHit
+  newHit->SetGlobalPosition(step->GetPreStepPoint()->GetPosition());
  
   // Add hit in the collection
   fHitsCollection->insert(newHit);
 
-  return false;
+  //return false;
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......

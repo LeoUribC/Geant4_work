@@ -1,8 +1,8 @@
-/home/jwprdpr/Simulaciones/session5_start/build/CMakeFiles/exampleED.dir
-/home/jwprdpr/Simulaciones/session5_start/build/CMakeFiles/ED.dir
-/home/jwprdpr/Simulaciones/session5_start/build/CMakeFiles/edit_cache.dir
-/home/jwprdpr/Simulaciones/session5_start/build/CMakeFiles/rebuild_cache.dir
-/home/jwprdpr/Simulaciones/session5_start/build/CMakeFiles/list_install_components.dir
-/home/jwprdpr/Simulaciones/session5_start/build/CMakeFiles/install.dir
-/home/jwprdpr/Simulaciones/session5_start/build/CMakeFiles/install/local.dir
-/home/jwprdpr/Simulaciones/session5_start/build/CMakeFiles/install/strip.dir
+/home/mediosdigitales/Documentos/Geant4_work/tarea4/build/CMakeFiles/exampleED.dir
+/home/mediosdigitales/Documentos/Geant4_work/tarea4/build/CMakeFiles/ED.dir
+/home/mediosdigitales/Documentos/Geant4_work/tarea4/build/CMakeFiles/edit_cache.dir
+/home/mediosdigitales/Documentos/Geant4_work/tarea4/build/CMakeFiles/rebuild_cache.dir
+/home/mediosdigitales/Documentos/Geant4_work/tarea4/build/CMakeFiles/list_install_components.dir
+/home/mediosdigitales/Documentos/Geant4_work/tarea4/build/CMakeFiles/install.dir
+/home/mediosdigitales/Documentos/Geant4_work/tarea4/build/CMakeFiles/install/local.dir
+/home/mediosdigitales/Documentos/Geant4_work/tarea4/build/CMakeFiles/install/strip.dir

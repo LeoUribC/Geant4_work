@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jwprdpr/Simulaciones/session5_start
+CMAKE_SOURCE_DIR = /home/mediosdigitales/Documentos/Geant4_work/tarea4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jwprdpr/Simulaciones/session5_start/build
+CMAKE_BINARY_DIR = /home/mediosdigitales/Documentos/Geant4_work/tarea4/build
 
 # Utility rule file for ED.
 
@@ -81,6 +81,6 @@ CMakeFiles/ED.dir/clean:
 .PHONY : CMakeFiles/ED.dir/clean
 
 CMakeFiles/ED.dir/depend:
-	cd /home/jwprdpr/Simulaciones/session5_start/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jwprdpr/Simulaciones/session5_start /home/jwprdpr/Simulaciones/session5_start /home/jwprdpr/Simulaciones/session5_start/build /home/jwprdpr/Simulaciones/session5_start/build /home/jwprdpr/Simulaciones/session5_start/build/CMakeFiles/ED.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mediosdigitales/Documentos/Geant4_work/tarea4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mediosdigitales/Documentos/Geant4_work/tarea4 /home/mediosdigitales/Documentos/Geant4_work/tarea4 /home/mediosdigitales/Documentos/Geant4_work/tarea4/build /home/mediosdigitales/Documentos/Geant4_work/tarea4/build /home/mediosdigitales/Documentos/Geant4_work/tarea4/build/CMakeFiles/ED.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ED.dir/depend
 

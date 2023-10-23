@@ -39,7 +39,9 @@ G4Allocator<EDChamberHit>* EDChamberHitAllocator = 0;
 
 EDChamberHit::EDChamberHit()
   : G4VHit(),
-    fLayerNumber(-1)
+    fLayerNumber(-1),
+    fGlobalPosition(G4ThreeVector(0.0, 0.0, 0.0)),
+    fGlobalTime(0.0)
 {}
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
@@ -55,10 +57,35 @@ EDChamberHit::EDChamberHit(const EDChamberHit& /*right*/)
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
+// methods to set up global position and time
+void EDChamberHit::SetGlobalPosition(const G4ThreeVector& pos)
+{
+  fGlobalPosition = pos;
+}
+
+void EDChamberHit::SetGlobalTime(G4double time)
+{
+  fGlobalTime = time;
+}
+
+
+// methods to get global position and time
+const G4ThreeVector& EDChamberHit::GetGlobalPosition() const
+{
+  return fGlobalPosition;
+}
+
+G4double EDChamberHit::GetGlobalTime() const
+{
+  return fGlobalTime;
+}
+
+
 const EDChamberHit& EDChamberHit::operator=(const EDChamberHit& /*right*/)
 {
   return *this;
 }
+
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
@@ -71,7 +98,9 @@ int EDChamberHit::operator==(const EDChamberHit& right) const
 
 void EDChamberHit::Print()
 {  
-  G4cout << "Chamber hit in layer: " << fLayerNumber << G4endl; 
+  G4cout << "Chamber hit in layer: " << fLayerNumber << G4endl;
+  G4cout << "Global Position (x, y, z): " << fGlobalPosition.x() << ", " << fGlobalPosition.y() << ", " << fGlobalPosition.z() << G4endl;
+  G4cout << "Global Time: " << fGlobalTime << G4endl;
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......

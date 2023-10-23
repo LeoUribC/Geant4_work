@@ -59,6 +59,8 @@ class EDChamberHit : public G4VHit
   private:
     // data members
     G4int  fLayerNumber;
+    G4ThreeVector fGlobalPosition;  // to store global position
+    G4double fGlobalTime;           // to store global time
 };
 
 typedef G4THitsCollection<EDChamberHit> EDChamberHitsCollection;
