@@ -40,7 +40,7 @@ G4Allocator<EDChamberHit>* EDChamberHitAllocator = 0;
 EDChamberHit::EDChamberHit()
   : G4VHit(),
     fLayerNumber(-1),
-    fGlobalPosition(G4ThreeVector(0.0, 0.0, 0.0)),
+    fGlobalPosition((0.0, 0.0, 0.0)),
     fGlobalTime(0.0)
 {}
 
@@ -102,5 +102,8 @@ void EDChamberHit::Print()
   G4cout << "Global Position (x, y, z): " << fGlobalPosition.x() << ", " << fGlobalPosition.y() << ", " << fGlobalPosition.z() << G4endl;
   G4cout << "Global Time: " << fGlobalTime << G4endl;
 }
+
+void EDChamberHit::Draw()
+{}
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
