@@ -50,7 +50,7 @@ EDPrimaryGeneratorAction::EDPrimaryGeneratorAction()
   fParticleGun = new G4ParticleGun(nofParticles);
 
   G4String particleName = "muon";
-  G4ThreeVector position(0,-2.*m,0);
+  G4ThreeVector position(-0.2*m,2.9*m,-1.*m);
   G4ThreeVector momentum(0,0,1.*GeV);
   
   G4ParticleTable *particleTable = G4ParticleTable::GetParticleTable();
@@ -74,15 +74,16 @@ void EDPrimaryGeneratorAction::GeneratePrimaries(G4Event* event)
 
   if(fRandom){
     G4double dtheta = 10.*deg;
-    G4double dphi = 25.*deg;
+    G4double dphi = 50.*deg;
     G4double theta = G4UniformRand()*dtheta;
     G4double phi = G4UniformRand()*dphi;
     fParticleGun->SetParticleMomentumDirection(
-     G4ThreeVector(sin(theta)*sin(phi) , sin(theta)*cos(phi), cos(theta)));
+    G4ThreeVector(theta, -1, phi));
+
   }
   else{
      fParticleGun->SetParticleMomentumDirection(
-      G4ThreeVector(1,0,0));
+      G4ThreeVector(0,-1,0));
   }
   fParticleGun->GeneratePrimaryVertex(event);
 }
