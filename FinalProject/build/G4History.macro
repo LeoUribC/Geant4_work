@@ -44,5 +44,68 @@
 /gui/addIcon "Perspective" perspective
 /gui/addIcon "Orthographic" ortho
 /gui/addIcon "Run beam on" user_icon "/run/beamOn 1" run.png
-/run/beamOn 100
+/run/beamOn 1
 /vis/scene/notifyHandlers scene-0
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 1
+/run/beamOn 10
+/vis/set/touchable World 0 bodysuit_physical 0
+/vis/set/touchable World 0 bodysuit_physical 0 Trunk_physical 0
+/vis/set/touchable World 0 bodysuit_physical 0 Trunk_physical 0 heart_physical 0
+/vis/set/touchable World 0 bodysuit_physical 0 Trunk_physical 0 intestine_physical 0
+/vis/set/touchable World 0 bodysuit_physical 0 Trunk_physical 0 left_lung_physical 0
+/vis/set/touchable World 0 bodysuit_physical 0 Trunk_physical 0 liver_physical 0
+/vis/set/touchable World 0 bodysuit_physical 0 Trunk_physical 0 right_lung_physical 0
+/vis/set/touchable World 0 bodysuit_physical 0 Trunk_physical 0 stomach_physical 0
+/vis/set/touchable World 0 bodysuit_physical 0 Trunk_physical 0
+/vis/set/touchable World 0 bodysuit_physical 0 Trunk_physical 0 heart_physical 0
+/vis/set/touchable World 0 bodysuit_physical 0 Trunk_physical 0 intestine_physical 0
+/vis/set/touchable World 0 bodysuit_physical 0 Trunk_physical 0 left_lung_physical 0
+/vis/set/touchable World 0 bodysuit_physical 0 Trunk_physical 0 liver_physical 0
+/vis/set/touchable World 0 bodysuit_physical 0 Trunk_physical 0 right_lung_physical 0
+/vis/set/touchable World 0 bodysuit_physical 0 Trunk_physical 0 stomach_physical 0
+/vis/set/touchable World 0 helmet_physical 0
+/vis/set/touchable World 0 helmet_physical 0 Head_physical 0
+/vis/set/touchable World 0 helmet_physical 0 Head_physical 0 Brain_physical 0
+/vis/set/touchable World 0 helmet_physical 0 Head_physical 0
+/vis/set/touchable World 0 helmet_physical 0 Head_physical 0 Brain_physical 0
+/vis/set/touchable World 0 helmet_physical 0 Head_physical 0
+/vis/set/touchable World 0 helmet_physical 0 Head_physical 0 Brain_physical 0
+/vis/set/touchable World 0 helmet_physical 0 Head_physical 0 Brain_physical 0
+/vis/set/touchable World 0 bodysuit_physical 0 Trunk_physical 0
+/vis/set/touchable World 0 bodysuit_physical 0 Trunk_physical 0 heart_physical 0
+/vis/set/touchable World 0 bodysuit_physical 0 Trunk_physical 0 intestine_physical 0
+/vis/set/touchable World 0 bodysuit_physical 0 Trunk_physical 0 left_lung_physical 0
+/vis/set/touchable World 0 bodysuit_physical 0 Trunk_physical 0 liver_physical 0
+/vis/set/touchable World 0 bodysuit_physical 0 Trunk_physical 0 right_lung_physical 0
+/vis/set/touchable World 0 bodysuit_physical 0 Trunk_physical 0 stomach_physical 0
+/vis/set/touchable World 0 bodysuit_physical 0 Trunk_physical 0 heart_physical 0
+/vis/set/touchable World 0 bodysuit_physical 0 Trunk_physical 0 intestine_physical 0
+/vis/set/touchable World 0 bodysuit_physical 0 Trunk_physical 0 left_lung_physical 0
+/vis/set/touchable World 0 bodysuit_physical 0 Trunk_physical 0 liver_physical 0
+/vis/set/touchable World 0 bodysuit_physical 0 Trunk_physical 0 right_lung_physical 0
+/vis/set/touchable World 0 bodysuit_physical 0 Trunk_physical 0 stomach_physical 0
+/vis/set/touchable World 0 left_suitarm_physical 0 left_arm_physical 0
+/vis/set/touchable World 0 left_suitarm_physical 0 left_arm_physical 0 arm_bone_physical 0
+/vis/set/touchable World 0 left_suitarm_physical 0
+/vis/set/touchable World 0 left_suitarm_physical 0 left_arm_physical 0
+/vis/set/touchable World 0 left_suitarm_physical 0 left_arm_physical 0 arm_bone_physical 0
+/vis/set/touchable World 0 left_suitarm_physical 0 left_arm_physical 0 arm_bone_physical 0
+/vis/set/touchable World 0 left_suitarm_physical 0
+/vis/set/touchable World 0 left_suitarm_physical 0 left_arm_physical 0
+/vis/set/touchable World 0 left_suitarm_physical 0 left_arm_physical 0 arm_bone_physical 0
+/vis/set/touchable World 0 left_suitarm_physical 0 left_arm_physical 0 arm_bone_physical 0
+/vis/set/touchable World 0 left_suitleg_physical 0
+/vis/set/touchable World 0 left_suitleg_physical 0 left_leg_physical 0
+/vis/set/touchable World 0 left_suitleg_physical 0 left_leg_physical 0 leg_bone_physical 0
+/vis/set/touchable World 0 left_suitleg_physical 0 left_leg_physical 0 leg_bone_physical 0
+/vis/set/touchable World 0 right_leg_physical 0
+/vis/set/touchable World 0 right_leg_physical 0 left_leg_physical 0
+/vis/set/touchable World 0 right_leg_physical 0 left_leg_physical 0 leg_bone_physical 0
+/vis/set/touchable World 0 right_leg_physical 0 left_leg_physical 0 leg_bone_physical 0

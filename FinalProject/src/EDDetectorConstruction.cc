@@ -70,6 +70,7 @@ G4VPhysicalVolume* EDDetectorConstruction::Construct()
   G4Material* soft = nistManager->FindOrBuildMaterial("G4_TISSUE_SOFT_ICRP");
   G4Material* skeleton = nistManager->FindOrBuildMaterial("G4_B-100_BONE");
   G4Material* pb = nistManager->FindOrBuildMaterial("G4_Pb");
+  G4Material* muscle = nistManager->FindOrBuildMaterial("G4_MUSCLE_WITHOUT_SUCROSE");
 
        // There is no need to test if materials were built/found
        // as G4NistManager would issue an error otherwise
@@ -198,7 +199,7 @@ G4VPhysicalVolume* EDDetectorConstruction::Construct()
                                  0.,360.*deg,0,180.*deg);
 
   G4LogicalVolume* logicHead 
-    = new G4LogicalVolume(headS,soft,"Head_logical");
+    = new G4LogicalVolume(headS,muscle,"Head_logical");
 
   G4VPhysicalVolume* head
     = new G4PVPlacement(rm,
@@ -238,7 +239,7 @@ G4VPhysicalVolume* EDDetectorConstruction::Construct()
   G4VSolid* trunkS = new G4EllipticalTube("Trunk_solid",20.*cm,10.*cm,28.5*cm);
   
   G4LogicalVolume* logicTrunk
-    = new G4LogicalVolume(trunkS,soft,"Trunk_logical");
+    = new G4LogicalVolume(trunkS,muscle,"Trunk_logical");
   
   G4VPhysicalVolume* trunk = new G4PVPlacement(rm,
                              G4ThreeVector(0,0,0),
@@ -390,7 +391,7 @@ G4VPhysicalVolume* EDDetectorConstruction::Construct()
                                     0,360.*deg);
 
   G4LogicalVolume* logic_left_leg = new G4LogicalVolume(left_legS,
-                                                  soft,"left_leg_logical");
+                                                  muscle,"left_leg_logical");
 
   G4VPhysicalVolume* left_leg = new G4PVPlacement(rm,
                                     G4ThreeVector(0,0,2),
@@ -433,7 +434,7 @@ G4VPhysicalVolume* EDDetectorConstruction::Construct()
   G4VSolid* left_armS = new G4EllipticalTube("leftarm_solid",1.4*cm * 2.,2.7*cm * 2.,34.5*cm);
 
   G4LogicalVolume* logic_left_arm = new G4LogicalVolume(left_armS,
-                                                  soft,"left_arm_logical");
+                                                  muscle,"left_arm_logical");
 
   G4VPhysicalVolume* left_arm = new G4PVPlacement(rm,
                                     G4ThreeVector(0,0,2.*cm),

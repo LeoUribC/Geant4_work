@@ -42,23 +42,29 @@
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 EDPrimaryGeneratorAction::EDPrimaryGeneratorAction()
-: G4VUserPrimaryGeneratorAction(),
-  fParticleGun(0),
-  fRandom(true)
+    : G4VUserPrimaryGeneratorAction(),
+      fParticleGun(0),
+      fRandom(true) 
 {
-  G4int nofParticles = 1;
-  fParticleGun = new G4ParticleGun(nofParticles);
+    std::vector<G4String> particleNames = {"mu-","proton","gamma"};
+    G4int nofParticles = 1;
 
-  G4String particleName = "muon";
-  G4ThreeVector position(-0.2*m,2.9*m,-1.*m);
-  G4ThreeVector momentum(0,0,1.*GeV);
-  
-  G4ParticleTable *particleTable = G4ParticleTable::GetParticleTable();
-  G4ParticleDefinition *particle
-   = particleTable -> FindParticle("mu-");
-  fParticleGun->SetParticleDefinition(particle);
-  fParticleGun->SetParticlePosition(position);
-  fParticleGun->SetParticleMomentum(momentum);
+    for (G4String ParticleName : particleNames) {
+        fParticleGun = new G4ParticleGun(nofParticles);
+        G4String particleName = ParticleName;
+        G4ThreeVector position(-0.2*m,2.9*m,-1.*m);
+        G4ThreeVector momentum(0,0,1.*GeV);
+
+        G4ParticleTable *particleTable = G4ParticleTable::GetParticleTable();
+        G4ParticleDefinition *particle
+        = particleTable->FindParticle(ParticleName);
+       fParticleGun->SetParticleDefinition(particle);
+       fParticleGun->SetParticlePosition(position);
+       fParticleGun->SetParticleMomentum(momentum);
+
+       //delete fParticleGun;
+
+   }
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
