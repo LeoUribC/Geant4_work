@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector
+CMAKE_SOURCE_DIR = /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build
+CMAKE_BINARY_DIR = /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build
 
 # Utility rule file for gas_drift.
 
@@ -81,6 +81,6 @@ CMakeFiles/gas_drift.dir/clean:
 .PHONY : CMakeFiles/gas_drift.dir/clean
 
 CMakeFiles/gas_drift.dir/depend:
-	cd /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/gas_drift.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/gas_drift.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/gas_drift.dir/depend
 

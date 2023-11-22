@@ -1,7 +1,7 @@
 CMakeFiles/gas_drift_detector.dir/src/PhysicsList.cc.o: \
- /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/src/PhysicsList.cc \
+ /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/src/PhysicsList.cc \
  /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/sysroot/usr/include/stdc-predef.h \
- /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/include/PhysicsList.hh \
+ /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/include/PhysicsList.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VModularPhysicsList.hh \
  /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/vector \
  /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/stl_algobase.h \

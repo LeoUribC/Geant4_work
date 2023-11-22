@@ -1,7 +1,7 @@
 CMakeFiles/gas_drift_detector.dir/src/DetectorConstruction.cc.o: \
- /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/src/DetectorConstruction.cc \
+ /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/src/DetectorConstruction.cc \
  /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/sysroot/usr/include/stdc-predef.h \
- /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/include/DetectorConstruction.hh \
+ /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/include/DetectorConstruction.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VUserDetectorConstruction.hh \
  /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/vector \
  /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/stl_algobase.h \
@@ -350,7 +350,7 @@ CMakeFiles/gas_drift_detector.dir/src/DetectorConstruction.cc.o: \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Field.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4UniformElectricField.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4ElectricField.hh \
- /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/include/SensitiveDetector.hh \
+ /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/include/SensitiveDetector.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VSensitiveDetector.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VHit.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Step.hh \

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector
+CMAKE_SOURCE_DIR = /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build
+CMAKE_BINARY_DIR = /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -331,6 +331,30 @@ src/PrimaryGeneratorAction.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gas_drift_detector.dir/build.make CMakeFiles/gas_drift_detector.dir/src/PrimaryGeneratorAction.cc.s
 .PHONY : src/PrimaryGeneratorAction.cc.s
 
+src/RunAction.o: src/RunAction.cc.o
+.PHONY : src/RunAction.o
+
+# target to build an object file
+src/RunAction.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gas_drift_detector.dir/build.make CMakeFiles/gas_drift_detector.dir/src/RunAction.cc.o
+.PHONY : src/RunAction.cc.o
+
+src/RunAction.i: src/RunAction.cc.i
+.PHONY : src/RunAction.i
+
+# target to preprocess a source file
+src/RunAction.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gas_drift_detector.dir/build.make CMakeFiles/gas_drift_detector.dir/src/RunAction.cc.i
+.PHONY : src/RunAction.cc.i
+
+src/RunAction.s: src/RunAction.cc.s
+.PHONY : src/RunAction.s
+
+# target to generate assembly for a file
+src/RunAction.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gas_drift_detector.dir/build.make CMakeFiles/gas_drift_detector.dir/src/RunAction.cc.s
+.PHONY : src/RunAction.cc.s
+
 src/SensitiveDetector.o: src/SensitiveDetector.cc.o
 .PHONY : src/SensitiveDetector.o
 
@@ -387,6 +411,9 @@ help:
 	@echo "... src/PrimaryGeneratorAction.o"
 	@echo "... src/PrimaryGeneratorAction.i"
 	@echo "... src/PrimaryGeneratorAction.s"
+	@echo "... src/RunAction.o"
+	@echo "... src/RunAction.i"
+	@echo "... src/RunAction.s"
 	@echo "... src/SensitiveDetector.o"
 	@echo "... src/SensitiveDetector.i"
 	@echo "... src/SensitiveDetector.s"

@@ -1,11 +1,8 @@
-CMakeFiles/gas_drift_detector.dir/src/SensitiveDetector.cc.o: \
- /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/src/SensitiveDetector.cc \
+CMakeFiles/gas_drift_detector.dir/src/RunAction.cc.o: \
+ /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/src/RunAction.cc \
  /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/sysroot/usr/include/stdc-predef.h \
- /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/include/SensitiveDetector.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VSensitiveDetector.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VHit.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/globals.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4ios.hh \
+ /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/include/RunAction.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4UserRunAction.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Types.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4GlobalConfig.hh \
  /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/complex \
@@ -180,6 +177,14 @@ CMakeFiles/gas_drift_detector.dir/src/SensitiveDetector.cc.o: \
  /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/istream.tcc \
  /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/sstream.tcc \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tls.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Run.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/vector \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/stl_uninitialized.h \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/stl_vector.h \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/stl_bvector.h \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/vector.tcc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/globals.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4ios.hh \
  /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/iostream \
  /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/algorithm \
  /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/stl_algo.h \
@@ -232,16 +237,90 @@ CMakeFiles/gas_drift_detector.dir/src/SensitiveDetector.cc.o: \
  /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/parse_numbers.h \
  /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/std_mutex.h \
  /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/unique_lock.h \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/vector \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/stl_uninitialized.h \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/stl_vector.h \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/stl_bvector.h \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/vector.tcc \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Step.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Profiler.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Profiler.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/functional \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/std_function.h \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/unordered_map \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/hashtable.h \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/hashtable_policy.h \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/enable_special_members.h \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/unordered_map.h \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/array \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/compare \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/PTL/Globals.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/PTL/Types.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/PTL/Utility.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/set \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/stl_set.h \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/stl_multiset.h \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/utility \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/stl_relops.h \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/cstddef \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4RunManager.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/list \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/stl_list.h \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/allocated_ptr.h \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/list.tcc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/rundefs.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Event.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/evtdefs.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Allocator.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4AllocatorPool.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4PrimaryVertex.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/pwdefs.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4ThreeVector.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Vector/ThreeVector.h \
  /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Vector/defs.h \
  /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Vector/ThreeVector.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4PrimaryParticle.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4HCofThisEvent.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VHitsCollection.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4DCofThisEvent.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VDigiCollection.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4TrajectoryContainer.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VTrajectory.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VUserEventInformation.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4EventManager.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4StackManager.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4UserStackingAction.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4ClassificationOfNewTrack.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4StackedTrack.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4TrackStack.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4SmartTrackStack.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Track.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Units/PhysicalConstants.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Units/defs.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Units/SystemOfUnits.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/trkdefs.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4LogicalVolume.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/memory \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/stl_raw_storage_iter.h \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/align.h \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bit \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/unique_ptr.h \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/shared_ptr.h \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/shared_ptr_base.h \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/ext/concurrence.h \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/shared_ptr_atomic.h \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/atomic_base.h \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/atomic_lockfree_defines.h \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/backward/auto_ptr.h \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/pstl/glue_memory_defs.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Region.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4GeomSplitter.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/geomwdefs.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4AutoLock.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Threading.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/chrono \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/condition_variable \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/future \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/atomic_futex.h \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/atomic \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/std_thread.h \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/thread \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/this_thread_sleep.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Region.icc \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VPhysicalVolume.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/geomdefs.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4RotationMatrix.hh \
@@ -255,45 +334,30 @@ CMakeFiles/gas_drift_detector.dir/src/SensitiveDetector.cc.o: \
  /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Vector/RotationInterfaces.icc \
  /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Vector/RotationX.h \
  /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Vector/RotationX.icc \
- /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Units/PhysicalConstants.h \
- /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Units/defs.h \
- /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Units/SystemOfUnits.h \
  /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Vector/RotationY.h \
  /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Vector/RotationY.icc \
  /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Vector/RotationZ.h \
  /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Vector/RotationZ.icc \
  /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Vector/Rotation.icc \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4GeomSplitter.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/geomwdefs.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4AutoLock.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Threading.hh \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/chrono \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/condition_variable \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/shared_ptr.h \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/shared_ptr_base.h \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/allocated_ptr.h \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/unique_ptr.h \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/ext/concurrence.h \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/future \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/atomic_base.h \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/atomic_lockfree_defines.h \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/atomic_futex.h \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/atomic \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/std_function.h \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/std_thread.h \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/thread \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/this_thread_sleep.h \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VPhysicalVolume.icc \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4StepPoint.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Allocator.hh \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/cstddef \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4AllocatorPool.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4SteppingControl.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4StepStatus.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4LogicalVolume.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4DynamicParticle.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4ParticleDefinition.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4PDefManager.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/stdlib.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4ParticleDefinition.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4LorentzVector.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Log.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4ParticleMomentum.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4ElectronOccupancy.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4DynamicParticle.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4TrackStatus.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4TouchableHandle.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VTouchable.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VTouchable.icc \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4ReferenceCountedHandle.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VUserTrackInformation.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4PhysicsModelCatalog.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Material.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Element.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Isotope.hh \
@@ -310,7 +374,6 @@ CMakeFiles/gas_drift_detector.dir/src/SensitiveDetector.cc.o: \
  /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/x86_64-conda-linux-gnu/bits/basic_file.h \
  /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/x86_64-conda-linux-gnu/bits/c++io.h \
  /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/fstream.tcc \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Log.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4PhysicsVectorType.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4PhysicsVector.icc \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4IonisParamMat.hh \
@@ -321,60 +384,83 @@ CMakeFiles/gas_drift_detector.dir/src/SensitiveDetector.cc.o: \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4DataVector.icc \
  /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/sysroot/usr/include/assert.h \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4MaterialTable.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4LogicalVolume.hh \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/memory \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/stl_raw_storage_iter.h \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/align.h \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bit \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/shared_ptr_atomic.h \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/backward/auto_ptr.h \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/pstl/glue_memory_defs.h \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Region.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Region.icc \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4LogicalVolume.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Track.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Step.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4StepPoint.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4SteppingControl.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4StepStatus.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4StepPoint.icc \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4TrackVector.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Profiler.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Profiler.icc \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/functional \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/unordered_map \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/hashtable.h \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/hashtable_policy.h \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/enable_special_members.h \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/unordered_map.h \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/array \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/compare \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/PTL/Globals.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/PTL/Types.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/PTL/Utility.hh \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/set \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/stl_set.h \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/stl_multiset.h \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/utility \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/stl_relops.h \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Step.icc \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Track.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/trkdefs.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4DynamicParticle.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4ParticleDefinition.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4PDefManager.hh \
- /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/stdlib.h \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/pwdefs.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4ParticleDefinition.icc \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4LorentzVector.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4ParticleMomentum.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4ElectronOccupancy.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4DynamicParticle.icc \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4TrackStatus.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VUserTrackInformation.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4PhysicsModelCatalog.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Track.icc \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4HCofThisEvent.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VHitsCollection.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VReadOutGeometry.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4SensitiveVolumeList.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4TouchableHistory.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4NavigationHistory.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4PrimaryTransformer.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4ParticleTable.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4ParticleTableIterator.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4ParticleTable.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4TrackingManager.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4SteppingManager.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/Randomize.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/Randomize.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/defs.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/DRand48Engine.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RandomEngine.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RandomEngine.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Utility/noncopyable.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Utility/defs.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/DualRand.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/Hurd160Engine.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/Hurd288Engine.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/JamesRandom.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/MixMaxRng.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/MTwistEngine.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RandEngine.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RanecuEngine.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RanluxEngine.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/Ranlux64Engine.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RanluxppEngine.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RanshiEngine.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/TripleRand.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RandBinomial.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/Random.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/Random.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Utility/memory.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RandBinomial.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RandBreitWigner.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RandFlat.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Utility/thread_local.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RandFlat.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RandBreitWigner.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RandChiSquare.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RandChiSquare.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RandExponential.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RandExponential.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RandExpZiggurat.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RandBit.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RandBit.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RandGamma.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RandGamma.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RandGauss.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RandGauss.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RandGaussQ.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RandGaussQ.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RandGaussT.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/Stat.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RandGaussT.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RandGaussZiggurat.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RandGeneral.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RandGeneral.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RandLandau.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RandLandau.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RandPoissonQ.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RandPoisson.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RandPoisson.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RandPoissonQ.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RandPoissonT.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RandPoissonT.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RandSkewNormal.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RandSkewNormal.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RandStudentT.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Random/RandStudentT.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Navigator.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4AffineTransform.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Transform3D.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Geometry/Transform3D.h \
@@ -385,6 +471,13 @@ CMakeFiles/gas_drift_detector.dir/src/SensitiveDetector.cc.o: \
  /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Geometry/Vector3D.h \
  /home/leo_uc/miniconda3/envs/g4_root/include/CLHEP/Geometry/Normal3D.h \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4AffineTransform.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4GRSVolume.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4GRSVolume.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4GRSSolid.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4GRSSolid.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4TouchableHistoryHandle.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4TouchableHistory.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4NavigationHistory.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4NavigationLevel.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4NavigationLevelRep.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4NavigationLevelRep.icc \
@@ -392,16 +485,59 @@ CMakeFiles/gas_drift_detector.dir/src/SensitiveDetector.cc.o: \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4NavigationHistoryPool.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4NavigationHistory.icc \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4TouchableHistory.icc \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4CollectionNameVector.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VSDFilter.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4HCofThisEvent.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4SDManager.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4SDStructure.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VSensitiveDetector.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4HCtable.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Step.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Track.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4SystemOfUnits.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4NormalNavigation.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VSolid.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VSolid.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4AuxiliaryNavServices.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4AuxiliaryNavServices.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4NormalNavigation.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VoxelNavigation.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4NavigationLogger.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4BlockingList.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4BlockingList.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4SmartVoxelProxy.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4SmartVoxelProxy.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4SmartVoxelNode.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4SmartVoxelNode.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4SmartVoxelHeader.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4SmartVoxelHeader.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VoxelNavigation.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4ParameterisedNavigation.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VPVParameterisation.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VVolumeMaterialScanner.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4ParameterisedNavigation.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4ReplicaNavigation.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4ReplicaNavigation.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4RegularNavigation.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VExternalNavigation.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Navigator.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4ProcessManager.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VProcess.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4PhysicsTable.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4PhysicsTable.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VParticleChange.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VParticleChange.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4ForceCondition.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4GPILSelection.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4ParticleChange.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4ParticleChange.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4ProcessType.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4ProcessVector.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4ProcessVector.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4ProcessManager.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4NoProcess.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4UserSteppingAction.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VSteppingVerbose.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/trkgdefs.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4TrackingMessenger.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4UImessenger.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4UIdirectory.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4UIcommand.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4UIparameter.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4UItokenNum.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4ApplicationState.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4UserTrackingAction.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4RunManagerKernel.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4RootAnalysisManager.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4ToolsAnalysisManager.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VAnalysisManager.hh \
@@ -431,12 +567,6 @@ CMakeFiles/gas_drift_detector.dir/src/SensitiveDetector.cc.o: \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4THnManager.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4THnManager.icc \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4THnMessenger.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4UImessenger.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4UIdirectory.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4UIcommand.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4UIparameter.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4UItokenNum.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4ApplicationState.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4THnToolsManager.icc \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4THnMessenger.icc \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Tokenizer.hh \
@@ -530,5 +660,4 @@ CMakeFiles/gas_drift_detector.dir/src/SensitiveDetector.cc.o: \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/vmanip \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/scast \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/ntuple_booking \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/sout \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4TouchableHistory.hh
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/sout

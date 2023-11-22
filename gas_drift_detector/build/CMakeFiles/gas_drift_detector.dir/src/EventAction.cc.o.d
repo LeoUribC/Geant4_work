@@ -1,7 +1,7 @@
 CMakeFiles/gas_drift_detector.dir/src/EventAction.cc.o: \
- /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/src/EventAction.cc \
+ /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/src/EventAction.cc \
  /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/sysroot/usr/include/stdc-predef.h \
- /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/include/EventAction.hh \
+ /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/include/EventAction.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4UserEventAction.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Event.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/globals.hh \
@@ -274,6 +274,7 @@ CMakeFiles/gas_drift_detector.dir/src/EventAction.cc.o: \
  /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/stl_multiset.h \
  /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/utility \
  /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/stl_relops.h \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Run.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4RunManager.hh \
  /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/list \
  /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/stl_list.h \
@@ -537,4 +538,127 @@ CMakeFiles/gas_drift_detector.dir/src/EventAction.cc.o: \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4UItokenNum.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4ApplicationState.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4UserTrackingAction.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4RunManagerKernel.hh
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4RunManagerKernel.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4RootAnalysisManager.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4ToolsAnalysisManager.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VAnalysisManager.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4AnalysisManagerState.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4AnalysisVerbose.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VTBaseHnManager.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4HnInformation.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4AnalysisUtilities.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4BinScheme.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Fcn.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VAnalysisManager.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4HnManager.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4BaseAnalysisManager.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4NtupleBookingManager.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/ntuple_booking \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/cids \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/cid \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/typedefs \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/forit \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4NtupleBookingManager.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VNtupleManager.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VFileManager.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4BaseFileManager.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VTHnFileManager.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4TH1ToolsManager.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4THnToolsManager.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4THnManager.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4THnManager.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4THnMessenger.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4THnToolsManager.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4THnMessenger.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Tokenizer.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4TH2ToolsManager.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4TH3ToolsManager.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4TP1ToolsManager.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4TP2ToolsManager.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/histo/h1d \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/histo/h1 \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/histo/b1 \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/histo/base_histo \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/histo/histo_data \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/histo/axes \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/histo/axis \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/eqT \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/histo/h2d \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/histo/h2 \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/histo/b2 \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/histo/h3d \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/histo/h3 \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/histo/b3 \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/histo/p1d \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/histo/p1 \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/histo/profile_data \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/histo/p2d \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/histo/p2 \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4ToolsAnalysisManager.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/wroot/ntuple \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/wroot/tree \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/wroot/itree \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/typedefs \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/wroot/iobject \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/wroot/idir \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/wroot/seek \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/wroot/branch_element \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/wroot/branch \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/wroot/leaf \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/wroot/base_leaf \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/wroot/named \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/wroot/buffer \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/wroot/wbuf \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/long_out \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/snpf \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/cstdarg \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/charp_out \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/stype \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/wroot/ibo \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/realloc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/mnmx \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/forit \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/vmanip \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/wroot/cids \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/cid \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/scast \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/safe_cast \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/rcmp \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/cids \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/vdata \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/wroot/basket \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/wroot/key \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/wroot/date \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/wroot/ifile \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/press_func \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/sout \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/wroot/imutex \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/wroot/branch_object \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/wroot/icol \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/vfind \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/touplow \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/ntuple_booking \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/wroot/mpi_create_basket \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/impi \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/wroot/columns.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4RootAnalysisManager.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4RootNtupleManager.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4TNtupleManager.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4BaseNtupleManager.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4TNtupleDescription.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4TNtupleManager.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4RootFileDef.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4RootNtupleManager.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4RootNtupleFileManager.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VNtupleFileManager.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4RootFileManager.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VTFileManager.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4TFileManager.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4TFileInformation.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4TFileManager.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/wcsv_ntuple \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/vfind \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/vmanip \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/scast \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/ntuple_booking \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/tools/sout

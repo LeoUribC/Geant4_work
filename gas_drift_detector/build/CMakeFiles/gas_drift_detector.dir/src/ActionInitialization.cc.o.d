@@ -1,9 +1,9 @@
 CMakeFiles/gas_drift_detector.dir/src/ActionInitialization.cc.o: \
- /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/src/ActionInitialization.cc \
+ /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/src/ActionInitialization.cc \
  /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/sysroot/usr/include/stdc-predef.h \
- /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/include/ActionInitialization.hh \
+ /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/include/ActionInitialization.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VUserActionInitialization.hh \
- /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/include/PrimaryGeneratorAction.hh \
+ /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/include/PrimaryGeneratorAction.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4ParticleGun.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/globals.hh \
@@ -277,5 +277,34 @@ CMakeFiles/gas_drift_detector.dir/src/ActionInitialization.cc.o: \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4PrimaryParticle.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4ParticleMomentum.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/globals.hh \
- /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/include/EventAction.hh \
- /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4UserEventAction.hh
+ /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/include/RunAction.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4UserRunAction.hh \
+ /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/include/EventAction.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4UserEventAction.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Event.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/evtdefs.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4HCofThisEvent.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VHitsCollection.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4DCofThisEvent.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VDigiCollection.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4TrajectoryContainer.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VTrajectory.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VUserEventInformation.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Profiler.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4Profiler.icc \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/functional \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/unordered_map \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/hashtable.h \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/hashtable_policy.h \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/enable_special_members.h \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/unordered_map.h \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/array \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/compare \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/PTL/Globals.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/PTL/Types.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/PTL/Utility.hh \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/set \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/stl_set.h \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/stl_multiset.h \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/utility \
+ /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/include/c++/12.3.0/bits/stl_relops.h

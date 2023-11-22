@@ -1,4 +1,4 @@
-# Install script for directory: /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector
+# Install script for directory: /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,7 +49,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/gas_drift_detector"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/gas_drift_detector")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/gas_drift_detector")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/gas_drift_detector" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/gas_drift_detector")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -66,5 +66,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

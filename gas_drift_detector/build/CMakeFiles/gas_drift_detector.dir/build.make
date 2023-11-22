@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector
+CMAKE_SOURCE_DIR = /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build
+CMAKE_BINARY_DIR = /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/gas_drift_detector.dir/depend.make
@@ -70,102 +70,116 @@ include CMakeFiles/gas_drift_detector.dir/progress.make
 include CMakeFiles/gas_drift_detector.dir/flags.make
 
 CMakeFiles/gas_drift_detector.dir/gasDriftDetector.cc.o: CMakeFiles/gas_drift_detector.dir/flags.make
-CMakeFiles/gas_drift_detector.dir/gasDriftDetector.cc.o: /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/gasDriftDetector.cc
+CMakeFiles/gas_drift_detector.dir/gasDriftDetector.cc.o: /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/gasDriftDetector.cc
 CMakeFiles/gas_drift_detector.dir/gasDriftDetector.cc.o: CMakeFiles/gas_drift_detector.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gas_drift_detector.dir/gasDriftDetector.cc.o"
-	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gas_drift_detector.dir/gasDriftDetector.cc.o -MF CMakeFiles/gas_drift_detector.dir/gasDriftDetector.cc.o.d -o CMakeFiles/gas_drift_detector.dir/gasDriftDetector.cc.o -c /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/gasDriftDetector.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gas_drift_detector.dir/gasDriftDetector.cc.o"
+	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gas_drift_detector.dir/gasDriftDetector.cc.o -MF CMakeFiles/gas_drift_detector.dir/gasDriftDetector.cc.o.d -o CMakeFiles/gas_drift_detector.dir/gasDriftDetector.cc.o -c /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/gasDriftDetector.cc
 
 CMakeFiles/gas_drift_detector.dir/gasDriftDetector.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gas_drift_detector.dir/gasDriftDetector.cc.i"
-	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/gasDriftDetector.cc > CMakeFiles/gas_drift_detector.dir/gasDriftDetector.cc.i
+	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/gasDriftDetector.cc > CMakeFiles/gas_drift_detector.dir/gasDriftDetector.cc.i
 
 CMakeFiles/gas_drift_detector.dir/gasDriftDetector.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gas_drift_detector.dir/gasDriftDetector.cc.s"
-	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/gasDriftDetector.cc -o CMakeFiles/gas_drift_detector.dir/gasDriftDetector.cc.s
+	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/gasDriftDetector.cc -o CMakeFiles/gas_drift_detector.dir/gasDriftDetector.cc.s
 
 CMakeFiles/gas_drift_detector.dir/src/ActionInitialization.cc.o: CMakeFiles/gas_drift_detector.dir/flags.make
-CMakeFiles/gas_drift_detector.dir/src/ActionInitialization.cc.o: /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/src/ActionInitialization.cc
+CMakeFiles/gas_drift_detector.dir/src/ActionInitialization.cc.o: /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/src/ActionInitialization.cc
 CMakeFiles/gas_drift_detector.dir/src/ActionInitialization.cc.o: CMakeFiles/gas_drift_detector.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/gas_drift_detector.dir/src/ActionInitialization.cc.o"
-	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gas_drift_detector.dir/src/ActionInitialization.cc.o -MF CMakeFiles/gas_drift_detector.dir/src/ActionInitialization.cc.o.d -o CMakeFiles/gas_drift_detector.dir/src/ActionInitialization.cc.o -c /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/src/ActionInitialization.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/gas_drift_detector.dir/src/ActionInitialization.cc.o"
+	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gas_drift_detector.dir/src/ActionInitialization.cc.o -MF CMakeFiles/gas_drift_detector.dir/src/ActionInitialization.cc.o.d -o CMakeFiles/gas_drift_detector.dir/src/ActionInitialization.cc.o -c /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/src/ActionInitialization.cc
 
 CMakeFiles/gas_drift_detector.dir/src/ActionInitialization.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gas_drift_detector.dir/src/ActionInitialization.cc.i"
-	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/src/ActionInitialization.cc > CMakeFiles/gas_drift_detector.dir/src/ActionInitialization.cc.i
+	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/src/ActionInitialization.cc > CMakeFiles/gas_drift_detector.dir/src/ActionInitialization.cc.i
 
 CMakeFiles/gas_drift_detector.dir/src/ActionInitialization.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gas_drift_detector.dir/src/ActionInitialization.cc.s"
-	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/src/ActionInitialization.cc -o CMakeFiles/gas_drift_detector.dir/src/ActionInitialization.cc.s
+	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/src/ActionInitialization.cc -o CMakeFiles/gas_drift_detector.dir/src/ActionInitialization.cc.s
 
 CMakeFiles/gas_drift_detector.dir/src/DetectorConstruction.cc.o: CMakeFiles/gas_drift_detector.dir/flags.make
-CMakeFiles/gas_drift_detector.dir/src/DetectorConstruction.cc.o: /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/src/DetectorConstruction.cc
+CMakeFiles/gas_drift_detector.dir/src/DetectorConstruction.cc.o: /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/src/DetectorConstruction.cc
 CMakeFiles/gas_drift_detector.dir/src/DetectorConstruction.cc.o: CMakeFiles/gas_drift_detector.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/gas_drift_detector.dir/src/DetectorConstruction.cc.o"
-	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gas_drift_detector.dir/src/DetectorConstruction.cc.o -MF CMakeFiles/gas_drift_detector.dir/src/DetectorConstruction.cc.o.d -o CMakeFiles/gas_drift_detector.dir/src/DetectorConstruction.cc.o -c /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/src/DetectorConstruction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/gas_drift_detector.dir/src/DetectorConstruction.cc.o"
+	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gas_drift_detector.dir/src/DetectorConstruction.cc.o -MF CMakeFiles/gas_drift_detector.dir/src/DetectorConstruction.cc.o.d -o CMakeFiles/gas_drift_detector.dir/src/DetectorConstruction.cc.o -c /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/src/DetectorConstruction.cc
 
 CMakeFiles/gas_drift_detector.dir/src/DetectorConstruction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gas_drift_detector.dir/src/DetectorConstruction.cc.i"
-	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/src/DetectorConstruction.cc > CMakeFiles/gas_drift_detector.dir/src/DetectorConstruction.cc.i
+	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/src/DetectorConstruction.cc > CMakeFiles/gas_drift_detector.dir/src/DetectorConstruction.cc.i
 
 CMakeFiles/gas_drift_detector.dir/src/DetectorConstruction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gas_drift_detector.dir/src/DetectorConstruction.cc.s"
-	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/src/DetectorConstruction.cc -o CMakeFiles/gas_drift_detector.dir/src/DetectorConstruction.cc.s
+	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/src/DetectorConstruction.cc -o CMakeFiles/gas_drift_detector.dir/src/DetectorConstruction.cc.s
 
 CMakeFiles/gas_drift_detector.dir/src/EventAction.cc.o: CMakeFiles/gas_drift_detector.dir/flags.make
-CMakeFiles/gas_drift_detector.dir/src/EventAction.cc.o: /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/src/EventAction.cc
+CMakeFiles/gas_drift_detector.dir/src/EventAction.cc.o: /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/src/EventAction.cc
 CMakeFiles/gas_drift_detector.dir/src/EventAction.cc.o: CMakeFiles/gas_drift_detector.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/gas_drift_detector.dir/src/EventAction.cc.o"
-	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gas_drift_detector.dir/src/EventAction.cc.o -MF CMakeFiles/gas_drift_detector.dir/src/EventAction.cc.o.d -o CMakeFiles/gas_drift_detector.dir/src/EventAction.cc.o -c /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/src/EventAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/gas_drift_detector.dir/src/EventAction.cc.o"
+	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gas_drift_detector.dir/src/EventAction.cc.o -MF CMakeFiles/gas_drift_detector.dir/src/EventAction.cc.o.d -o CMakeFiles/gas_drift_detector.dir/src/EventAction.cc.o -c /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/src/EventAction.cc
 
 CMakeFiles/gas_drift_detector.dir/src/EventAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gas_drift_detector.dir/src/EventAction.cc.i"
-	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/src/EventAction.cc > CMakeFiles/gas_drift_detector.dir/src/EventAction.cc.i
+	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/src/EventAction.cc > CMakeFiles/gas_drift_detector.dir/src/EventAction.cc.i
 
 CMakeFiles/gas_drift_detector.dir/src/EventAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gas_drift_detector.dir/src/EventAction.cc.s"
-	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/src/EventAction.cc -o CMakeFiles/gas_drift_detector.dir/src/EventAction.cc.s
+	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/src/EventAction.cc -o CMakeFiles/gas_drift_detector.dir/src/EventAction.cc.s
 
 CMakeFiles/gas_drift_detector.dir/src/PhysicsList.cc.o: CMakeFiles/gas_drift_detector.dir/flags.make
-CMakeFiles/gas_drift_detector.dir/src/PhysicsList.cc.o: /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/src/PhysicsList.cc
+CMakeFiles/gas_drift_detector.dir/src/PhysicsList.cc.o: /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/src/PhysicsList.cc
 CMakeFiles/gas_drift_detector.dir/src/PhysicsList.cc.o: CMakeFiles/gas_drift_detector.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/gas_drift_detector.dir/src/PhysicsList.cc.o"
-	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gas_drift_detector.dir/src/PhysicsList.cc.o -MF CMakeFiles/gas_drift_detector.dir/src/PhysicsList.cc.o.d -o CMakeFiles/gas_drift_detector.dir/src/PhysicsList.cc.o -c /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/src/PhysicsList.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/gas_drift_detector.dir/src/PhysicsList.cc.o"
+	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gas_drift_detector.dir/src/PhysicsList.cc.o -MF CMakeFiles/gas_drift_detector.dir/src/PhysicsList.cc.o.d -o CMakeFiles/gas_drift_detector.dir/src/PhysicsList.cc.o -c /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/src/PhysicsList.cc
 
 CMakeFiles/gas_drift_detector.dir/src/PhysicsList.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gas_drift_detector.dir/src/PhysicsList.cc.i"
-	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/src/PhysicsList.cc > CMakeFiles/gas_drift_detector.dir/src/PhysicsList.cc.i
+	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/src/PhysicsList.cc > CMakeFiles/gas_drift_detector.dir/src/PhysicsList.cc.i
 
 CMakeFiles/gas_drift_detector.dir/src/PhysicsList.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gas_drift_detector.dir/src/PhysicsList.cc.s"
-	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/src/PhysicsList.cc -o CMakeFiles/gas_drift_detector.dir/src/PhysicsList.cc.s
+	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/src/PhysicsList.cc -o CMakeFiles/gas_drift_detector.dir/src/PhysicsList.cc.s
 
 CMakeFiles/gas_drift_detector.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/gas_drift_detector.dir/flags.make
-CMakeFiles/gas_drift_detector.dir/src/PrimaryGeneratorAction.cc.o: /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/src/PrimaryGeneratorAction.cc
+CMakeFiles/gas_drift_detector.dir/src/PrimaryGeneratorAction.cc.o: /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/src/PrimaryGeneratorAction.cc
 CMakeFiles/gas_drift_detector.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/gas_drift_detector.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/gas_drift_detector.dir/src/PrimaryGeneratorAction.cc.o"
-	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gas_drift_detector.dir/src/PrimaryGeneratorAction.cc.o -MF CMakeFiles/gas_drift_detector.dir/src/PrimaryGeneratorAction.cc.o.d -o CMakeFiles/gas_drift_detector.dir/src/PrimaryGeneratorAction.cc.o -c /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/src/PrimaryGeneratorAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/gas_drift_detector.dir/src/PrimaryGeneratorAction.cc.o"
+	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gas_drift_detector.dir/src/PrimaryGeneratorAction.cc.o -MF CMakeFiles/gas_drift_detector.dir/src/PrimaryGeneratorAction.cc.o.d -o CMakeFiles/gas_drift_detector.dir/src/PrimaryGeneratorAction.cc.o -c /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/src/PrimaryGeneratorAction.cc
 
 CMakeFiles/gas_drift_detector.dir/src/PrimaryGeneratorAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gas_drift_detector.dir/src/PrimaryGeneratorAction.cc.i"
-	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/src/PrimaryGeneratorAction.cc > CMakeFiles/gas_drift_detector.dir/src/PrimaryGeneratorAction.cc.i
+	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/src/PrimaryGeneratorAction.cc > CMakeFiles/gas_drift_detector.dir/src/PrimaryGeneratorAction.cc.i
 
 CMakeFiles/gas_drift_detector.dir/src/PrimaryGeneratorAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gas_drift_detector.dir/src/PrimaryGeneratorAction.cc.s"
-	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/src/PrimaryGeneratorAction.cc -o CMakeFiles/gas_drift_detector.dir/src/PrimaryGeneratorAction.cc.s
+	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/src/PrimaryGeneratorAction.cc -o CMakeFiles/gas_drift_detector.dir/src/PrimaryGeneratorAction.cc.s
+
+CMakeFiles/gas_drift_detector.dir/src/RunAction.cc.o: CMakeFiles/gas_drift_detector.dir/flags.make
+CMakeFiles/gas_drift_detector.dir/src/RunAction.cc.o: /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/src/RunAction.cc
+CMakeFiles/gas_drift_detector.dir/src/RunAction.cc.o: CMakeFiles/gas_drift_detector.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/gas_drift_detector.dir/src/RunAction.cc.o"
+	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gas_drift_detector.dir/src/RunAction.cc.o -MF CMakeFiles/gas_drift_detector.dir/src/RunAction.cc.o.d -o CMakeFiles/gas_drift_detector.dir/src/RunAction.cc.o -c /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/src/RunAction.cc
+
+CMakeFiles/gas_drift_detector.dir/src/RunAction.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gas_drift_detector.dir/src/RunAction.cc.i"
+	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/src/RunAction.cc > CMakeFiles/gas_drift_detector.dir/src/RunAction.cc.i
+
+CMakeFiles/gas_drift_detector.dir/src/RunAction.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gas_drift_detector.dir/src/RunAction.cc.s"
+	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/src/RunAction.cc -o CMakeFiles/gas_drift_detector.dir/src/RunAction.cc.s
 
 CMakeFiles/gas_drift_detector.dir/src/SensitiveDetector.cc.o: CMakeFiles/gas_drift_detector.dir/flags.make
-CMakeFiles/gas_drift_detector.dir/src/SensitiveDetector.cc.o: /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/src/SensitiveDetector.cc
+CMakeFiles/gas_drift_detector.dir/src/SensitiveDetector.cc.o: /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/src/SensitiveDetector.cc
 CMakeFiles/gas_drift_detector.dir/src/SensitiveDetector.cc.o: CMakeFiles/gas_drift_detector.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/gas_drift_detector.dir/src/SensitiveDetector.cc.o"
-	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gas_drift_detector.dir/src/SensitiveDetector.cc.o -MF CMakeFiles/gas_drift_detector.dir/src/SensitiveDetector.cc.o.d -o CMakeFiles/gas_drift_detector.dir/src/SensitiveDetector.cc.o -c /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/src/SensitiveDetector.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/gas_drift_detector.dir/src/SensitiveDetector.cc.o"
+	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gas_drift_detector.dir/src/SensitiveDetector.cc.o -MF CMakeFiles/gas_drift_detector.dir/src/SensitiveDetector.cc.o.d -o CMakeFiles/gas_drift_detector.dir/src/SensitiveDetector.cc.o -c /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/src/SensitiveDetector.cc
 
 CMakeFiles/gas_drift_detector.dir/src/SensitiveDetector.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gas_drift_detector.dir/src/SensitiveDetector.cc.i"
-	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/src/SensitiveDetector.cc > CMakeFiles/gas_drift_detector.dir/src/SensitiveDetector.cc.i
+	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/src/SensitiveDetector.cc > CMakeFiles/gas_drift_detector.dir/src/SensitiveDetector.cc.i
 
 CMakeFiles/gas_drift_detector.dir/src/SensitiveDetector.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gas_drift_detector.dir/src/SensitiveDetector.cc.s"
-	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/src/SensitiveDetector.cc -o CMakeFiles/gas_drift_detector.dir/src/SensitiveDetector.cc.s
+	/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/src/SensitiveDetector.cc -o CMakeFiles/gas_drift_detector.dir/src/SensitiveDetector.cc.s
 
 # Object files for target gas_drift_detector
 gas_drift_detector_OBJECTS = \
@@ -175,6 +189,7 @@ gas_drift_detector_OBJECTS = \
 "CMakeFiles/gas_drift_detector.dir/src/EventAction.cc.o" \
 "CMakeFiles/gas_drift_detector.dir/src/PhysicsList.cc.o" \
 "CMakeFiles/gas_drift_detector.dir/src/PrimaryGeneratorAction.cc.o" \
+"CMakeFiles/gas_drift_detector.dir/src/RunAction.cc.o" \
 "CMakeFiles/gas_drift_detector.dir/src/SensitiveDetector.cc.o"
 
 # External object files for target gas_drift_detector
@@ -186,6 +201,7 @@ gas_drift_detector: CMakeFiles/gas_drift_detector.dir/src/DetectorConstruction.c
 gas_drift_detector: CMakeFiles/gas_drift_detector.dir/src/EventAction.cc.o
 gas_drift_detector: CMakeFiles/gas_drift_detector.dir/src/PhysicsList.cc.o
 gas_drift_detector: CMakeFiles/gas_drift_detector.dir/src/PrimaryGeneratorAction.cc.o
+gas_drift_detector: CMakeFiles/gas_drift_detector.dir/src/RunAction.cc.o
 gas_drift_detector: CMakeFiles/gas_drift_detector.dir/src/SensitiveDetector.cc.o
 gas_drift_detector: CMakeFiles/gas_drift_detector.dir/build.make
 gas_drift_detector: /home/leo_uc/miniconda3/envs/g4_root/lib/libG4Tree.so
@@ -244,7 +260,7 @@ gas_drift_detector: /home/leo_uc/miniconda3/envs/g4_root/lib/libG4global.so
 gas_drift_detector: /home/leo_uc/miniconda3/envs/g4_root/lib/libG4ptl.so.2.3.3
 gas_drift_detector: /home/leo_uc/miniconda3/envs/g4_root/lib/libCLHEP-2.4.6.2.so
 gas_drift_detector: CMakeFiles/gas_drift_detector.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable gas_drift_detector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable gas_drift_detector"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gas_drift_detector.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -256,6 +272,6 @@ CMakeFiles/gas_drift_detector.dir/clean:
 .PHONY : CMakeFiles/gas_drift_detector.dir/clean
 
 CMakeFiles/gas_drift_detector.dir/depend:
-	cd /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/gas_drift_detector.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/gas_drift_detector.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/gas_drift_detector.dir/depend
 

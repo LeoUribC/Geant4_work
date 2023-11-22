@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/gas_drift_detector.dir/src/PhysicsList.cc.o.d"
   "CMakeFiles/gas_drift_detector.dir/src/PrimaryGeneratorAction.cc.o"
   "CMakeFiles/gas_drift_detector.dir/src/PrimaryGeneratorAction.cc.o.d"
+  "CMakeFiles/gas_drift_detector.dir/src/RunAction.cc.o"
+  "CMakeFiles/gas_drift_detector.dir/src/RunAction.cc.o.d"
   "CMakeFiles/gas_drift_detector.dir/src/SensitiveDetector.cc.o"
   "CMakeFiles/gas_drift_detector.dir/src/SensitiveDetector.cc.o.d"
   "gas_drift_detector"

@@ -1,7 +1,7 @@
 CMakeFiles/gas_drift_detector.dir/src/PrimaryGeneratorAction.cc.o: \
- /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/src/PrimaryGeneratorAction.cc \
+ /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/src/PrimaryGeneratorAction.cc \
  /home/leo_uc/miniconda3/envs/g4_root/x86_64-conda-linux-gnu/sysroot/usr/include/stdc-predef.h \
- /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/include/PrimaryGeneratorAction.hh \
+ /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/include/PrimaryGeneratorAction.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/G4ParticleGun.hh \
  /home/leo_uc/miniconda3/envs/g4_root/include/Geant4/globals.hh \

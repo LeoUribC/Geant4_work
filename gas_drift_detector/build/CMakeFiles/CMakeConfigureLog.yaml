@@ -28,7 +28,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is GNU, found in:
-        /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/3.27.5/CompilerIdC/a.out
+        /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/3.27.5/CompilerIdC/a.out
       
   -
     kind: "message-v1"
@@ -50,7 +50,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is GNU, found in:
-        /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/3.27.5/CompilerIdCXX/a.out
+        /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/3.27.5/CompilerIdCXX/a.out
       
   -
     kind: "try_compile-v1"
@@ -61,21 +61,21 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-XIcOt9"
-      binary: "/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-XIcOt9"
+      source: "/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-iCJ0bd"
+      binary: "/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-iCJ0bd"
     cmakeVariables:
       CMAKE_C_FLAGS: "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-XIcOt9'
+        Change Dir: '/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-iCJ0bd'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_96d74/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_96d74.dir/build.make CMakeFiles/cmTC_96d74.dir/build
-        gmake[1]: Entering directory '/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-XIcOt9'
-        Building C object CMakeFiles/cmTC_96d74.dir/CMakeCCompilerABI.c.o
-        /home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include    -v -o CMakeFiles/cmTC_96d74.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.27/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5c310/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_5c310.dir/build.make CMakeFiles/cmTC_5c310.dir/build
+        gmake[1]: Entering directory '/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-iCJ0bd'
+        Building C object CMakeFiles/cmTC_5c310.dir/CMakeCCompilerABI.c.o
+        /home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include    -v -o CMakeFiles/cmTC_5c310.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.27/Modules/CMakeCCompilerABI.c
         Reading specs from /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/specs
         could not find specs file conda.specs
         COLLECT_GCC=/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc
@@ -84,9 +84,9 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 12.3.0 (conda-forge gcc 12.3.0-3) 
-        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/leo_uc/miniconda3/envs/g4_root/include' '-v' '-o' 'CMakeFiles/cmTC_96d74.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_96d74.dir/'
-         /home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/cc1 -quiet -v -iprefix /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/ -isysroot /home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot -isystem /home/leo_uc/miniconda3/envs/g4_root/include /usr/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_96d74.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=nocona -mtune=haswell -O2 -version -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |
-         /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_96d74.dir/CMakeCCompilerABI.c.o
+        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/leo_uc/miniconda3/envs/g4_root/include' '-v' '-o' 'CMakeFiles/cmTC_5c310.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_5c310.dir/'
+         /home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/cc1 -quiet -v -iprefix /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/ -isysroot /home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot -isystem /home/leo_uc/miniconda3/envs/g4_root/include /usr/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_5c310.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=nocona -mtune=haswell -O2 -version -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |
+         /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_5c310.dir/CMakeCCompilerABI.c.o
         GNU assembler version 2.40 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.40
         GNU C17 (conda-forge gcc 12.3.0-3) version 12.3.0 (x86_64-conda-linux-gnu)
         	compiled by GNU C version 12.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
@@ -111,10 +111,10 @@ events:
         Compiler executable checksum: a4b0b0a83abcf35c729ed7f506ee3ff8
         COMPILER_PATH=/home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/
         LIBRARY_PATH=/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../:/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
-        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/leo_uc/miniconda3/envs/g4_root/include' '-v' '-o' 'CMakeFiles/cmTC_96d74.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_96d74.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_96d74
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96d74.dir/link.txt --verbose=1
-        /home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include  -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/leo_uc/miniconda3/envs/g4_root/lib -Wl,-rpath-link,/home/leo_uc/miniconda3/envs/g4_root/lib -L/home/leo_uc/miniconda3/envs/g4_root/lib -v -rdynamic CMakeFiles/cmTC_96d74.dir/CMakeCCompilerABI.c.o -o cmTC_96d74 
+        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/leo_uc/miniconda3/envs/g4_root/include' '-v' '-o' 'CMakeFiles/cmTC_5c310.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_5c310.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_5c310
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c310.dir/link.txt --verbose=1
+        /home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include  -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/leo_uc/miniconda3/envs/g4_root/lib -Wl,-rpath-link,/home/leo_uc/miniconda3/envs/g4_root/lib -L/home/leo_uc/miniconda3/envs/g4_root/lib -v -rdynamic CMakeFiles/cmTC_5c310.dir/CMakeCCompilerABI.c.o -o cmTC_5c310 
         Reading specs from /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/specs
         could not find specs file conda.specs
         COLLECT_GCC=/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc
@@ -126,10 +126,10 @@ events:
         gcc version 12.3.0 (conda-forge gcc 12.3.0-3) 
         COMPILER_PATH=/home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/
         LIBRARY_PATH=/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../:/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
-        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/leo_uc/miniconda3/envs/g4_root/include' '-L/home/leo_uc/miniconda3/envs/g4_root/lib' '-v' '-rdynamic' '-o' 'cmTC_96d74' '-dumpdir' 'cmTC_96d74.'
-         /home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/collect2 -plugin /home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/liblto_plugin.so -plugin-opt=/home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXoouPh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_96d74 /home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o -L/home/leo_uc/miniconda3/envs/g4_root/lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0 -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../.. -L/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/leo_uc/miniconda3/envs/g4_root/lib -rpath-link /home/leo_uc/miniconda3/envs/g4_root/lib CMakeFiles/cmTC_96d74.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o /home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/leo_uc/miniconda3/envs/g4_root/lib
-        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/leo_uc/miniconda3/envs/g4_root/include' '-L/home/leo_uc/miniconda3/envs/g4_root/lib' '-v' '-rdynamic' '-o' 'cmTC_96d74' '-dumpdir' 'cmTC_96d74.'
-        gmake[1]: Leaving directory '/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-XIcOt9'
+        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/leo_uc/miniconda3/envs/g4_root/include' '-L/home/leo_uc/miniconda3/envs/g4_root/lib' '-v' '-rdynamic' '-o' 'cmTC_5c310' '-dumpdir' 'cmTC_5c310.'
+         /home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/collect2 -plugin /home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/liblto_plugin.so -plugin-opt=/home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc68LYtg.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_5c310 /home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o -L/home/leo_uc/miniconda3/envs/g4_root/lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0 -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../.. -L/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/leo_uc/miniconda3/envs/g4_root/lib -rpath-link /home/leo_uc/miniconda3/envs/g4_root/lib CMakeFiles/cmTC_5c310.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o /home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/leo_uc/miniconda3/envs/g4_root/lib
+        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/leo_uc/miniconda3/envs/g4_root/include' '-L/home/leo_uc/miniconda3/envs/g4_root/lib' '-v' '-rdynamic' '-o' 'cmTC_5c310' '-dumpdir' 'cmTC_5c310.'
+        gmake[1]: Leaving directory '/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-iCJ0bd'
         
       exitCode: 0
   -
@@ -165,13 +165,13 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(x86_64-conda-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-XIcOt9']
+        ignore line: [Change Dir: '/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-iCJ0bd']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_96d74/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_96d74.dir/build.make CMakeFiles/cmTC_96d74.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-XIcOt9']
-        ignore line: [Building C object CMakeFiles/cmTC_96d74.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include    -v -o CMakeFiles/cmTC_96d74.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.27/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5c310/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_5c310.dir/build.make CMakeFiles/cmTC_5c310.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-iCJ0bd']
+        ignore line: [Building C object CMakeFiles/cmTC_5c310.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include    -v -o CMakeFiles/cmTC_5c310.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.27/Modules/CMakeCCompilerABI.c]
         ignore line: [Reading specs from /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/specs]
         ignore line: [could not find specs file conda.specs]
         ignore line: [COLLECT_GCC=/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc]
@@ -180,9 +180,9 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 12.3.0 (conda-forge gcc 12.3.0-3) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/leo_uc/miniconda3/envs/g4_root/include' '-v' '-o' 'CMakeFiles/cmTC_96d74.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_96d74.dir/']
-        ignore line: [ /home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/cc1 -quiet -v -iprefix /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/ -isysroot /home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot -isystem /home/leo_uc/miniconda3/envs/g4_root/include /usr/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_96d74.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=nocona -mtune=haswell -O2 -version -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |]
-        ignore line: [ /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_96d74.dir/CMakeCCompilerABI.c.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/leo_uc/miniconda3/envs/g4_root/include' '-v' '-o' 'CMakeFiles/cmTC_5c310.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_5c310.dir/']
+        ignore line: [ /home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/cc1 -quiet -v -iprefix /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/ -isysroot /home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot -isystem /home/leo_uc/miniconda3/envs/g4_root/include /usr/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_5c310.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=nocona -mtune=haswell -O2 -version -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |]
+        ignore line: [ /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_5c310.dir/CMakeCCompilerABI.c.o]
         ignore line: [GNU assembler version 2.40 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.40]
         ignore line: [GNU C17 (conda-forge gcc 12.3.0-3) version 12.3.0 (x86_64-conda-linux-gnu)]
         ignore line: [	compiled by GNU C version 12.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
@@ -207,10 +207,10 @@ events:
         ignore line: [Compiler executable checksum: a4b0b0a83abcf35c729ed7f506ee3ff8]
         ignore line: [COMPILER_PATH=/home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/]
         ignore line: [LIBRARY_PATH=/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../:/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/leo_uc/miniconda3/envs/g4_root/include' '-v' '-o' 'CMakeFiles/cmTC_96d74.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_96d74.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_96d74]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96d74.dir/link.txt --verbose=1]
-        ignore line: [/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include  -Wl -O2 -Wl --sort-common -Wl --as-needed -Wl -z relro -Wl -z now -Wl --disable-new-dtags -Wl --gc-sections -Wl --allow-shlib-undefined -Wl -rpath /home/leo_uc/miniconda3/envs/g4_root/lib -Wl -rpath-link /home/leo_uc/miniconda3/envs/g4_root/lib -L/home/leo_uc/miniconda3/envs/g4_root/lib -v -rdynamic CMakeFiles/cmTC_96d74.dir/CMakeCCompilerABI.c.o -o cmTC_96d74 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/leo_uc/miniconda3/envs/g4_root/include' '-v' '-o' 'CMakeFiles/cmTC_5c310.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_5c310.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_5c310]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c310.dir/link.txt --verbose=1]
+        ignore line: [/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include  -Wl -O2 -Wl --sort-common -Wl --as-needed -Wl -z relro -Wl -z now -Wl --disable-new-dtags -Wl --gc-sections -Wl --allow-shlib-undefined -Wl -rpath /home/leo_uc/miniconda3/envs/g4_root/lib -Wl -rpath-link /home/leo_uc/miniconda3/envs/g4_root/lib -L/home/leo_uc/miniconda3/envs/g4_root/lib -v -rdynamic CMakeFiles/cmTC_5c310.dir/CMakeCCompilerABI.c.o -o cmTC_5c310 ]
         ignore line: [Reading specs from /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/specs]
         ignore line: [could not find specs file conda.specs]
         ignore line: [COLLECT_GCC=/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc]
@@ -222,13 +222,13 @@ events:
         ignore line: [gcc version 12.3.0 (conda-forge gcc 12.3.0-3) ]
         ignore line: [COMPILER_PATH=/home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/]
         ignore line: [LIBRARY_PATH=/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../:/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/leo_uc/miniconda3/envs/g4_root/include' '-L/home/leo_uc/miniconda3/envs/g4_root/lib' '-v' '-rdynamic' '-o' 'cmTC_96d74' '-dumpdir' 'cmTC_96d74.']
-        link line: [ /home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/collect2 -plugin /home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/liblto_plugin.so -plugin-opt=/home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXoouPh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_96d74 /home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o -L/home/leo_uc/miniconda3/envs/g4_root/lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0 -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../.. -L/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/leo_uc/miniconda3/envs/g4_root/lib -rpath-link /home/leo_uc/miniconda3/envs/g4_root/lib CMakeFiles/cmTC_96d74.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o /home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/leo_uc/miniconda3/envs/g4_root/lib]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/leo_uc/miniconda3/envs/g4_root/include' '-L/home/leo_uc/miniconda3/envs/g4_root/lib' '-v' '-rdynamic' '-o' 'cmTC_5c310' '-dumpdir' 'cmTC_5c310.']
+        link line: [ /home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/collect2 -plugin /home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/liblto_plugin.so -plugin-opt=/home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc68LYtg.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_5c310 /home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o -L/home/leo_uc/miniconda3/envs/g4_root/lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0 -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../.. -L/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/leo_uc/miniconda3/envs/g4_root/lib -rpath-link /home/leo_uc/miniconda3/envs/g4_root/lib CMakeFiles/cmTC_5c310.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o /home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/leo_uc/miniconda3/envs/g4_root/lib]
           arg [/home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccXoouPh.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc68LYtg.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -243,7 +243,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_96d74] ==> ignore
+          arg [cmTC_5c310] ==> ignore
           arg [/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> obj [/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o]
           arg [/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> obj [/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o]
           arg [/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o] ==> obj [/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o]
@@ -270,7 +270,7 @@ events:
           arg [/home/leo_uc/miniconda3/envs/g4_root/lib] ==> ignore
           arg [-rpath-link] ==> ignore
           arg [/home/leo_uc/miniconda3/envs/g4_root/lib] ==> ignore
-          arg [CMakeFiles/cmTC_96d74.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_5c310.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -317,21 +317,21 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-43zXdQ"
-      binary: "/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-43zXdQ"
+      source: "/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-VGBiuH"
+      binary: "/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-VGBiuH"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-43zXdQ'
+        Change Dir: '/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-VGBiuH'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0fff5/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_0fff5.dir/build.make CMakeFiles/cmTC_0fff5.dir/build
-        gmake[1]: Entering directory '/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-43zXdQ'
-        Building CXX object CMakeFiles/cmTC_0fff5.dir/CMakeCXXCompilerABI.cpp.o
-        /home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++   -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include    -v -o CMakeFiles/cmTC_0fff5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_61ba4/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_61ba4.dir/build.make CMakeFiles/cmTC_61ba4.dir/build
+        gmake[1]: Entering directory '/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-VGBiuH'
+        Building CXX object CMakeFiles/cmTC_61ba4.dir/CMakeCXXCompilerABI.cpp.o
+        /home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++   -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include    -v -o CMakeFiles/cmTC_61ba4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
         Reading specs from /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/specs
         could not find specs file conda.specs
         COLLECT_GCC=/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++
@@ -340,9 +340,9 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 12.3.0 (conda-forge gcc 12.3.0-3) 
-        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/leo_uc/miniconda3/envs/g4_root/include' '-v' '-o' 'CMakeFiles/cmTC_0fff5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_0fff5.dir/'
-         /home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/cc1plus -quiet -v -iprefix /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/ -isysroot /home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -isystem /home/leo_uc/miniconda3/envs/g4_root/include /usr/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_0fff5.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=nocona -mtune=haswell -O2 -version -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |
-         /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_0fff5.dir/CMakeCXXCompilerABI.cpp.o
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/leo_uc/miniconda3/envs/g4_root/include' '-v' '-o' 'CMakeFiles/cmTC_61ba4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_61ba4.dir/'
+         /home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/cc1plus -quiet -v -iprefix /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/ -isysroot /home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -isystem /home/leo_uc/miniconda3/envs/g4_root/include /usr/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_61ba4.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=nocona -mtune=haswell -O2 -version -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |
+         /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_61ba4.dir/CMakeCXXCompilerABI.cpp.o
         GNU assembler version 2.40 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.40
         GNU C++17 (conda-forge gcc 12.3.0-3) version 12.3.0 (x86_64-conda-linux-gnu)
         	compiled by GNU C version 12.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
@@ -370,10 +370,10 @@ events:
         Compiler executable checksum: 13254ff8354c3d0f9abebc7aa7f271eb
         COMPILER_PATH=/home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/
         LIBRARY_PATH=/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../:/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
-        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/leo_uc/miniconda3/envs/g4_root/include' '-v' '-o' 'CMakeFiles/cmTC_0fff5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_0fff5.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_0fff5
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0fff5.dir/link.txt --verbose=1
-        /home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include  -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/leo_uc/miniconda3/envs/g4_root/lib -Wl,-rpath-link,/home/leo_uc/miniconda3/envs/g4_root/lib -L/home/leo_uc/miniconda3/envs/g4_root/lib -v -rdynamic CMakeFiles/cmTC_0fff5.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_0fff5 
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/leo_uc/miniconda3/envs/g4_root/include' '-v' '-o' 'CMakeFiles/cmTC_61ba4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_61ba4.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_61ba4
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61ba4.dir/link.txt --verbose=1
+        /home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include  -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/leo_uc/miniconda3/envs/g4_root/lib -Wl,-rpath-link,/home/leo_uc/miniconda3/envs/g4_root/lib -L/home/leo_uc/miniconda3/envs/g4_root/lib -v -rdynamic CMakeFiles/cmTC_61ba4.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_61ba4 
         Reading specs from /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/specs
         could not find specs file conda.specs
         COLLECT_GCC=/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++
@@ -385,10 +385,10 @@ events:
         gcc version 12.3.0 (conda-forge gcc 12.3.0-3) 
         COMPILER_PATH=/home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/
         LIBRARY_PATH=/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../:/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
-        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/leo_uc/miniconda3/envs/g4_root/include' '-L/home/leo_uc/miniconda3/envs/g4_root/lib' '-v' '-rdynamic' '-o' 'cmTC_0fff5' '-shared-libgcc' '-dumpdir' 'cmTC_0fff5.'
-         /home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/collect2 -plugin /home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/liblto_plugin.so -plugin-opt=/home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9kVYSM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_0fff5 /home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o -L/home/leo_uc/miniconda3/envs/g4_root/lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0 -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../.. -L/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/leo_uc/miniconda3/envs/g4_root/lib -rpath-link /home/leo_uc/miniconda3/envs/g4_root/lib CMakeFiles/cmTC_0fff5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o /home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/leo_uc/miniconda3/envs/g4_root/lib
-        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/leo_uc/miniconda3/envs/g4_root/include' '-L/home/leo_uc/miniconda3/envs/g4_root/lib' '-v' '-rdynamic' '-o' 'cmTC_0fff5' '-shared-libgcc' '-dumpdir' 'cmTC_0fff5.'
-        gmake[1]: Leaving directory '/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-43zXdQ'
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/leo_uc/miniconda3/envs/g4_root/include' '-L/home/leo_uc/miniconda3/envs/g4_root/lib' '-v' '-rdynamic' '-o' 'cmTC_61ba4' '-shared-libgcc' '-dumpdir' 'cmTC_61ba4.'
+         /home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/collect2 -plugin /home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/liblto_plugin.so -plugin-opt=/home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFn4vJE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_61ba4 /home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o -L/home/leo_uc/miniconda3/envs/g4_root/lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0 -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../.. -L/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/leo_uc/miniconda3/envs/g4_root/lib -rpath-link /home/leo_uc/miniconda3/envs/g4_root/lib CMakeFiles/cmTC_61ba4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o /home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/leo_uc/miniconda3/envs/g4_root/lib
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/leo_uc/miniconda3/envs/g4_root/include' '-L/home/leo_uc/miniconda3/envs/g4_root/lib' '-v' '-rdynamic' '-o' 'cmTC_61ba4' '-shared-libgcc' '-dumpdir' 'cmTC_61ba4.'
+        gmake[1]: Leaving directory '/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-VGBiuH'
         
       exitCode: 0
   -
@@ -430,13 +430,13 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(x86_64-conda-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-43zXdQ']
+        ignore line: [Change Dir: '/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-VGBiuH']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0fff5/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_0fff5.dir/build.make CMakeFiles/cmTC_0fff5.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-43zXdQ']
-        ignore line: [Building CXX object CMakeFiles/cmTC_0fff5.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++   -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include    -v -o CMakeFiles/cmTC_0fff5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_61ba4/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_61ba4.dir/build.make CMakeFiles/cmTC_61ba4.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-VGBiuH']
+        ignore line: [Building CXX object CMakeFiles/cmTC_61ba4.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++   -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include    -v -o CMakeFiles/cmTC_61ba4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Reading specs from /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/specs]
         ignore line: [could not find specs file conda.specs]
         ignore line: [COLLECT_GCC=/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++]
@@ -445,9 +445,9 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 12.3.0 (conda-forge gcc 12.3.0-3) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/leo_uc/miniconda3/envs/g4_root/include' '-v' '-o' 'CMakeFiles/cmTC_0fff5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_0fff5.dir/']
-        ignore line: [ /home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/cc1plus -quiet -v -iprefix /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/ -isysroot /home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -isystem /home/leo_uc/miniconda3/envs/g4_root/include /usr/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_0fff5.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=nocona -mtune=haswell -O2 -version -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |]
-        ignore line: [ /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_0fff5.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/leo_uc/miniconda3/envs/g4_root/include' '-v' '-o' 'CMakeFiles/cmTC_61ba4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_61ba4.dir/']
+        ignore line: [ /home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/cc1plus -quiet -v -iprefix /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/ -isysroot /home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -isystem /home/leo_uc/miniconda3/envs/g4_root/include /usr/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_61ba4.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=nocona -mtune=haswell -O2 -version -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |]
+        ignore line: [ /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_61ba4.dir/CMakeCXXCompilerABI.cpp.o]
         ignore line: [GNU assembler version 2.40 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.40]
         ignore line: [GNU C++17 (conda-forge gcc 12.3.0-3) version 12.3.0 (x86_64-conda-linux-gnu)]
         ignore line: [	compiled by GNU C version 12.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
@@ -475,10 +475,10 @@ events:
         ignore line: [Compiler executable checksum: 13254ff8354c3d0f9abebc7aa7f271eb]
         ignore line: [COMPILER_PATH=/home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/]
         ignore line: [LIBRARY_PATH=/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../:/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/leo_uc/miniconda3/envs/g4_root/include' '-v' '-o' 'CMakeFiles/cmTC_0fff5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_0fff5.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_0fff5]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0fff5.dir/link.txt --verbose=1]
-        ignore line: [/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include  -Wl -O2 -Wl --sort-common -Wl --as-needed -Wl -z relro -Wl -z now -Wl --disable-new-dtags -Wl --gc-sections -Wl --allow-shlib-undefined -Wl -rpath /home/leo_uc/miniconda3/envs/g4_root/lib -Wl -rpath-link /home/leo_uc/miniconda3/envs/g4_root/lib -L/home/leo_uc/miniconda3/envs/g4_root/lib -v -rdynamic CMakeFiles/cmTC_0fff5.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_0fff5 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/leo_uc/miniconda3/envs/g4_root/include' '-v' '-o' 'CMakeFiles/cmTC_61ba4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_61ba4.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_61ba4]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61ba4.dir/link.txt --verbose=1]
+        ignore line: [/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++ -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include  -Wl -O2 -Wl --sort-common -Wl --as-needed -Wl -z relro -Wl -z now -Wl --disable-new-dtags -Wl --gc-sections -Wl --allow-shlib-undefined -Wl -rpath /home/leo_uc/miniconda3/envs/g4_root/lib -Wl -rpath-link /home/leo_uc/miniconda3/envs/g4_root/lib -L/home/leo_uc/miniconda3/envs/g4_root/lib -v -rdynamic CMakeFiles/cmTC_61ba4.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_61ba4 ]
         ignore line: [Reading specs from /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/specs]
         ignore line: [could not find specs file conda.specs]
         ignore line: [COLLECT_GCC=/home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-c++]
@@ -490,13 +490,13 @@ events:
         ignore line: [gcc version 12.3.0 (conda-forge gcc 12.3.0-3) ]
         ignore line: [COMPILER_PATH=/home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/]
         ignore line: [LIBRARY_PATH=/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../:/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/leo_uc/miniconda3/envs/g4_root/include' '-L/home/leo_uc/miniconda3/envs/g4_root/lib' '-v' '-rdynamic' '-o' 'cmTC_0fff5' '-shared-libgcc' '-dumpdir' 'cmTC_0fff5.']
-        link line: [ /home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/collect2 -plugin /home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/liblto_plugin.so -plugin-opt=/home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9kVYSM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_0fff5 /home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o -L/home/leo_uc/miniconda3/envs/g4_root/lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0 -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../.. -L/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/leo_uc/miniconda3/envs/g4_root/lib -rpath-link /home/leo_uc/miniconda3/envs/g4_root/lib CMakeFiles/cmTC_0fff5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o /home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/leo_uc/miniconda3/envs/g4_root/lib]
+        ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/leo_uc/miniconda3/envs/g4_root/include' '-L/home/leo_uc/miniconda3/envs/g4_root/lib' '-v' '-rdynamic' '-o' 'cmTC_61ba4' '-shared-libgcc' '-dumpdir' 'cmTC_61ba4.']
+        link line: [ /home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/collect2 -plugin /home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/liblto_plugin.so -plugin-opt=/home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFn4vJE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_61ba4 /home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o -L/home/leo_uc/miniconda3/envs/g4_root/lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0 -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../.. -L/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/leo_uc/miniconda3/envs/g4_root/lib -rpath-link /home/leo_uc/miniconda3/envs/g4_root/lib CMakeFiles/cmTC_61ba4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o /home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/leo_uc/miniconda3/envs/g4_root/lib]
           arg [/home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/home/leo_uc/miniconda3/envs/g4_root/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/cc9kVYSM.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccFn4vJE.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -511,7 +511,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_0fff5] ==> ignore
+          arg [cmTC_61ba4] ==> ignore
           arg [/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> obj [/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o]
           arg [/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> obj [/home/leo_uc/miniconda3/envs/g4_root/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o]
           arg [/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o] ==> obj [/home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o]
@@ -538,7 +538,7 @@ events:
           arg [/home/leo_uc/miniconda3/envs/g4_root/lib] ==> ignore
           arg [-rpath-link] ==> ignore
           arg [/home/leo_uc/miniconda3/envs/g4_root/lib] ==> ignore
-          arg [CMakeFiles/cmTC_0fff5.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_61ba4.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -587,8 +587,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-zuhDtP"
-      binary: "/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-zuhDtP"
+      source: "/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-QpD4yr"
+      binary: "/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-QpD4yr"
     cmakeVariables:
       CMAKE_C_FLAGS: "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -598,26 +598,26 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-zuhDtP'
+        Change Dir: '/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-QpD4yr'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_75dee/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_75dee.dir/build.make CMakeFiles/cmTC_75dee.dir/build
-        gmake[1]: Entering directory '/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-zuhDtP'
-        Building C object CMakeFiles/cmTC_75dee.dir/src.c.o
-        /home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc -DCMAKE_HAVE_LIBC_PTHREAD  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include  -o CMakeFiles/cmTC_75dee.dir/src.c.o -c /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-zuhDtP/src.c
-        Linking C executable cmTC_75dee
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75dee.dir/link.txt --verbose=1
-        /home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include  -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/leo_uc/miniconda3/envs/g4_root/lib -Wl,-rpath-link,/home/leo_uc/miniconda3/envs/g4_root/lib -L/home/leo_uc/miniconda3/envs/g4_root/lib  CMakeFiles/cmTC_75dee.dir/src.c.o -o cmTC_75dee 
-        /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/ld: CMakeFiles/cmTC_75dee.dir/src.c.o: in function `main':
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_924b4/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_924b4.dir/build.make CMakeFiles/cmTC_924b4.dir/build
+        gmake[1]: Entering directory '/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-QpD4yr'
+        Building C object CMakeFiles/cmTC_924b4.dir/src.c.o
+        /home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc -DCMAKE_HAVE_LIBC_PTHREAD  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include  -o CMakeFiles/cmTC_924b4.dir/src.c.o -c /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-QpD4yr/src.c
+        Linking C executable cmTC_924b4
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_924b4.dir/link.txt --verbose=1
+        /home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include  -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/leo_uc/miniconda3/envs/g4_root/lib -Wl,-rpath-link,/home/leo_uc/miniconda3/envs/g4_root/lib -L/home/leo_uc/miniconda3/envs/g4_root/lib  CMakeFiles/cmTC_924b4.dir/src.c.o -o cmTC_924b4 
+        /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/ld: CMakeFiles/cmTC_924b4.dir/src.c.o: in function `main':
         src.c:(.text.startup.main+0x24): undefined reference to `pthread_create'
         /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text.startup.main+0x2e): undefined reference to `pthread_detach'
         /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text.startup.main+0x38): undefined reference to `pthread_cancel'
         /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text.startup.main+0x44): undefined reference to `pthread_join'
         /home/leo_uc/miniconda3/envs/g4_root/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text.startup.main+0x50): undefined reference to `pthread_atfork'
         collect2: error: ld returned 1 exit status
-        gmake[1]: *** [CMakeFiles/cmTC_75dee.dir/build.make:99: cmTC_75dee] Error 1
-        gmake[1]: Leaving directory '/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-zuhDtP'
-        gmake: *** [Makefile:127: cmTC_75dee/fast] Error 2
+        gmake[1]: *** [CMakeFiles/cmTC_924b4.dir/build.make:99: cmTC_924b4] Error 1
+        gmake[1]: Leaving directory '/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-QpD4yr'
+        gmake: *** [Makefile:127: cmTC_924b4/fast] Error 2
         
       exitCode: 2
   -
@@ -633,8 +633,8 @@ events:
     checks:
       - "Check if compiler accepts -pthread"
     directories:
-      source: "/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-OtP38R"
-      binary: "/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-OtP38R"
+      source: "/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-Tkw8xS"
+      binary: "/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-Tkw8xS"
     cmakeVariables:
       CMAKE_C_FLAGS: "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -644,17 +644,17 @@ events:
       variable: "THREADS_HAVE_PTHREAD_ARG"
       cached: true
       stdout: |
-        Change Dir: '/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-OtP38R'
+        Change Dir: '/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-Tkw8xS'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_53e6a/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_53e6a.dir/build.make CMakeFiles/cmTC_53e6a.dir/build
-        gmake[1]: Entering directory '/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-OtP38R'
-        Building C object CMakeFiles/cmTC_53e6a.dir/CheckForPthreads.c.o
-        /home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include  -o CMakeFiles/cmTC_53e6a.dir/CheckForPthreads.c.o -c /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-OtP38R/CheckForPthreads.c
-        Linking C executable cmTC_53e6a
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53e6a.dir/link.txt --verbose=1
-        /home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include  -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/leo_uc/miniconda3/envs/g4_root/lib -Wl,-rpath-link,/home/leo_uc/miniconda3/envs/g4_root/lib -L/home/leo_uc/miniconda3/envs/g4_root/lib  CMakeFiles/cmTC_53e6a.dir/CheckForPthreads.c.o -o cmTC_53e6a  -pthread 
-        gmake[1]: Leaving directory '/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-OtP38R'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d5996/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d5996.dir/build.make CMakeFiles/cmTC_d5996.dir/build
+        gmake[1]: Entering directory '/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-Tkw8xS'
+        Building C object CMakeFiles/cmTC_d5996.dir/CheckForPthreads.c.o
+        /home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include  -o CMakeFiles/cmTC_d5996.dir/CheckForPthreads.c.o -c /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-Tkw8xS/CheckForPthreads.c
+        Linking C executable cmTC_d5996
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5996.dir/link.txt --verbose=1
+        /home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include  -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/leo_uc/miniconda3/envs/g4_root/lib -Wl,-rpath-link,/home/leo_uc/miniconda3/envs/g4_root/lib -L/home/leo_uc/miniconda3/envs/g4_root/lib  CMakeFiles/cmTC_d5996.dir/CheckForPthreads.c.o -o cmTC_d5996  -pthread 
+        gmake[1]: Leaving directory '/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-Tkw8xS'
         
       exitCode: 0
   -
@@ -668,8 +668,8 @@ events:
     checks:
       - "Looking for XOpenDisplay in /home/leo_uc/miniconda3/envs/g4_root/lib/libX11.so;/home/leo_uc/miniconda3/envs/g4_root/lib/libXext.so"
     directories:
-      source: "/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-SAOe96"
-      binary: "/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-SAOe96"
+      source: "/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-b3vyjE"
+      binary: "/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-b3vyjE"
     cmakeVariables:
       CMAKE_C_FLAGS: "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -679,17 +679,17 @@ events:
       variable: "X11_LIB_X11_SOLO"
       cached: true
       stdout: |
-        Change Dir: '/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-SAOe96'
+        Change Dir: '/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-b3vyjE'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_716a0/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_716a0.dir/build.make CMakeFiles/cmTC_716a0.dir/build
-        gmake[1]: Entering directory '/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-SAOe96'
-        Building C object CMakeFiles/cmTC_716a0.dir/CheckFunctionExists.c.o
-        /home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_716a0.dir/CheckFunctionExists.c.o -c /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-SAOe96/CheckFunctionExists.c
-        Linking C executable cmTC_716a0
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_716a0.dir/link.txt --verbose=1
-        /home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include -DCHECK_FUNCTION_EXISTS=XOpenDisplay -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/leo_uc/miniconda3/envs/g4_root/lib -Wl,-rpath-link,/home/leo_uc/miniconda3/envs/g4_root/lib -L/home/leo_uc/miniconda3/envs/g4_root/lib  CMakeFiles/cmTC_716a0.dir/CheckFunctionExists.c.o -o cmTC_716a0  /home/leo_uc/miniconda3/envs/g4_root/lib/libX11.so /home/leo_uc/miniconda3/envs/g4_root/lib/libXext.so 
-        gmake[1]: Leaving directory '/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-SAOe96'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_15f26/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_15f26.dir/build.make CMakeFiles/cmTC_15f26.dir/build
+        gmake[1]: Entering directory '/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-b3vyjE'
+        Building C object CMakeFiles/cmTC_15f26.dir/CheckFunctionExists.c.o
+        /home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_15f26.dir/CheckFunctionExists.c.o -c /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-b3vyjE/CheckFunctionExists.c
+        Linking C executable cmTC_15f26
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15f26.dir/link.txt --verbose=1
+        /home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include -DCHECK_FUNCTION_EXISTS=XOpenDisplay -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/leo_uc/miniconda3/envs/g4_root/lib -Wl,-rpath-link,/home/leo_uc/miniconda3/envs/g4_root/lib -L/home/leo_uc/miniconda3/envs/g4_root/lib  CMakeFiles/cmTC_15f26.dir/CheckFunctionExists.c.o -o cmTC_15f26  /home/leo_uc/miniconda3/envs/g4_root/lib/libX11.so /home/leo_uc/miniconda3/envs/g4_root/lib/libXext.so 
+        gmake[1]: Leaving directory '/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-b3vyjE'
         
       exitCode: 0
   -
@@ -703,8 +703,8 @@ events:
     checks:
       - "Looking for gethostbyname"
     directories:
-      source: "/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-3zaorE"
-      binary: "/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-3zaorE"
+      source: "/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-Y96gFl"
+      binary: "/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-Y96gFl"
     cmakeVariables:
       CMAKE_C_FLAGS: "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -714,17 +714,17 @@ events:
       variable: "CMAKE_HAVE_GETHOSTBYNAME"
       cached: true
       stdout: |
-        Change Dir: '/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-3zaorE'
+        Change Dir: '/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-Y96gFl'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_896a0/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_896a0.dir/build.make CMakeFiles/cmTC_896a0.dir/build
-        gmake[1]: Entering directory '/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-3zaorE'
-        Building C object CMakeFiles/cmTC_896a0.dir/CheckFunctionExists.c.o
-        /home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_896a0.dir/CheckFunctionExists.c.o -c /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-3zaorE/CheckFunctionExists.c
-        Linking C executable cmTC_896a0
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_896a0.dir/link.txt --verbose=1
-        /home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include -DCHECK_FUNCTION_EXISTS=gethostbyname -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/leo_uc/miniconda3/envs/g4_root/lib -Wl,-rpath-link,/home/leo_uc/miniconda3/envs/g4_root/lib -L/home/leo_uc/miniconda3/envs/g4_root/lib  CMakeFiles/cmTC_896a0.dir/CheckFunctionExists.c.o -o cmTC_896a0 
-        gmake[1]: Leaving directory '/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-3zaorE'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3078b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3078b.dir/build.make CMakeFiles/cmTC_3078b.dir/build
+        gmake[1]: Entering directory '/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-Y96gFl'
+        Building C object CMakeFiles/cmTC_3078b.dir/CheckFunctionExists.c.o
+        /home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_3078b.dir/CheckFunctionExists.c.o -c /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-Y96gFl/CheckFunctionExists.c
+        Linking C executable cmTC_3078b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3078b.dir/link.txt --verbose=1
+        /home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include -DCHECK_FUNCTION_EXISTS=gethostbyname -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/leo_uc/miniconda3/envs/g4_root/lib -Wl,-rpath-link,/home/leo_uc/miniconda3/envs/g4_root/lib -L/home/leo_uc/miniconda3/envs/g4_root/lib  CMakeFiles/cmTC_3078b.dir/CheckFunctionExists.c.o -o cmTC_3078b 
+        gmake[1]: Leaving directory '/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-Y96gFl'
         
       exitCode: 0
   -
@@ -738,8 +738,8 @@ events:
     checks:
       - "Looking for connect"
     directories:
-      source: "/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-hP9O1o"
-      binary: "/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-hP9O1o"
+      source: "/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-dA0o7j"
+      binary: "/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-dA0o7j"
     cmakeVariables:
       CMAKE_C_FLAGS: "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -749,17 +749,17 @@ events:
       variable: "CMAKE_HAVE_CONNECT"
       cached: true
       stdout: |
-        Change Dir: '/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-hP9O1o'
+        Change Dir: '/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-dA0o7j'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_aac99/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_aac99.dir/build.make CMakeFiles/cmTC_aac99.dir/build
-        gmake[1]: Entering directory '/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-hP9O1o'
-        Building C object CMakeFiles/cmTC_aac99.dir/CheckFunctionExists.c.o
-        /home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_aac99.dir/CheckFunctionExists.c.o -c /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-hP9O1o/CheckFunctionExists.c
-        Linking C executable cmTC_aac99
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aac99.dir/link.txt --verbose=1
-        /home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include -DCHECK_FUNCTION_EXISTS=connect -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/leo_uc/miniconda3/envs/g4_root/lib -Wl,-rpath-link,/home/leo_uc/miniconda3/envs/g4_root/lib -L/home/leo_uc/miniconda3/envs/g4_root/lib  CMakeFiles/cmTC_aac99.dir/CheckFunctionExists.c.o -o cmTC_aac99 
-        gmake[1]: Leaving directory '/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-hP9O1o'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_07cd4/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_07cd4.dir/build.make CMakeFiles/cmTC_07cd4.dir/build
+        gmake[1]: Entering directory '/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-dA0o7j'
+        Building C object CMakeFiles/cmTC_07cd4.dir/CheckFunctionExists.c.o
+        /home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_07cd4.dir/CheckFunctionExists.c.o -c /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-dA0o7j/CheckFunctionExists.c
+        Linking C executable cmTC_07cd4
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07cd4.dir/link.txt --verbose=1
+        /home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include -DCHECK_FUNCTION_EXISTS=connect -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/leo_uc/miniconda3/envs/g4_root/lib -Wl,-rpath-link,/home/leo_uc/miniconda3/envs/g4_root/lib -L/home/leo_uc/miniconda3/envs/g4_root/lib  CMakeFiles/cmTC_07cd4.dir/CheckFunctionExists.c.o -o cmTC_07cd4 
+        gmake[1]: Leaving directory '/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-dA0o7j'
         
       exitCode: 0
   -
@@ -773,8 +773,8 @@ events:
     checks:
       - "Looking for remove"
     directories:
-      source: "/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-OgFGIj"
-      binary: "/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-OgFGIj"
+      source: "/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-T1FVm9"
+      binary: "/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-T1FVm9"
     cmakeVariables:
       CMAKE_C_FLAGS: "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -784,17 +784,17 @@ events:
       variable: "CMAKE_HAVE_REMOVE"
       cached: true
       stdout: |
-        Change Dir: '/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-OgFGIj'
+        Change Dir: '/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-T1FVm9'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a4d78/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_a4d78.dir/build.make CMakeFiles/cmTC_a4d78.dir/build
-        gmake[1]: Entering directory '/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-OgFGIj'
-        Building C object CMakeFiles/cmTC_a4d78.dir/CheckFunctionExists.c.o
-        /home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_a4d78.dir/CheckFunctionExists.c.o -c /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-OgFGIj/CheckFunctionExists.c
-        Linking C executable cmTC_a4d78
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4d78.dir/link.txt --verbose=1
-        /home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include -DCHECK_FUNCTION_EXISTS=remove -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/leo_uc/miniconda3/envs/g4_root/lib -Wl,-rpath-link,/home/leo_uc/miniconda3/envs/g4_root/lib -L/home/leo_uc/miniconda3/envs/g4_root/lib  CMakeFiles/cmTC_a4d78.dir/CheckFunctionExists.c.o -o cmTC_a4d78 
-        gmake[1]: Leaving directory '/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-OgFGIj'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c596c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c596c.dir/build.make CMakeFiles/cmTC_c596c.dir/build
+        gmake[1]: Entering directory '/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-T1FVm9'
+        Building C object CMakeFiles/cmTC_c596c.dir/CheckFunctionExists.c.o
+        /home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_c596c.dir/CheckFunctionExists.c.o -c /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-T1FVm9/CheckFunctionExists.c
+        Linking C executable cmTC_c596c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c596c.dir/link.txt --verbose=1
+        /home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include -DCHECK_FUNCTION_EXISTS=remove -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/leo_uc/miniconda3/envs/g4_root/lib -Wl,-rpath-link,/home/leo_uc/miniconda3/envs/g4_root/lib -L/home/leo_uc/miniconda3/envs/g4_root/lib  CMakeFiles/cmTC_c596c.dir/CheckFunctionExists.c.o -o cmTC_c596c 
+        gmake[1]: Leaving directory '/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-T1FVm9'
         
       exitCode: 0
   -
@@ -808,8 +808,8 @@ events:
     checks:
       - "Looking for shmat"
     directories:
-      source: "/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-kjhiv7"
-      binary: "/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-kjhiv7"
+      source: "/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-1oI4gy"
+      binary: "/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-1oI4gy"
     cmakeVariables:
       CMAKE_C_FLAGS: "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -819,17 +819,17 @@ events:
       variable: "CMAKE_HAVE_SHMAT"
       cached: true
       stdout: |
-        Change Dir: '/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-kjhiv7'
+        Change Dir: '/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-1oI4gy'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9c332/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_9c332.dir/build.make CMakeFiles/cmTC_9c332.dir/build
-        gmake[1]: Entering directory '/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-kjhiv7'
-        Building C object CMakeFiles/cmTC_9c332.dir/CheckFunctionExists.c.o
-        /home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_9c332.dir/CheckFunctionExists.c.o -c /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-kjhiv7/CheckFunctionExists.c
-        Linking C executable cmTC_9c332
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c332.dir/link.txt --verbose=1
-        /home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include -DCHECK_FUNCTION_EXISTS=shmat -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/leo_uc/miniconda3/envs/g4_root/lib -Wl,-rpath-link,/home/leo_uc/miniconda3/envs/g4_root/lib -L/home/leo_uc/miniconda3/envs/g4_root/lib  CMakeFiles/cmTC_9c332.dir/CheckFunctionExists.c.o -o cmTC_9c332 
-        gmake[1]: Leaving directory '/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-kjhiv7'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_fc523/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_fc523.dir/build.make CMakeFiles/cmTC_fc523.dir/build
+        gmake[1]: Entering directory '/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-1oI4gy'
+        Building C object CMakeFiles/cmTC_fc523.dir/CheckFunctionExists.c.o
+        /home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_fc523.dir/CheckFunctionExists.c.o -c /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-1oI4gy/CheckFunctionExists.c
+        Linking C executable cmTC_fc523
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc523.dir/link.txt --verbose=1
+        /home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include -DCHECK_FUNCTION_EXISTS=shmat -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/leo_uc/miniconda3/envs/g4_root/lib -Wl,-rpath-link,/home/leo_uc/miniconda3/envs/g4_root/lib -L/home/leo_uc/miniconda3/envs/g4_root/lib  CMakeFiles/cmTC_fc523.dir/CheckFunctionExists.c.o -o cmTC_fc523 
+        gmake[1]: Leaving directory '/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-1oI4gy'
         
       exitCode: 0
   -
@@ -843,8 +843,8 @@ events:
     checks:
       - "Looking for IceConnectionNumber in ICE"
     directories:
-      source: "/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-E8Gp1e"
-      binary: "/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-E8Gp1e"
+      source: "/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-3Ms3es"
+      binary: "/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-3Ms3es"
     cmakeVariables:
       CMAKE_C_FLAGS: "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -854,17 +854,17 @@ events:
       variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
       cached: true
       stdout: |
-        Change Dir: '/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-E8Gp1e'
+        Change Dir: '/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-3Ms3es'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_84ebd/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_84ebd.dir/build.make CMakeFiles/cmTC_84ebd.dir/build
-        gmake[1]: Entering directory '/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-E8Gp1e'
-        Building C object CMakeFiles/cmTC_84ebd.dir/CheckFunctionExists.c.o
-        /home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_84ebd.dir/CheckFunctionExists.c.o -c /home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-E8Gp1e/CheckFunctionExists.c
-        Linking C executable cmTC_84ebd
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84ebd.dir/link.txt --verbose=1
-        /home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/leo_uc/miniconda3/envs/g4_root/lib -Wl,-rpath-link,/home/leo_uc/miniconda3/envs/g4_root/lib -L/home/leo_uc/miniconda3/envs/g4_root/lib  CMakeFiles/cmTC_84ebd.dir/CheckFunctionExists.c.o -o cmTC_84ebd  -lICE 
-        gmake[1]: Leaving directory '/home/leo_uc/Documentos/2023_2/simulaciones/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-E8Gp1e'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c12fd/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c12fd.dir/build.make CMakeFiles/cmTC_c12fd.dir/build
+        gmake[1]: Entering directory '/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-3Ms3es'
+        Building C object CMakeFiles/cmTC_c12fd.dir/CheckFunctionExists.c.o
+        /home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_c12fd.dir/CheckFunctionExists.c.o -c /home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-3Ms3es/CheckFunctionExists.c
+        Linking C executable cmTC_c12fd
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c12fd.dir/link.txt --verbose=1
+        /home/leo_uc/miniconda3/envs/g4_root/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/leo_uc/miniconda3/envs/g4_root/include -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/leo_uc/miniconda3/envs/g4_root/lib -Wl,-rpath-link,/home/leo_uc/miniconda3/envs/g4_root/lib -L/home/leo_uc/miniconda3/envs/g4_root/lib  CMakeFiles/cmTC_c12fd.dir/CheckFunctionExists.c.o -o cmTC_c12fd  -lICE 
+        gmake[1]: Leaving directory '/home/leo_uc/Documentos/2023_2/simulaciones/Geant4_work/gas_drift_detector/build/CMakeFiles/CMakeScratch/TryCompile-3Ms3es'
         
       exitCode: 0
 ...
