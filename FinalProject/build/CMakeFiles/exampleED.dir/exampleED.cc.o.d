@@ -1,7 +1,7 @@
 CMakeFiles/exampleED.dir/exampleED.cc.o: \
- /home/jwprdpr/Simulaciones/FinalProject/exampleED.cc \
+ /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/exampleED.cc \
  /usr/include/stdc-predef.h \
- /home/jwprdpr/Simulaciones/FinalProject/include/EDDetectorConstruction.hh \
+ /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/include/EDDetectorConstruction.hh \
  /home/jwprdpr/geant4/include/Geant4/G4VUserDetectorConstruction.hh \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -235,7 +235,7 @@ CMakeFiles/exampleED.dir/exampleED.cc.o: \
  /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h \
- /home/jwprdpr/Simulaciones/FinalProject/include/ActionInitialization.hh \
+ /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/include/ActionInitialization.hh \
  /home/jwprdpr/geant4/include/Geant4/G4VUserActionInitialization.hh \
  /home/jwprdpr/geant4/include/Geant4/G4RunManager.hh \
  /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \

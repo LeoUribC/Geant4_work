@@ -1,7 +1,7 @@
 CMakeFiles/exampleED.dir/src/EDDetectorConstruction.cc.o: \
- /home/jwprdpr/Simulaciones/FinalProject/src/EDDetectorConstruction.cc \
+ /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/src/EDDetectorConstruction.cc \
  /usr/include/stdc-predef.h \
- /home/jwprdpr/Simulaciones/FinalProject/include/EDDetectorConstruction.hh \
+ /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/include/EDDetectorConstruction.hh \
  /home/jwprdpr/geant4/include/Geant4/G4VUserDetectorConstruction.hh \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -358,12 +358,11 @@ CMakeFiles/exampleED.dir/src/EDDetectorConstruction.cc.o: \
  /home/jwprdpr/geant4/include/Geant4/G4AffineTransform.icc \
  /home/jwprdpr/geant4/include/Geant4/G4BooleanSolid.icc \
  /home/jwprdpr/geant4/include/Geant4/G4Material.hh \
- /home/jwprdpr/Simulaciones/FinalProject/include/G4HumanPhantomMaterial.hh \
- /home/jwprdpr/geant4/include/Geant4/globals.hh \
  /home/jwprdpr/geant4/include/Geant4/G4Ellipsoid.hh \
  /home/jwprdpr/geant4/include/Geant4/G4Ellipsoid.icc \
  /home/jwprdpr/geant4/include/Geant4/G4EllipticalTube.hh \
  /home/jwprdpr/geant4/include/Geant4/G4EllipticalTube.icc \
  /home/jwprdpr/geant4/include/Geant4/G4Cons.hh \
  /home/jwprdpr/geant4/include/Geant4/G4Cons.icc \
+ /home/jwprdpr/geant4/include/Geant4/globals.hh \
  /home/jwprdpr/geant4/include/Geant4/G4SubtractionSolid.hh

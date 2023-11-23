@@ -1,5 +1,5 @@
 CMakeFiles/exampleED.dir/src/RunAction.cc.o: \
- /home/jwprdpr/Simulaciones/FinalProject/src/RunAction.cc \
+ /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/src/RunAction.cc \
  /usr/include/stdc-predef.h \
  /home/jwprdpr/geant4/include/Geant4/G4UserRunAction.hh \
  /home/jwprdpr/geant4/include/Geant4/G4Types.hh \
@@ -176,7 +176,7 @@ CMakeFiles/exampleED.dir/src/RunAction.cc.o: \
  /usr/include/c++/11/bits/istream.tcc \
  /usr/include/c++/11/bits/sstream.tcc \
  /home/jwprdpr/geant4/include/Geant4/tls.hh \
- /home/jwprdpr/Simulaciones/FinalProject/include/RunAction.hh \
+ /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/include/RunAction.hh \
  /home/jwprdpr/geant4/include/Geant4/globals.hh \
  /home/jwprdpr/geant4/include/Geant4/G4ios.hh \
  /usr/include/c++/11/iostream /usr/include/c++/11/algorithm \

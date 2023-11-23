@@ -48,6 +48,3 @@
 /vis/scene/notifyHandlers scene-0
 /analysis/h1/getVector
 /analysis/h2/getVector
-/run/beamOn 10
-/analysis/h1/getVector
-/analysis/h2/getVector

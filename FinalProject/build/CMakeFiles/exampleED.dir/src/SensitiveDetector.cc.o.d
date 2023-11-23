@@ -1,7 +1,7 @@
 CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.o: \
- /home/jwprdpr/Simulaciones/FinalProject/src/SensitiveDetector.cc \
+ /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/src/SensitiveDetector.cc \
  /usr/include/stdc-predef.h \
- /home/jwprdpr/Simulaciones/FinalProject/include/SensitiveDetector.hh \
+ /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/include/SensitiveDetector.hh \
  /home/jwprdpr/geant4/include/Geant4/G4VSensitiveDetector.hh \
  /home/jwprdpr/geant4/include/Geant4/G4VHit.hh \
  /home/jwprdpr/geant4/include/Geant4/globals.hh \

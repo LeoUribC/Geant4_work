@@ -1,9 +1,9 @@
 CMakeFiles/exampleED.dir/src/ActionInitialization.cc.o: \
- /home/jwprdpr/Simulaciones/FinalProject/src/ActionInitialization.cc \
+ /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/src/ActionInitialization.cc \
  /usr/include/stdc-predef.h \
- /home/jwprdpr/Simulaciones/FinalProject/include/ActionInitialization.hh \
+ /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/include/ActionInitialization.hh \
  /home/jwprdpr/geant4/include/Geant4/G4VUserActionInitialization.hh \
- /home/jwprdpr/Simulaciones/FinalProject/include/PrimaryGeneratorAction.hh \
+ /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/include/PrimaryGeneratorAction.hh \
  /home/jwprdpr/geant4/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
  /home/jwprdpr/geant4/include/Geant4/globals.hh \
  /home/jwprdpr/geant4/include/Geant4/G4ios.hh \
@@ -269,7 +269,7 @@ CMakeFiles/exampleED.dir/src/ActionInitialization.cc.o: \
  /home/jwprdpr/geant4/include/Geant4/G4AllocatorPool.hh \
  /home/jwprdpr/geant4/include/Geant4/G4PrimaryParticle.hh \
  /home/jwprdpr/geant4/include/Geant4/G4ParticleMomentum.hh \
- /home/jwprdpr/Simulaciones/FinalProject/include/EventAction.hh \
+ /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/include/EventAction.hh \
  /home/jwprdpr/geant4/include/Geant4/G4UserEventAction.hh \
  /home/jwprdpr/geant4/include/Geant4/G4Event.hh \
  /home/jwprdpr/geant4/include/Geant4/evtdefs.hh \
@@ -287,5 +287,5 @@ CMakeFiles/exampleED.dir/src/ActionInitialization.cc.o: \
  /home/jwprdpr/geant4/include/Geant4/PTL/Utility.hh \
  /usr/include/c++/11/set /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h \
- /home/jwprdpr/Simulaciones/FinalProject/include/RunAction.hh \
+ /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/include/RunAction.hh \
  /home/jwprdpr/geant4/include/Geant4/G4UserRunAction.hh

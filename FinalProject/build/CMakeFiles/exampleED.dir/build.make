@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jwprdpr/Simulaciones/FinalProject
+CMAKE_SOURCE_DIR = /home/jwprdpr/Simulaciones/Geant4_work/FinalProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jwprdpr/Simulaciones/FinalProject/build
+CMAKE_BINARY_DIR = /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/exampleED.dir/depend.make
@@ -72,100 +72,100 @@ include CMakeFiles/exampleED.dir/flags.make
 CMakeFiles/exampleED.dir/exampleED.cc.o: CMakeFiles/exampleED.dir/flags.make
 CMakeFiles/exampleED.dir/exampleED.cc.o: ../exampleED.cc
 CMakeFiles/exampleED.dir/exampleED.cc.o: CMakeFiles/exampleED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jwprdpr/Simulaciones/FinalProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/exampleED.dir/exampleED.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleED.dir/exampleED.cc.o -MF CMakeFiles/exampleED.dir/exampleED.cc.o.d -o CMakeFiles/exampleED.dir/exampleED.cc.o -c /home/jwprdpr/Simulaciones/FinalProject/exampleED.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jwprdpr/Simulaciones/Geant4_work/FinalProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/exampleED.dir/exampleED.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleED.dir/exampleED.cc.o -MF CMakeFiles/exampleED.dir/exampleED.cc.o.d -o CMakeFiles/exampleED.dir/exampleED.cc.o -c /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/exampleED.cc
 
 CMakeFiles/exampleED.dir/exampleED.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleED.dir/exampleED.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jwprdpr/Simulaciones/FinalProject/exampleED.cc > CMakeFiles/exampleED.dir/exampleED.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/exampleED.cc > CMakeFiles/exampleED.dir/exampleED.cc.i
 
 CMakeFiles/exampleED.dir/exampleED.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleED.dir/exampleED.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jwprdpr/Simulaciones/FinalProject/exampleED.cc -o CMakeFiles/exampleED.dir/exampleED.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/exampleED.cc -o CMakeFiles/exampleED.dir/exampleED.cc.s
 
 CMakeFiles/exampleED.dir/src/ActionInitialization.cc.o: CMakeFiles/exampleED.dir/flags.make
 CMakeFiles/exampleED.dir/src/ActionInitialization.cc.o: ../src/ActionInitialization.cc
 CMakeFiles/exampleED.dir/src/ActionInitialization.cc.o: CMakeFiles/exampleED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jwprdpr/Simulaciones/FinalProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/exampleED.dir/src/ActionInitialization.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleED.dir/src/ActionInitialization.cc.o -MF CMakeFiles/exampleED.dir/src/ActionInitialization.cc.o.d -o CMakeFiles/exampleED.dir/src/ActionInitialization.cc.o -c /home/jwprdpr/Simulaciones/FinalProject/src/ActionInitialization.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jwprdpr/Simulaciones/Geant4_work/FinalProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/exampleED.dir/src/ActionInitialization.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleED.dir/src/ActionInitialization.cc.o -MF CMakeFiles/exampleED.dir/src/ActionInitialization.cc.o.d -o CMakeFiles/exampleED.dir/src/ActionInitialization.cc.o -c /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/src/ActionInitialization.cc
 
 CMakeFiles/exampleED.dir/src/ActionInitialization.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleED.dir/src/ActionInitialization.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jwprdpr/Simulaciones/FinalProject/src/ActionInitialization.cc > CMakeFiles/exampleED.dir/src/ActionInitialization.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/src/ActionInitialization.cc > CMakeFiles/exampleED.dir/src/ActionInitialization.cc.i
 
 CMakeFiles/exampleED.dir/src/ActionInitialization.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleED.dir/src/ActionInitialization.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jwprdpr/Simulaciones/FinalProject/src/ActionInitialization.cc -o CMakeFiles/exampleED.dir/src/ActionInitialization.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/src/ActionInitialization.cc -o CMakeFiles/exampleED.dir/src/ActionInitialization.cc.s
 
 CMakeFiles/exampleED.dir/src/EDDetectorConstruction.cc.o: CMakeFiles/exampleED.dir/flags.make
 CMakeFiles/exampleED.dir/src/EDDetectorConstruction.cc.o: ../src/EDDetectorConstruction.cc
 CMakeFiles/exampleED.dir/src/EDDetectorConstruction.cc.o: CMakeFiles/exampleED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jwprdpr/Simulaciones/FinalProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/exampleED.dir/src/EDDetectorConstruction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleED.dir/src/EDDetectorConstruction.cc.o -MF CMakeFiles/exampleED.dir/src/EDDetectorConstruction.cc.o.d -o CMakeFiles/exampleED.dir/src/EDDetectorConstruction.cc.o -c /home/jwprdpr/Simulaciones/FinalProject/src/EDDetectorConstruction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jwprdpr/Simulaciones/Geant4_work/FinalProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/exampleED.dir/src/EDDetectorConstruction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleED.dir/src/EDDetectorConstruction.cc.o -MF CMakeFiles/exampleED.dir/src/EDDetectorConstruction.cc.o.d -o CMakeFiles/exampleED.dir/src/EDDetectorConstruction.cc.o -c /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/src/EDDetectorConstruction.cc
 
 CMakeFiles/exampleED.dir/src/EDDetectorConstruction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleED.dir/src/EDDetectorConstruction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jwprdpr/Simulaciones/FinalProject/src/EDDetectorConstruction.cc > CMakeFiles/exampleED.dir/src/EDDetectorConstruction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/src/EDDetectorConstruction.cc > CMakeFiles/exampleED.dir/src/EDDetectorConstruction.cc.i
 
 CMakeFiles/exampleED.dir/src/EDDetectorConstruction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleED.dir/src/EDDetectorConstruction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jwprdpr/Simulaciones/FinalProject/src/EDDetectorConstruction.cc -o CMakeFiles/exampleED.dir/src/EDDetectorConstruction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/src/EDDetectorConstruction.cc -o CMakeFiles/exampleED.dir/src/EDDetectorConstruction.cc.s
 
 CMakeFiles/exampleED.dir/src/EventAction.cc.o: CMakeFiles/exampleED.dir/flags.make
 CMakeFiles/exampleED.dir/src/EventAction.cc.o: ../src/EventAction.cc
 CMakeFiles/exampleED.dir/src/EventAction.cc.o: CMakeFiles/exampleED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jwprdpr/Simulaciones/FinalProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/exampleED.dir/src/EventAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleED.dir/src/EventAction.cc.o -MF CMakeFiles/exampleED.dir/src/EventAction.cc.o.d -o CMakeFiles/exampleED.dir/src/EventAction.cc.o -c /home/jwprdpr/Simulaciones/FinalProject/src/EventAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jwprdpr/Simulaciones/Geant4_work/FinalProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/exampleED.dir/src/EventAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleED.dir/src/EventAction.cc.o -MF CMakeFiles/exampleED.dir/src/EventAction.cc.o.d -o CMakeFiles/exampleED.dir/src/EventAction.cc.o -c /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/src/EventAction.cc
 
 CMakeFiles/exampleED.dir/src/EventAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleED.dir/src/EventAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jwprdpr/Simulaciones/FinalProject/src/EventAction.cc > CMakeFiles/exampleED.dir/src/EventAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/src/EventAction.cc > CMakeFiles/exampleED.dir/src/EventAction.cc.i
 
 CMakeFiles/exampleED.dir/src/EventAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleED.dir/src/EventAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jwprdpr/Simulaciones/FinalProject/src/EventAction.cc -o CMakeFiles/exampleED.dir/src/EventAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/src/EventAction.cc -o CMakeFiles/exampleED.dir/src/EventAction.cc.s
 
 CMakeFiles/exampleED.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/exampleED.dir/flags.make
 CMakeFiles/exampleED.dir/src/PrimaryGeneratorAction.cc.o: ../src/PrimaryGeneratorAction.cc
 CMakeFiles/exampleED.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/exampleED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jwprdpr/Simulaciones/FinalProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/exampleED.dir/src/PrimaryGeneratorAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleED.dir/src/PrimaryGeneratorAction.cc.o -MF CMakeFiles/exampleED.dir/src/PrimaryGeneratorAction.cc.o.d -o CMakeFiles/exampleED.dir/src/PrimaryGeneratorAction.cc.o -c /home/jwprdpr/Simulaciones/FinalProject/src/PrimaryGeneratorAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jwprdpr/Simulaciones/Geant4_work/FinalProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/exampleED.dir/src/PrimaryGeneratorAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleED.dir/src/PrimaryGeneratorAction.cc.o -MF CMakeFiles/exampleED.dir/src/PrimaryGeneratorAction.cc.o.d -o CMakeFiles/exampleED.dir/src/PrimaryGeneratorAction.cc.o -c /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/src/PrimaryGeneratorAction.cc
 
 CMakeFiles/exampleED.dir/src/PrimaryGeneratorAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleED.dir/src/PrimaryGeneratorAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jwprdpr/Simulaciones/FinalProject/src/PrimaryGeneratorAction.cc > CMakeFiles/exampleED.dir/src/PrimaryGeneratorAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/src/PrimaryGeneratorAction.cc > CMakeFiles/exampleED.dir/src/PrimaryGeneratorAction.cc.i
 
 CMakeFiles/exampleED.dir/src/PrimaryGeneratorAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleED.dir/src/PrimaryGeneratorAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jwprdpr/Simulaciones/FinalProject/src/PrimaryGeneratorAction.cc -o CMakeFiles/exampleED.dir/src/PrimaryGeneratorAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/src/PrimaryGeneratorAction.cc -o CMakeFiles/exampleED.dir/src/PrimaryGeneratorAction.cc.s
 
 CMakeFiles/exampleED.dir/src/RunAction.cc.o: CMakeFiles/exampleED.dir/flags.make
 CMakeFiles/exampleED.dir/src/RunAction.cc.o: ../src/RunAction.cc
 CMakeFiles/exampleED.dir/src/RunAction.cc.o: CMakeFiles/exampleED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jwprdpr/Simulaciones/FinalProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/exampleED.dir/src/RunAction.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleED.dir/src/RunAction.cc.o -MF CMakeFiles/exampleED.dir/src/RunAction.cc.o.d -o CMakeFiles/exampleED.dir/src/RunAction.cc.o -c /home/jwprdpr/Simulaciones/FinalProject/src/RunAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jwprdpr/Simulaciones/Geant4_work/FinalProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/exampleED.dir/src/RunAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleED.dir/src/RunAction.cc.o -MF CMakeFiles/exampleED.dir/src/RunAction.cc.o.d -o CMakeFiles/exampleED.dir/src/RunAction.cc.o -c /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/src/RunAction.cc
 
 CMakeFiles/exampleED.dir/src/RunAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleED.dir/src/RunAction.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jwprdpr/Simulaciones/FinalProject/src/RunAction.cc > CMakeFiles/exampleED.dir/src/RunAction.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/src/RunAction.cc > CMakeFiles/exampleED.dir/src/RunAction.cc.i
 
 CMakeFiles/exampleED.dir/src/RunAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleED.dir/src/RunAction.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jwprdpr/Simulaciones/FinalProject/src/RunAction.cc -o CMakeFiles/exampleED.dir/src/RunAction.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/src/RunAction.cc -o CMakeFiles/exampleED.dir/src/RunAction.cc.s
 
 CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.o: CMakeFiles/exampleED.dir/flags.make
 CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.o: ../src/SensitiveDetector.cc
 CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.o: CMakeFiles/exampleED.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jwprdpr/Simulaciones/FinalProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.o -MF CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.o.d -o CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.o -c /home/jwprdpr/Simulaciones/FinalProject/src/SensitiveDetector.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jwprdpr/Simulaciones/Geant4_work/FinalProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.o -MF CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.o.d -o CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.o -c /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/src/SensitiveDetector.cc
 
 CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jwprdpr/Simulaciones/FinalProject/src/SensitiveDetector.cc > CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/src/SensitiveDetector.cc > CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.i
 
 CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jwprdpr/Simulaciones/FinalProject/src/SensitiveDetector.cc -o CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/src/SensitiveDetector.cc -o CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.s
 
 # Object files for target exampleED
 exampleED_OBJECTS = \
@@ -228,7 +228,7 @@ exampleED: /home/jwprdpr/geant4/lib/libG4global.so
 exampleED: /home/jwprdpr/geant4/lib/libG4clhep.so
 exampleED: /home/jwprdpr/geant4/lib/libG4ptl.so.2.3.3
 exampleED: CMakeFiles/exampleED.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jwprdpr/Simulaciones/FinalProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable exampleED"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jwprdpr/Simulaciones/Geant4_work/FinalProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable exampleED"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/exampleED.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -240,6 +240,6 @@ CMakeFiles/exampleED.dir/clean:
 .PHONY : CMakeFiles/exampleED.dir/clean
 
 CMakeFiles/exampleED.dir/depend:
-	cd /home/jwprdpr/Simulaciones/FinalProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jwprdpr/Simulaciones/FinalProject /home/jwprdpr/Simulaciones/FinalProject /home/jwprdpr/Simulaciones/FinalProject/build /home/jwprdpr/Simulaciones/FinalProject/build /home/jwprdpr/Simulaciones/FinalProject/build/CMakeFiles/exampleED.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jwprdpr/Simulaciones/Geant4_work/FinalProject /home/jwprdpr/Simulaciones/Geant4_work/FinalProject /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/build /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/build /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/build/CMakeFiles/exampleED.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/exampleED.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jwprdpr/Simulaciones/FinalProject
+CMAKE_SOURCE_DIR = /home/jwprdpr/Simulaciones/Geant4_work/FinalProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jwprdpr/Simulaciones/FinalProject/build
+CMAKE_BINARY_DIR = /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/build
 
 # Utility rule file for ED.
 
@@ -81,6 +81,6 @@ CMakeFiles/ED.dir/clean:
 .PHONY : CMakeFiles/ED.dir/clean
 
 CMakeFiles/ED.dir/depend:
-	cd /home/jwprdpr/Simulaciones/FinalProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jwprdpr/Simulaciones/FinalProject /home/jwprdpr/Simulaciones/FinalProject /home/jwprdpr/Simulaciones/FinalProject/build /home/jwprdpr/Simulaciones/FinalProject/build /home/jwprdpr/Simulaciones/FinalProject/build/CMakeFiles/ED.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jwprdpr/Simulaciones/Geant4_work/FinalProject /home/jwprdpr/Simulaciones/Geant4_work/FinalProject /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/build /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/build /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/build/CMakeFiles/ED.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ED.dir/depend
 

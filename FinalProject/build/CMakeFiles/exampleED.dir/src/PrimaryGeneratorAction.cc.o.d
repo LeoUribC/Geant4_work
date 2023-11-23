@@ -1,7 +1,7 @@
 CMakeFiles/exampleED.dir/src/PrimaryGeneratorAction.cc.o: \
- /home/jwprdpr/Simulaciones/FinalProject/src/PrimaryGeneratorAction.cc \
+ /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/src/PrimaryGeneratorAction.cc \
  /usr/include/stdc-predef.h \
- /home/jwprdpr/Simulaciones/FinalProject/include/PrimaryGeneratorAction.hh \
+ /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/include/PrimaryGeneratorAction.hh \
  /home/jwprdpr/geant4/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
  /home/jwprdpr/geant4/include/Geant4/globals.hh \
  /home/jwprdpr/geant4/include/Geant4/G4ios.hh \

@@ -40,7 +40,7 @@
 #include "G4Color.hh"
 #include "G4UnionSolid.hh"
 #include "G4Material.hh"
-#include "G4HumanPhantomMaterial.hh"
+
 #include "G4Ellipsoid.hh"
 #include "G4EllipticalTube.hh"
 #include "G4Cons.hh"

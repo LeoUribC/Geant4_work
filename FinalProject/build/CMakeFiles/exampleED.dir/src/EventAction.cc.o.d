@@ -1,7 +1,7 @@
 CMakeFiles/exampleED.dir/src/EventAction.cc.o: \
- /home/jwprdpr/Simulaciones/FinalProject/src/EventAction.cc \
+ /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/src/EventAction.cc \
  /usr/include/stdc-predef.h \
- /home/jwprdpr/Simulaciones/FinalProject/include/EventAction.hh \
+ /home/jwprdpr/Simulaciones/Geant4_work/FinalProject/include/EventAction.hh \
  /home/jwprdpr/geant4/include/Geant4/G4UserEventAction.hh \
  /home/jwprdpr/geant4/include/Geant4/G4Event.hh \
  /home/jwprdpr/geant4/include/Geant4/globals.hh \
