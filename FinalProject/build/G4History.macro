@@ -44,7 +44,7 @@
 /gui/addIcon "Perspective" perspective
 /gui/addIcon "Orthographic" ortho
 /gui/addIcon "Run beam on" user_icon "/run/beamOn 1" run.png
-/run/beamOn 1
+/run/beamOn 100
 /vis/scene/notifyHandlers scene-0
 /analysis/h1/getVector
 /analysis/h2/getVector
