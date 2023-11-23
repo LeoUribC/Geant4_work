@@ -211,29 +211,29 @@ exampleED.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampleED.dir/build.make CMakeFiles/exampleED.dir/exampleED.cc.s
 .PHONY : exampleED.cc.s
 
-src/EDActionInitialization.o: src/EDActionInitialization.cc.o
-.PHONY : src/EDActionInitialization.o
+src/ActionInitialization.o: src/ActionInitialization.cc.o
+.PHONY : src/ActionInitialization.o
 
 # target to build an object file
-src/EDActionInitialization.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampleED.dir/build.make CMakeFiles/exampleED.dir/src/EDActionInitialization.cc.o
-.PHONY : src/EDActionInitialization.cc.o
+src/ActionInitialization.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampleED.dir/build.make CMakeFiles/exampleED.dir/src/ActionInitialization.cc.o
+.PHONY : src/ActionInitialization.cc.o
 
-src/EDActionInitialization.i: src/EDActionInitialization.cc.i
-.PHONY : src/EDActionInitialization.i
+src/ActionInitialization.i: src/ActionInitialization.cc.i
+.PHONY : src/ActionInitialization.i
 
 # target to preprocess a source file
-src/EDActionInitialization.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampleED.dir/build.make CMakeFiles/exampleED.dir/src/EDActionInitialization.cc.i
-.PHONY : src/EDActionInitialization.cc.i
+src/ActionInitialization.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampleED.dir/build.make CMakeFiles/exampleED.dir/src/ActionInitialization.cc.i
+.PHONY : src/ActionInitialization.cc.i
 
-src/EDActionInitialization.s: src/EDActionInitialization.cc.s
-.PHONY : src/EDActionInitialization.s
+src/ActionInitialization.s: src/ActionInitialization.cc.s
+.PHONY : src/ActionInitialization.s
 
 # target to generate assembly for a file
-src/EDActionInitialization.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampleED.dir/build.make CMakeFiles/exampleED.dir/src/EDActionInitialization.cc.s
-.PHONY : src/EDActionInitialization.cc.s
+src/ActionInitialization.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampleED.dir/build.make CMakeFiles/exampleED.dir/src/ActionInitialization.cc.s
+.PHONY : src/ActionInitialization.cc.s
 
 src/EDDetectorConstruction.o: src/EDDetectorConstruction.cc.o
 .PHONY : src/EDDetectorConstruction.o
@@ -259,101 +259,101 @@ src/EDDetectorConstruction.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampleED.dir/build.make CMakeFiles/exampleED.dir/src/EDDetectorConstruction.cc.s
 .PHONY : src/EDDetectorConstruction.cc.s
 
-src/EDEventAction.o: src/EDEventAction.cc.o
-.PHONY : src/EDEventAction.o
+src/EventAction.o: src/EventAction.cc.o
+.PHONY : src/EventAction.o
 
 # target to build an object file
-src/EDEventAction.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampleED.dir/build.make CMakeFiles/exampleED.dir/src/EDEventAction.cc.o
-.PHONY : src/EDEventAction.cc.o
+src/EventAction.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampleED.dir/build.make CMakeFiles/exampleED.dir/src/EventAction.cc.o
+.PHONY : src/EventAction.cc.o
 
-src/EDEventAction.i: src/EDEventAction.cc.i
-.PHONY : src/EDEventAction.i
+src/EventAction.i: src/EventAction.cc.i
+.PHONY : src/EventAction.i
 
 # target to preprocess a source file
-src/EDEventAction.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampleED.dir/build.make CMakeFiles/exampleED.dir/src/EDEventAction.cc.i
-.PHONY : src/EDEventAction.cc.i
+src/EventAction.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampleED.dir/build.make CMakeFiles/exampleED.dir/src/EventAction.cc.i
+.PHONY : src/EventAction.cc.i
 
-src/EDEventAction.s: src/EDEventAction.cc.s
-.PHONY : src/EDEventAction.s
+src/EventAction.s: src/EventAction.cc.s
+.PHONY : src/EventAction.s
 
 # target to generate assembly for a file
-src/EDEventAction.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampleED.dir/build.make CMakeFiles/exampleED.dir/src/EDEventAction.cc.s
-.PHONY : src/EDEventAction.cc.s
+src/EventAction.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampleED.dir/build.make CMakeFiles/exampleED.dir/src/EventAction.cc.s
+.PHONY : src/EventAction.cc.s
 
-src/EDPrimaryGeneratorAction.o: src/EDPrimaryGeneratorAction.cc.o
-.PHONY : src/EDPrimaryGeneratorAction.o
+src/PrimaryGeneratorAction.o: src/PrimaryGeneratorAction.cc.o
+.PHONY : src/PrimaryGeneratorAction.o
 
 # target to build an object file
-src/EDPrimaryGeneratorAction.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampleED.dir/build.make CMakeFiles/exampleED.dir/src/EDPrimaryGeneratorAction.cc.o
-.PHONY : src/EDPrimaryGeneratorAction.cc.o
+src/PrimaryGeneratorAction.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampleED.dir/build.make CMakeFiles/exampleED.dir/src/PrimaryGeneratorAction.cc.o
+.PHONY : src/PrimaryGeneratorAction.cc.o
 
-src/EDPrimaryGeneratorAction.i: src/EDPrimaryGeneratorAction.cc.i
-.PHONY : src/EDPrimaryGeneratorAction.i
+src/PrimaryGeneratorAction.i: src/PrimaryGeneratorAction.cc.i
+.PHONY : src/PrimaryGeneratorAction.i
 
 # target to preprocess a source file
-src/EDPrimaryGeneratorAction.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampleED.dir/build.make CMakeFiles/exampleED.dir/src/EDPrimaryGeneratorAction.cc.i
-.PHONY : src/EDPrimaryGeneratorAction.cc.i
+src/PrimaryGeneratorAction.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampleED.dir/build.make CMakeFiles/exampleED.dir/src/PrimaryGeneratorAction.cc.i
+.PHONY : src/PrimaryGeneratorAction.cc.i
 
-src/EDPrimaryGeneratorAction.s: src/EDPrimaryGeneratorAction.cc.s
-.PHONY : src/EDPrimaryGeneratorAction.s
+src/PrimaryGeneratorAction.s: src/PrimaryGeneratorAction.cc.s
+.PHONY : src/PrimaryGeneratorAction.s
 
 # target to generate assembly for a file
-src/EDPrimaryGeneratorAction.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampleED.dir/build.make CMakeFiles/exampleED.dir/src/EDPrimaryGeneratorAction.cc.s
-.PHONY : src/EDPrimaryGeneratorAction.cc.s
+src/PrimaryGeneratorAction.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampleED.dir/build.make CMakeFiles/exampleED.dir/src/PrimaryGeneratorAction.cc.s
+.PHONY : src/PrimaryGeneratorAction.cc.s
 
-src/G4HumanPhantomHit.o: src/G4HumanPhantomHit.cc.o
-.PHONY : src/G4HumanPhantomHit.o
+src/RunAction.o: src/RunAction.cc.o
+.PHONY : src/RunAction.o
 
 # target to build an object file
-src/G4HumanPhantomHit.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampleED.dir/build.make CMakeFiles/exampleED.dir/src/G4HumanPhantomHit.cc.o
-.PHONY : src/G4HumanPhantomHit.cc.o
+src/RunAction.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampleED.dir/build.make CMakeFiles/exampleED.dir/src/RunAction.cc.o
+.PHONY : src/RunAction.cc.o
 
-src/G4HumanPhantomHit.i: src/G4HumanPhantomHit.cc.i
-.PHONY : src/G4HumanPhantomHit.i
+src/RunAction.i: src/RunAction.cc.i
+.PHONY : src/RunAction.i
 
 # target to preprocess a source file
-src/G4HumanPhantomHit.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampleED.dir/build.make CMakeFiles/exampleED.dir/src/G4HumanPhantomHit.cc.i
-.PHONY : src/G4HumanPhantomHit.cc.i
+src/RunAction.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampleED.dir/build.make CMakeFiles/exampleED.dir/src/RunAction.cc.i
+.PHONY : src/RunAction.cc.i
 
-src/G4HumanPhantomHit.s: src/G4HumanPhantomHit.cc.s
-.PHONY : src/G4HumanPhantomHit.s
+src/RunAction.s: src/RunAction.cc.s
+.PHONY : src/RunAction.s
 
 # target to generate assembly for a file
-src/G4HumanPhantomHit.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampleED.dir/build.make CMakeFiles/exampleED.dir/src/G4HumanPhantomHit.cc.s
-.PHONY : src/G4HumanPhantomHit.cc.s
+src/RunAction.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampleED.dir/build.make CMakeFiles/exampleED.dir/src/RunAction.cc.s
+.PHONY : src/RunAction.cc.s
 
-src/G4HumanPhantomMaterial.o: src/G4HumanPhantomMaterial.cc.o
-.PHONY : src/G4HumanPhantomMaterial.o
+src/SensitiveDetector.o: src/SensitiveDetector.cc.o
+.PHONY : src/SensitiveDetector.o
 
 # target to build an object file
-src/G4HumanPhantomMaterial.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampleED.dir/build.make CMakeFiles/exampleED.dir/src/G4HumanPhantomMaterial.cc.o
-.PHONY : src/G4HumanPhantomMaterial.cc.o
+src/SensitiveDetector.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampleED.dir/build.make CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.o
+.PHONY : src/SensitiveDetector.cc.o
 
-src/G4HumanPhantomMaterial.i: src/G4HumanPhantomMaterial.cc.i
-.PHONY : src/G4HumanPhantomMaterial.i
+src/SensitiveDetector.i: src/SensitiveDetector.cc.i
+.PHONY : src/SensitiveDetector.i
 
 # target to preprocess a source file
-src/G4HumanPhantomMaterial.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampleED.dir/build.make CMakeFiles/exampleED.dir/src/G4HumanPhantomMaterial.cc.i
-.PHONY : src/G4HumanPhantomMaterial.cc.i
+src/SensitiveDetector.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampleED.dir/build.make CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.i
+.PHONY : src/SensitiveDetector.cc.i
 
-src/G4HumanPhantomMaterial.s: src/G4HumanPhantomMaterial.cc.s
-.PHONY : src/G4HumanPhantomMaterial.s
+src/SensitiveDetector.s: src/SensitiveDetector.cc.s
+.PHONY : src/SensitiveDetector.s
 
 # target to generate assembly for a file
-src/G4HumanPhantomMaterial.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampleED.dir/build.make CMakeFiles/exampleED.dir/src/G4HumanPhantomMaterial.cc.s
-.PHONY : src/G4HumanPhantomMaterial.cc.s
+src/SensitiveDetector.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampleED.dir/build.make CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.s
+.PHONY : src/SensitiveDetector.cc.s
 
 # Help Target
 help:
@@ -372,24 +372,24 @@ help:
 	@echo "... exampleED.o"
 	@echo "... exampleED.i"
 	@echo "... exampleED.s"
-	@echo "... src/EDActionInitialization.o"
-	@echo "... src/EDActionInitialization.i"
-	@echo "... src/EDActionInitialization.s"
+	@echo "... src/ActionInitialization.o"
+	@echo "... src/ActionInitialization.i"
+	@echo "... src/ActionInitialization.s"
 	@echo "... src/EDDetectorConstruction.o"
 	@echo "... src/EDDetectorConstruction.i"
 	@echo "... src/EDDetectorConstruction.s"
-	@echo "... src/EDEventAction.o"
-	@echo "... src/EDEventAction.i"
-	@echo "... src/EDEventAction.s"
-	@echo "... src/EDPrimaryGeneratorAction.o"
-	@echo "... src/EDPrimaryGeneratorAction.i"
-	@echo "... src/EDPrimaryGeneratorAction.s"
-	@echo "... src/G4HumanPhantomHit.o"
-	@echo "... src/G4HumanPhantomHit.i"
-	@echo "... src/G4HumanPhantomHit.s"
-	@echo "... src/G4HumanPhantomMaterial.o"
-	@echo "... src/G4HumanPhantomMaterial.i"
-	@echo "... src/G4HumanPhantomMaterial.s"
+	@echo "... src/EventAction.o"
+	@echo "... src/EventAction.i"
+	@echo "... src/EventAction.s"
+	@echo "... src/PrimaryGeneratorAction.o"
+	@echo "... src/PrimaryGeneratorAction.i"
+	@echo "... src/PrimaryGeneratorAction.s"
+	@echo "... src/RunAction.o"
+	@echo "... src/RunAction.i"
+	@echo "... src/RunAction.s"
+	@echo "... src/SensitiveDetector.o"
+	@echo "... src/SensitiveDetector.i"
+	@echo "... src/SensitiveDetector.s"
 .PHONY : help
 
 

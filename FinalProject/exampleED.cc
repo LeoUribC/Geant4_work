@@ -29,7 +29,7 @@
 /// \brief Main program of the ED example
 
 #include "EDDetectorConstruction.hh"
-#include "EDActionInitialization.hh"
+#include "ActionInitialization.hh"
 
 #include "G4RunManager.hh"
 #include "G4UImanager.hh"
@@ -64,7 +64,7 @@ int main(int argc,char** argv)
   runManager->SetUserInitialization(physicsList);
     
   // User action initialization
-  runManager->SetUserInitialization(new EDActionInitialization());
+  runManager->SetUserInitialization(new ActionInitialization());
 
   // Initialize visualization
   //
