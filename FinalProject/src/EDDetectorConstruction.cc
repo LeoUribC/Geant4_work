@@ -69,7 +69,7 @@ G4VPhysicalVolume* EDDetectorConstruction::Construct()
   G4Material* galactic = nistManager->FindOrBuildMaterial("G4_Galactic");
   G4Material* soft = nistManager->FindOrBuildMaterial("G4_TISSUE_SOFT_ICRP");
   G4Material* skeleton = nistManager->FindOrBuildMaterial("G4_B-100_BONE");
-  G4Material* pb = nistManager->FindOrBuildMaterial("G4_WATER");
+  G4Material* pb = nistManager->FindOrBuildMaterial("G4_POLYETHYLENE");
   G4Material* muscle = nistManager->FindOrBuildMaterial("G4_MUSCLE_WITHOUT_SUCROSE");
 
        // There is no need to test if materials were built/found
