@@ -40,7 +40,7 @@
 #include "G4Color.hh"
 #include "G4UnionSolid.hh"
 #include "G4Material.hh"
-
+#include "G4SDManager.hh"
 #include "G4Ellipsoid.hh"
 #include "G4EllipticalTube.hh"
 #include "G4Cons.hh"
@@ -69,7 +69,7 @@ G4VPhysicalVolume* EDDetectorConstruction::Construct()
   G4Material* galactic = nistManager->FindOrBuildMaterial("G4_Galactic");
   G4Material* soft = nistManager->FindOrBuildMaterial("G4_TISSUE_SOFT_ICRP");
   G4Material* skeleton = nistManager->FindOrBuildMaterial("G4_B-100_BONE");
-  G4Material* pb = nistManager->FindOrBuildMaterial("G4_Al");
+  G4Material* pb = nistManager->FindOrBuildMaterial("G4_WATER");
   G4Material* muscle = nistManager->FindOrBuildMaterial("G4_MUSCLE_WITHOUT_SUCROSE");
 
        // There is no need to test if materials were built/found
@@ -465,6 +465,16 @@ G4VPhysicalVolume* EDDetectorConstruction::Construct()
   armBoneVisAtt->SetForceSolid(true);
   armBoneVisAtt->SetVisibility(true);
   logic_arm_bone->SetVisAttributes(armBoneVisAtt);
+
+  G4VSensitiveDetector* trunkDetector = new SensitiveDetector("TrunkSD");
+  //G4SDManager::GetSDMPointer()->AddNewDetector(trunkDetector);
+  logicTrunk->SetSensitiveDetector(trunkDetector);
+  logic_left_lung->SetSensitiveDetector(trunkDetector);
+  logic_right_lung->SetSensitiveDetector(trunkDetector);
+  logicheart->SetSensitiveDetector(trunkDetector);
+  logicstomach->SetSensitiveDetector(trunkDetector);
+  logicliver->SetSensitiveDetector(trunkDetector);
+  logicintestine->SetSensitiveDetector(trunkDetector);
 
 
   

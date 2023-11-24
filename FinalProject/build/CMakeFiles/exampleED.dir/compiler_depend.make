@@ -287,78 +287,14 @@ CMakeFiles/exampleED.dir/exampleED.cc.o: ../exampleED.cc \
   /usr/include/c++/11/bits/parse_numbers.h \
   /usr/include/c++/11/bits/std_mutex.h \
   /usr/include/c++/11/bits/unique_lock.h \
-  ../include/ActionInitialization.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4VUserActionInitialization.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4RunManager.hh \
-  /usr/include/c++/11/list \
-  /usr/include/c++/11/bits/stl_list.h \
-  /usr/include/c++/11/bits/allocated_ptr.h \
-  /usr/include/c++/11/bits/list.tcc \
-  /home/jwprdpr/geant4/include/Geant4/rundefs.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4Event.hh \
-  /home/jwprdpr/geant4/include/Geant4/evtdefs.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4Allocator.hh \
-  /usr/include/c++/11/cstddef \
-  /home/jwprdpr/geant4/include/Geant4/G4AllocatorPool.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4PrimaryVertex.hh \
-  /home/jwprdpr/geant4/include/Geant4/pwdefs.hh \
+  ../include/SensitiveDetector.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4VSensitiveDetector.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4VHit.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4Step.hh \
   /home/jwprdpr/geant4/include/Geant4/G4ThreeVector.hh \
   /home/jwprdpr/geant4/include/Geant4/CLHEP/Vector/ThreeVector.h \
   /home/jwprdpr/geant4/include/Geant4/CLHEP/Utility/defs.h \
   /home/jwprdpr/geant4/include/Geant4/CLHEP/Vector/ThreeVector.icc \
-  /home/jwprdpr/geant4/include/Geant4/G4PrimaryParticle.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4HCofThisEvent.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4VHitsCollection.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4DCofThisEvent.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4VDigiCollection.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4TrajectoryContainer.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4VTrajectory.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4VUserEventInformation.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4Profiler.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4Profiler.icc \
-  /home/jwprdpr/geant4/include/Geant4/PTL/Globals.hh \
-  /home/jwprdpr/geant4/include/Geant4/PTL/Types.hh \
-  /home/jwprdpr/geant4/include/Geant4/PTL/Utility.hh \
-  /usr/include/c++/11/set \
-  /usr/include/c++/11/bits/stl_set.h \
-  /usr/include/c++/11/bits/stl_multiset.h \
-  /home/jwprdpr/geant4/include/Geant4/G4EventManager.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4StackManager.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4UserStackingAction.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4ClassificationOfNewTrack.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4StackedTrack.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4TrackStack.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4SmartTrackStack.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4Track.hh \
-  /home/jwprdpr/geant4/include/Geant4/CLHEP/Units/PhysicalConstants.h \
-  /home/jwprdpr/geant4/include/Geant4/CLHEP/Units/SystemOfUnits.h \
-  /home/jwprdpr/geant4/include/Geant4/trkdefs.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4LogicalVolume.hh \
-  /usr/include/c++/11/memory \
-  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/11/bits/align.h \
-  /usr/include/c++/11/bit \
-  /usr/include/c++/11/bits/shared_ptr.h \
-  /usr/include/c++/11/bits/shared_ptr_base.h \
-  /usr/include/c++/11/ext/concurrence.h \
-  /usr/include/c++/11/bits/shared_ptr_atomic.h \
-  /usr/include/c++/11/bits/atomic_base.h \
-  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
-  /usr/include/c++/11/backward/auto_ptr.h \
-  /usr/include/c++/11/pstl/glue_memory_defs.h \
-  /home/jwprdpr/geant4/include/Geant4/G4Region.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4GeomSplitter.hh \
-  /home/jwprdpr/geant4/include/Geant4/geomwdefs.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4AutoLock.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4Threading.hh \
-  /usr/include/c++/11/condition_variable \
-  /usr/include/c++/11/future \
-  /usr/include/c++/11/atomic \
-  /usr/include/c++/11/bits/atomic_futex.h \
-  /usr/include/c++/11/bits/std_thread.h \
-  /usr/include/c++/11/thread \
-  /usr/include/c++/11/bits/this_thread_sleep.h \
-  /home/jwprdpr/geant4/include/Geant4/G4Region.icc \
   /home/jwprdpr/geant4/include/Geant4/G4VPhysicalVolume.hh \
   /home/jwprdpr/geant4/include/Geant4/geomdefs.hh \
   /home/jwprdpr/geant4/include/Geant4/G4RotationMatrix.hh \
@@ -371,30 +307,41 @@ CMakeFiles/exampleED.dir/exampleED.cc.o: ../exampleED.cc \
   /home/jwprdpr/geant4/include/Geant4/CLHEP/Vector/RotationInterfaces.icc \
   /home/jwprdpr/geant4/include/Geant4/CLHEP/Vector/RotationX.h \
   /home/jwprdpr/geant4/include/Geant4/CLHEP/Vector/RotationX.icc \
+  /home/jwprdpr/geant4/include/Geant4/CLHEP/Units/PhysicalConstants.h \
+  /home/jwprdpr/geant4/include/Geant4/CLHEP/Units/SystemOfUnits.h \
   /home/jwprdpr/geant4/include/Geant4/CLHEP/Vector/RotationY.h \
   /home/jwprdpr/geant4/include/Geant4/CLHEP/Vector/RotationY.icc \
   /home/jwprdpr/geant4/include/Geant4/CLHEP/Vector/RotationZ.h \
   /home/jwprdpr/geant4/include/Geant4/CLHEP/Vector/RotationZ.icc \
   /home/jwprdpr/geant4/include/Geant4/CLHEP/Vector/Rotation.icc \
+  /home/jwprdpr/geant4/include/Geant4/G4GeomSplitter.hh \
+  /home/jwprdpr/geant4/include/Geant4/geomwdefs.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4AutoLock.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4Threading.hh \
+  /usr/include/c++/11/condition_variable \
+  /usr/include/c++/11/bits/shared_ptr.h \
+  /usr/include/c++/11/bits/shared_ptr_base.h \
+  /usr/include/c++/11/bits/allocated_ptr.h \
+  /usr/include/c++/11/ext/concurrence.h \
+  /usr/include/c++/11/future \
+  /usr/include/c++/11/atomic \
+  /usr/include/c++/11/bits/atomic_base.h \
+  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/11/bits/atomic_futex.h \
+  /usr/include/c++/11/bits/std_thread.h \
+  /usr/include/c++/11/thread \
+  /usr/include/c++/11/bits/this_thread_sleep.h \
   /home/jwprdpr/geant4/include/Geant4/G4VPhysicalVolume.icc \
-  /home/jwprdpr/geant4/include/Geant4/G4LogicalVolume.icc \
-  /home/jwprdpr/geant4/include/Geant4/G4DynamicParticle.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4ParticleDefinition.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4PDefManager.hh \
-  /usr/include/c++/11/stdlib.h \
-  /home/jwprdpr/geant4/include/Geant4/G4ParticleDefinition.icc \
-  /home/jwprdpr/geant4/include/Geant4/G4LorentzVector.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4Log.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4ParticleMomentum.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4ElectronOccupancy.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4DynamicParticle.icc \
-  /home/jwprdpr/geant4/include/Geant4/G4TrackStatus.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4StepPoint.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4Allocator.hh \
+  /usr/include/c++/11/cstddef \
+  /home/jwprdpr/geant4/include/Geant4/G4AllocatorPool.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4SteppingControl.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4StepStatus.hh \
   /home/jwprdpr/geant4/include/Geant4/G4TouchableHandle.hh \
   /home/jwprdpr/geant4/include/Geant4/G4VTouchable.hh \
   /home/jwprdpr/geant4/include/Geant4/G4VTouchable.icc \
   /home/jwprdpr/geant4/include/Geant4/G4ReferenceCountedHandle.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4VUserTrackInformation.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4PhysicsModelCatalog.hh \
   /home/jwprdpr/geant4/include/Geant4/G4Material.hh \
   /home/jwprdpr/geant4/include/Geant4/G4Element.hh \
   /home/jwprdpr/geant4/include/Geant4/G4Isotope.hh \
@@ -411,6 +358,7 @@ CMakeFiles/exampleED.dir/exampleED.cc.o: ../exampleED.cc \
   /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
   /usr/include/c++/11/bits/fstream.tcc \
+  /home/jwprdpr/geant4/include/Geant4/G4Log.hh \
   /home/jwprdpr/geant4/include/Geant4/G4PhysicsVectorType.hh \
   /home/jwprdpr/geant4/include/Geant4/G4PhysicsVector.icc \
   /home/jwprdpr/geant4/include/Geant4/G4IonisParamMat.hh \
@@ -421,14 +369,92 @@ CMakeFiles/exampleED.dir/exampleED.cc.o: ../exampleED.cc \
   /home/jwprdpr/geant4/include/Geant4/G4DataVector.icc \
   /usr/include/assert.h \
   /home/jwprdpr/geant4/include/Geant4/G4MaterialTable.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4Track.icc \
-  /home/jwprdpr/geant4/include/Geant4/G4Step.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4StepPoint.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4SteppingControl.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4StepStatus.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4LogicalVolume.hh \
+  /usr/include/c++/11/memory \
+  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/11/bits/align.h \
+  /usr/include/c++/11/bit \
+  /usr/include/c++/11/bits/shared_ptr_atomic.h \
+  /usr/include/c++/11/backward/auto_ptr.h \
+  /usr/include/c++/11/pstl/glue_memory_defs.h \
+  /home/jwprdpr/geant4/include/Geant4/G4Region.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4Region.icc \
+  /home/jwprdpr/geant4/include/Geant4/G4LogicalVolume.icc \
   /home/jwprdpr/geant4/include/Geant4/G4StepPoint.icc \
   /home/jwprdpr/geant4/include/Geant4/G4TrackVector.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4Profiler.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4Profiler.icc \
+  /home/jwprdpr/geant4/include/Geant4/PTL/Globals.hh \
+  /home/jwprdpr/geant4/include/Geant4/PTL/Types.hh \
+  /home/jwprdpr/geant4/include/Geant4/PTL/Utility.hh \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
   /home/jwprdpr/geant4/include/Geant4/G4Step.icc \
+  /home/jwprdpr/geant4/include/Geant4/G4Track.hh \
+  /home/jwprdpr/geant4/include/Geant4/trkdefs.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4DynamicParticle.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4ParticleDefinition.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4PDefManager.hh \
+  /usr/include/c++/11/stdlib.h \
+  /home/jwprdpr/geant4/include/Geant4/pwdefs.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4ParticleDefinition.icc \
+  /home/jwprdpr/geant4/include/Geant4/G4LorentzVector.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4ParticleMomentum.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4ElectronOccupancy.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4DynamicParticle.icc \
+  /home/jwprdpr/geant4/include/Geant4/G4TrackStatus.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4VUserTrackInformation.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4PhysicsModelCatalog.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4Track.icc \
+  /home/jwprdpr/geant4/include/Geant4/G4HCofThisEvent.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4VHitsCollection.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4VReadOutGeometry.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4SensitiveVolumeList.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4TouchableHistory.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4NavigationHistory.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4AffineTransform.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4Transform3D.hh \
+  /home/jwprdpr/geant4/include/Geant4/CLHEP/Geometry/Transform3D.h \
+  /home/jwprdpr/geant4/include/Geant4/CLHEP/Geometry/Transform3D.icc \
+  /home/jwprdpr/geant4/include/Geant4/CLHEP/Geometry/Point3D.h \
+  /home/jwprdpr/geant4/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
+  /home/jwprdpr/geant4/include/Geant4/CLHEP/Geometry/Vector3D.h \
+  /home/jwprdpr/geant4/include/Geant4/CLHEP/Geometry/Normal3D.h \
+  /home/jwprdpr/geant4/include/Geant4/G4AffineTransform.icc \
+  /home/jwprdpr/geant4/include/Geant4/G4NavigationLevel.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4NavigationLevelRep.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4NavigationLevelRep.icc \
+  /home/jwprdpr/geant4/include/Geant4/G4NavigationLevel.icc \
+  /home/jwprdpr/geant4/include/Geant4/G4NavigationHistoryPool.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4NavigationHistory.icc \
+  /home/jwprdpr/geant4/include/Geant4/G4TouchableHistory.icc \
+  /home/jwprdpr/geant4/include/Geant4/G4CollectionNameVector.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4VSDFilter.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4HCofThisEvent.hh \
+  ../include/ActionInitialization.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4VUserActionInitialization.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4RunManager.hh \
+  /usr/include/c++/11/list \
+  /usr/include/c++/11/bits/stl_list.h \
+  /usr/include/c++/11/bits/list.tcc \
+  /home/jwprdpr/geant4/include/Geant4/rundefs.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4Event.hh \
+  /home/jwprdpr/geant4/include/Geant4/evtdefs.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4PrimaryVertex.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4PrimaryParticle.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4DCofThisEvent.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4VDigiCollection.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4TrajectoryContainer.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4VTrajectory.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4VUserEventInformation.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4EventManager.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4StackManager.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4UserStackingAction.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4ClassificationOfNewTrack.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4StackedTrack.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4TrackStack.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4SmartTrackStack.hh \
   /home/jwprdpr/geant4/include/Geant4/G4PrimaryTransformer.hh \
   /home/jwprdpr/geant4/include/Geant4/G4ParticleTable.hh \
   /home/jwprdpr/geant4/include/Geant4/G4ParticleTableIterator.hh \
@@ -483,29 +509,11 @@ CMakeFiles/exampleED.dir/exampleED.cc.o: ../exampleED.cc \
   /home/jwprdpr/geant4/include/Geant4/CLHEP/Random/RandStudentT.h \
   /home/jwprdpr/geant4/include/Geant4/CLHEP/Random/RandStudentT.icc \
   /home/jwprdpr/geant4/include/Geant4/G4Navigator.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4AffineTransform.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4Transform3D.hh \
-  /home/jwprdpr/geant4/include/Geant4/CLHEP/Geometry/Transform3D.h \
-  /home/jwprdpr/geant4/include/Geant4/CLHEP/Geometry/Transform3D.icc \
-  /home/jwprdpr/geant4/include/Geant4/CLHEP/Geometry/Point3D.h \
-  /home/jwprdpr/geant4/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
-  /home/jwprdpr/geant4/include/Geant4/CLHEP/Geometry/Vector3D.h \
-  /home/jwprdpr/geant4/include/Geant4/CLHEP/Geometry/Normal3D.h \
-  /home/jwprdpr/geant4/include/Geant4/G4AffineTransform.icc \
   /home/jwprdpr/geant4/include/Geant4/G4GRSVolume.hh \
   /home/jwprdpr/geant4/include/Geant4/G4GRSVolume.icc \
   /home/jwprdpr/geant4/include/Geant4/G4GRSSolid.hh \
   /home/jwprdpr/geant4/include/Geant4/G4GRSSolid.icc \
   /home/jwprdpr/geant4/include/Geant4/G4TouchableHistoryHandle.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4TouchableHistory.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4NavigationHistory.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4NavigationLevel.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4NavigationLevelRep.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4NavigationLevelRep.icc \
-  /home/jwprdpr/geant4/include/Geant4/G4NavigationLevel.icc \
-  /home/jwprdpr/geant4/include/Geant4/G4NavigationHistoryPool.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4NavigationHistory.icc \
-  /home/jwprdpr/geant4/include/Geant4/G4TouchableHistory.icc \
   /home/jwprdpr/geant4/include/Geant4/G4NormalNavigation.hh \
   /home/jwprdpr/geant4/include/Geant4/G4VSolid.hh \
   /home/jwprdpr/geant4/include/Geant4/G4VSolid.icc \
@@ -728,7 +736,6 @@ CMakeFiles/exampleED.dir/exampleED.cc.o: ../exampleED.cc \
   /home/jwprdpr/geant4/include/Geant4/G4HitFilterFactories.hh \
   /home/jwprdpr/geant4/include/Geant4/G4VFilter.hh \
   /home/jwprdpr/geant4/include/Geant4/G4VModelFactory.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4VHit.hh \
   /home/jwprdpr/geant4/include/Geant4/G4DigiFilterFactories.hh \
   /home/jwprdpr/geant4/include/Geant4/G4VDigi.hh \
   /home/jwprdpr/geant4/include/Geant4/G4TrajectoryFilterFactories.hh \
@@ -1381,32 +1388,17 @@ CMakeFiles/exampleED.dir/src/EDDetectorConstruction.cc.o: ../src/EDDetectorConst
   /usr/include/c++/11/bits/parse_numbers.h \
   /usr/include/c++/11/bits/std_mutex.h \
   /usr/include/c++/11/bits/unique_lock.h \
-  /home/jwprdpr/geant4/include/Geant4/G4Sphere.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4GeomTypes.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4GeomConfig.hh \
-  /home/jwprdpr/geant4/include/Geant4/CLHEP/Units/PhysicalConstants.h \
-  /home/jwprdpr/geant4/include/Geant4/CLHEP/Units/SystemOfUnits.h \
-  /home/jwprdpr/geant4/include/Geant4/G4CSGSolid.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4VSolid.hh \
-  /home/jwprdpr/geant4/include/Geant4/geomdefs.hh \
+  ../include/SensitiveDetector.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4VSensitiveDetector.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4VHit.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4Step.hh \
   /home/jwprdpr/geant4/include/Geant4/G4ThreeVector.hh \
   /home/jwprdpr/geant4/include/Geant4/CLHEP/Vector/ThreeVector.h \
   /home/jwprdpr/geant4/include/Geant4/CLHEP/Utility/defs.h \
   /home/jwprdpr/geant4/include/Geant4/CLHEP/Vector/ThreeVector.icc \
-  /home/jwprdpr/geant4/include/Geant4/G4VSolid.icc \
-  /home/jwprdpr/geant4/include/Geant4/G4Polyhedron.hh \
-  /home/jwprdpr/geant4/include/Geant4/HepPolyhedron.h \
-  /home/jwprdpr/geant4/include/Geant4/G4TwoVector.hh \
-  /home/jwprdpr/geant4/include/Geant4/CLHEP/Vector/TwoVector.h \
-  /home/jwprdpr/geant4/include/Geant4/CLHEP/Vector/TwoVector.icc \
-  /home/jwprdpr/geant4/include/Geant4/G4Point3D.hh \
-  /home/jwprdpr/geant4/include/Geant4/CLHEP/Geometry/Point3D.h \
-  /home/jwprdpr/geant4/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
-  /home/jwprdpr/geant4/include/Geant4/G4Normal3D.hh \
-  /home/jwprdpr/geant4/include/Geant4/CLHEP/Geometry/Normal3D.h \
-  /home/jwprdpr/geant4/include/Geant4/G4Transform3D.hh \
-  /home/jwprdpr/geant4/include/Geant4/CLHEP/Geometry/Transform3D.h \
-  /home/jwprdpr/geant4/include/Geant4/CLHEP/Geometry/Transform3D.icc \
+  /home/jwprdpr/geant4/include/Geant4/G4VPhysicalVolume.hh \
+  /home/jwprdpr/geant4/include/Geant4/geomdefs.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4RotationMatrix.hh \
   /home/jwprdpr/geant4/include/Geant4/CLHEP/Vector/Rotation.h \
   /home/jwprdpr/geant4/include/Geant4/CLHEP/Vector/RotationInterfaces.h \
   /home/jwprdpr/geant4/include/Geant4/CLHEP/Vector/LorentzVector.h \
@@ -1416,16 +1408,41 @@ CMakeFiles/exampleED.dir/src/EDDetectorConstruction.cc.o: ../src/EDDetectorConst
   /home/jwprdpr/geant4/include/Geant4/CLHEP/Vector/RotationInterfaces.icc \
   /home/jwprdpr/geant4/include/Geant4/CLHEP/Vector/RotationX.h \
   /home/jwprdpr/geant4/include/Geant4/CLHEP/Vector/RotationX.icc \
+  /home/jwprdpr/geant4/include/Geant4/CLHEP/Units/PhysicalConstants.h \
+  /home/jwprdpr/geant4/include/Geant4/CLHEP/Units/SystemOfUnits.h \
   /home/jwprdpr/geant4/include/Geant4/CLHEP/Vector/RotationY.h \
   /home/jwprdpr/geant4/include/Geant4/CLHEP/Vector/RotationY.icc \
   /home/jwprdpr/geant4/include/Geant4/CLHEP/Vector/RotationZ.h \
   /home/jwprdpr/geant4/include/Geant4/CLHEP/Vector/RotationZ.icc \
   /home/jwprdpr/geant4/include/Geant4/CLHEP/Vector/Rotation.icc \
-  /home/jwprdpr/geant4/include/Geant4/CLHEP/Geometry/Vector3D.h \
-  /home/jwprdpr/geant4/include/Geant4/G4Visible.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4Visible.icc \
-  /home/jwprdpr/geant4/include/Geant4/G4Sphere.icc \
-  /home/jwprdpr/geant4/include/Geant4/G4NistManager.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4GeomSplitter.hh \
+  /home/jwprdpr/geant4/include/Geant4/geomwdefs.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4AutoLock.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4Threading.hh \
+  /usr/include/c++/11/condition_variable \
+  /usr/include/c++/11/bits/shared_ptr.h \
+  /usr/include/c++/11/bits/shared_ptr_base.h \
+  /usr/include/c++/11/bits/allocated_ptr.h \
+  /usr/include/c++/11/ext/concurrence.h \
+  /usr/include/c++/11/future \
+  /usr/include/c++/11/atomic \
+  /usr/include/c++/11/bits/atomic_base.h \
+  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/11/bits/atomic_futex.h \
+  /usr/include/c++/11/bits/std_thread.h \
+  /usr/include/c++/11/thread \
+  /usr/include/c++/11/bits/this_thread_sleep.h \
+  /home/jwprdpr/geant4/include/Geant4/G4VPhysicalVolume.icc \
+  /home/jwprdpr/geant4/include/Geant4/G4StepPoint.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4Allocator.hh \
+  /usr/include/c++/11/cstddef \
+  /home/jwprdpr/geant4/include/Geant4/G4AllocatorPool.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4SteppingControl.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4StepStatus.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4TouchableHandle.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4VTouchable.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4VTouchable.icc \
+  /home/jwprdpr/geant4/include/Geant4/G4ReferenceCountedHandle.hh \
   /home/jwprdpr/geant4/include/Geant4/G4Material.hh \
   /home/jwprdpr/geant4/include/Geant4/G4Element.hh \
   /home/jwprdpr/geant4/include/Geant4/G4Isotope.hh \
@@ -1453,6 +1470,86 @@ CMakeFiles/exampleED.dir/src/EDDetectorConstruction.cc.o: ../src/EDDetectorConst
   /home/jwprdpr/geant4/include/Geant4/G4DataVector.icc \
   /usr/include/assert.h \
   /home/jwprdpr/geant4/include/Geant4/G4MaterialTable.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4LogicalVolume.hh \
+  /usr/include/c++/11/memory \
+  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/11/bits/align.h \
+  /usr/include/c++/11/bit \
+  /usr/include/c++/11/bits/shared_ptr_atomic.h \
+  /usr/include/c++/11/backward/auto_ptr.h \
+  /usr/include/c++/11/pstl/glue_memory_defs.h \
+  /home/jwprdpr/geant4/include/Geant4/G4Region.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4Region.icc \
+  /home/jwprdpr/geant4/include/Geant4/G4LogicalVolume.icc \
+  /home/jwprdpr/geant4/include/Geant4/G4StepPoint.icc \
+  /home/jwprdpr/geant4/include/Geant4/G4TrackVector.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4Profiler.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4Profiler.icc \
+  /home/jwprdpr/geant4/include/Geant4/PTL/Globals.hh \
+  /home/jwprdpr/geant4/include/Geant4/PTL/Types.hh \
+  /home/jwprdpr/geant4/include/Geant4/PTL/Utility.hh \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /home/jwprdpr/geant4/include/Geant4/G4Step.icc \
+  /home/jwprdpr/geant4/include/Geant4/G4Track.hh \
+  /home/jwprdpr/geant4/include/Geant4/trkdefs.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4DynamicParticle.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4ParticleDefinition.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4PDefManager.hh \
+  /usr/include/c++/11/stdlib.h \
+  /home/jwprdpr/geant4/include/Geant4/pwdefs.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4ParticleDefinition.icc \
+  /home/jwprdpr/geant4/include/Geant4/G4LorentzVector.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4ParticleMomentum.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4ElectronOccupancy.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4DynamicParticle.icc \
+  /home/jwprdpr/geant4/include/Geant4/G4TrackStatus.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4VUserTrackInformation.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4PhysicsModelCatalog.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4Track.icc \
+  /home/jwprdpr/geant4/include/Geant4/G4HCofThisEvent.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4VHitsCollection.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4VReadOutGeometry.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4SensitiveVolumeList.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4TouchableHistory.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4NavigationHistory.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4AffineTransform.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4Transform3D.hh \
+  /home/jwprdpr/geant4/include/Geant4/CLHEP/Geometry/Transform3D.h \
+  /home/jwprdpr/geant4/include/Geant4/CLHEP/Geometry/Transform3D.icc \
+  /home/jwprdpr/geant4/include/Geant4/CLHEP/Geometry/Point3D.h \
+  /home/jwprdpr/geant4/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
+  /home/jwprdpr/geant4/include/Geant4/CLHEP/Geometry/Vector3D.h \
+  /home/jwprdpr/geant4/include/Geant4/CLHEP/Geometry/Normal3D.h \
+  /home/jwprdpr/geant4/include/Geant4/G4AffineTransform.icc \
+  /home/jwprdpr/geant4/include/Geant4/G4NavigationLevel.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4NavigationLevelRep.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4NavigationLevelRep.icc \
+  /home/jwprdpr/geant4/include/Geant4/G4NavigationLevel.icc \
+  /home/jwprdpr/geant4/include/Geant4/G4NavigationHistoryPool.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4NavigationHistory.icc \
+  /home/jwprdpr/geant4/include/Geant4/G4TouchableHistory.icc \
+  /home/jwprdpr/geant4/include/Geant4/G4CollectionNameVector.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4VSDFilter.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4HCofThisEvent.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4Sphere.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4GeomTypes.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4GeomConfig.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4CSGSolid.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4VSolid.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4VSolid.icc \
+  /home/jwprdpr/geant4/include/Geant4/G4Polyhedron.hh \
+  /home/jwprdpr/geant4/include/Geant4/HepPolyhedron.h \
+  /home/jwprdpr/geant4/include/Geant4/G4TwoVector.hh \
+  /home/jwprdpr/geant4/include/Geant4/CLHEP/Vector/TwoVector.h \
+  /home/jwprdpr/geant4/include/Geant4/CLHEP/Vector/TwoVector.icc \
+  /home/jwprdpr/geant4/include/Geant4/G4Point3D.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4Normal3D.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4Visible.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4Visible.icc \
+  /home/jwprdpr/geant4/include/Geant4/G4Sphere.icc \
+  /home/jwprdpr/geant4/include/Geant4/G4NistManager.hh \
   /home/jwprdpr/geant4/include/Geant4/G4NistElementBuilder.hh \
   /home/jwprdpr/geant4/include/Geant4/G4NistMaterialBuilder.hh \
   /home/jwprdpr/geant4/include/Geant4/G4ICRU90StoppingData.hh \
@@ -1463,36 +1560,6 @@ CMakeFiles/exampleED.dir/src/EDDetectorConstruction.cc.o: ../src/EDDetectorConst
   /home/jwprdpr/geant4/include/Geant4/G4Tubs.hh \
   /home/jwprdpr/geant4/include/Geant4/G4Tubs.icc \
   /home/jwprdpr/geant4/include/Geant4/G4LogicalVolume.hh \
-  /usr/include/c++/11/memory \
-  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/11/bits/align.h \
-  /usr/include/c++/11/bit \
-  /usr/include/c++/11/bits/shared_ptr.h \
-  /usr/include/c++/11/bits/shared_ptr_base.h \
-  /usr/include/c++/11/bits/allocated_ptr.h \
-  /usr/include/c++/11/ext/concurrence.h \
-  /usr/include/c++/11/bits/shared_ptr_atomic.h \
-  /usr/include/c++/11/bits/atomic_base.h \
-  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
-  /usr/include/c++/11/backward/auto_ptr.h \
-  /usr/include/c++/11/pstl/glue_memory_defs.h \
-  /home/jwprdpr/geant4/include/Geant4/G4Region.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4GeomSplitter.hh \
-  /home/jwprdpr/geant4/include/Geant4/geomwdefs.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4AutoLock.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4Threading.hh \
-  /usr/include/c++/11/condition_variable \
-  /usr/include/c++/11/future \
-  /usr/include/c++/11/atomic \
-  /usr/include/c++/11/bits/atomic_futex.h \
-  /usr/include/c++/11/bits/std_thread.h \
-  /usr/include/c++/11/thread \
-  /usr/include/c++/11/bits/this_thread_sleep.h \
-  /home/jwprdpr/geant4/include/Geant4/G4Region.icc \
-  /home/jwprdpr/geant4/include/Geant4/G4VPhysicalVolume.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4RotationMatrix.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4VPhysicalVolume.icc \
-  /home/jwprdpr/geant4/include/Geant4/G4LogicalVolume.icc \
   /home/jwprdpr/geant4/include/Geant4/G4PVPlacement.hh \
   /home/jwprdpr/geant4/include/Geant4/G4SystemOfUnits.hh \
   /home/jwprdpr/geant4/include/Geant4/G4VisAttributes.hh \
@@ -1504,10 +1571,12 @@ CMakeFiles/exampleED.dir/src/EDDetectorConstruction.cc.o: ../src/EDDetectorConst
   /home/jwprdpr/geant4/include/Geant4/G4UnionSolid.hh \
   /home/jwprdpr/geant4/include/Geant4/G4BooleanSolid.hh \
   /home/jwprdpr/geant4/include/Geant4/G4DisplacedSolid.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4AffineTransform.hh \
-  /home/jwprdpr/geant4/include/Geant4/G4AffineTransform.icc \
   /home/jwprdpr/geant4/include/Geant4/G4BooleanSolid.icc \
   /home/jwprdpr/geant4/include/Geant4/G4Material.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4SDManager.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4SDStructure.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4VSensitiveDetector.hh \
+  /home/jwprdpr/geant4/include/Geant4/G4HCtable.hh \
   /home/jwprdpr/geant4/include/Geant4/G4Ellipsoid.hh \
   /home/jwprdpr/geant4/include/Geant4/G4Ellipsoid.icc \
   /home/jwprdpr/geant4/include/Geant4/G4EllipticalTube.hh \
@@ -3943,10 +4012,6 @@ CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.o: ../src/SensitiveDetector.cc
 
 /home/jwprdpr/geant4/include/Geant4/G4RootAnalysisManager.hh:
 
-/home/jwprdpr/geant4/include/Geant4/G4HCtable.hh:
-
-/home/jwprdpr/geant4/include/Geant4/G4VSensitiveDetector.hh:
-
 /home/jwprdpr/geant4/include/Geant4/G4GenericFileManager.hh:
 
 /home/jwprdpr/geant4/include/Geant4/G4GenericAnalysisManager.icc:
@@ -4009,6 +4074,8 @@ CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.o: ../src/SensitiveDetector.cc
 
 /home/jwprdpr/geant4/include/Geant4/G4EllipticalTube.hh:
 
+/home/jwprdpr/geant4/include/Geant4/G4HCtable.hh:
+
 /home/jwprdpr/geant4/include/Geant4/G4BooleanSolid.icc:
 
 /home/jwprdpr/geant4/include/Geant4/G4ICRU90StoppingData.hh:
@@ -4048,10 +4115,6 @@ CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.o: ../src/SensitiveDetector.cc
 /home/jwprdpr/geant4/include/Geant4/G4HepRepFile.hh:
 
 /home/jwprdpr/geant4/include/Geant4/G4DAWNFILE.hh:
-
-/home/jwprdpr/geant4/include/Geant4/G4ToolsSGOffscreen.hh:
-
-/home/jwprdpr/geant4/include/Geant4/G4VHit.hh:
 
 /home/jwprdpr/geant4/include/Geant4/G4VModelFactory.hh:
 
@@ -4211,10 +4274,6 @@ CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.o: ../src/SensitiveDetector.cc
 
 /usr/include/c++/11/iterator:
 
-/home/jwprdpr/geant4/include/Geant4/G4CollectionNameVector.hh:
-
-/usr/include/c++/11/bitset:
-
 /usr/include/c++/11/regex:
 
 /usr/include/x86_64-linux-gnu/bits/ss_flags.h:
@@ -4333,11 +4392,23 @@ CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.o: ../src/SensitiveDetector.cc
 
 /home/jwprdpr/geant4/include/Geant4/G4ProcessType.hh:
 
+/home/jwprdpr/geant4/include/Geant4/G4ParticleChange.icc:
+
+/home/jwprdpr/geant4/include/Geant4/G4ParticleChange.hh:
+
+/home/jwprdpr/geant4/include/Geant4/G4VParticleChange.hh:
+
+/home/jwprdpr/geant4/include/Geant4/G4PhysicsTable.icc:
+
 /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
 
 /home/jwprdpr/geant4/include/Geant4/G4UImessenger.hh:
 
 /usr/include/string.h:
+
+/home/jwprdpr/geant4/include/Geant4/G4GPILSelection.hh:
+
+/home/jwprdpr/geant4/include/Geant4/G4BlockingList.icc:
 
 /usr/include/c++/11/bits/erase_if.h:
 
@@ -4376,10 +4447,6 @@ CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.o: ../src/SensitiveDetector.cc
 /usr/include/c++/11/climits:
 
 /usr/include/c++/11/new:
-
-/home/jwprdpr/geant4/include/Geant4/G4VSDFilter.hh:
-
-/usr/include/c++/11/bits/sstream.tcc:
 
 /usr/include/c++/11/tr1/beta_function.tcc:
 
@@ -4423,11 +4490,11 @@ CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.o: ../src/SensitiveDetector.cc
 
 /usr/include/c++/11/bits/this_thread_sleep.h:
 
-/home/jwprdpr/geant4/include/Geant4/CLHEP/Random/RandGaussZiggurat.h:
-
 /home/jwprdpr/geant4/include/Geant4/tools/realloc:
 
 /home/jwprdpr/geant4/include/Geant4/CLHEP/Geometry/BasicVector3D.h:
+
+/home/jwprdpr/geant4/include/Geant4/CLHEP/Random/RandGaussZiggurat.h:
 
 /home/jwprdpr/geant4/include/Geant4/G4Cons.icc:
 
@@ -4602,6 +4669,10 @@ CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.o: ../src/SensitiveDetector.cc
 /home/jwprdpr/geant4/include/Geant4/G4UIExecutive.hh:
 
 /home/jwprdpr/geant4/include/Geant4/CLHEP/Vector/Rotation.icc:
+
+/home/jwprdpr/geant4/include/Geant4/G4ToolsSGOffscreen.hh:
+
+/home/jwprdpr/geant4/include/Geant4/G4VHit.hh:
 
 /home/jwprdpr/geant4/include/Geant4/G4VTHnFileManager.hh:
 
@@ -4931,8 +5002,6 @@ CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.o: ../src/SensitiveDetector.cc
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
-/home/jwprdpr/geant4/include/Geant4/G4ParticleChange.icc:
-
 /usr/include/x86_64-linux-gnu/bits/signal_ext.h:
 
 /usr/include/x86_64-linux-gnu/bits/types.h:
@@ -4944,6 +5013,12 @@ CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.o: ../src/SensitiveDetector.cc
 /home/jwprdpr/geant4/include/Geant4/CLHEP/Random/RandBinomial.icc:
 
 /usr/include/c++/11/bits/basic_string.h:
+
+/home/jwprdpr/geant4/include/Geant4/G4THnMessenger.hh:
+
+/home/jwprdpr/geant4/include/Geant4/G4ForceCondition.hh:
+
+/usr/include/c++/11/bits/shared_ptr_base.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
@@ -5151,43 +5226,17 @@ CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.o: ../src/SensitiveDetector.cc
 
 /usr/include/c++/11/bits/parse_numbers.h:
 
-/home/jwprdpr/geant4/include/Geant4/G4ParticleChange.hh:
+/home/jwprdpr/geant4/include/Geant4/G4VSensitiveDetector.hh:
 
-/usr/include/c++/11/bits/shared_ptr_atomic.h:
+/home/jwprdpr/geant4/include/Geant4/G4Step.hh:
 
-/usr/include/c++/11/list:
+/home/jwprdpr/geant4/include/Geant4/G4PhysicsVectorType.hh:
 
-/usr/include/math.h:
+/usr/include/signal.h:
 
-/usr/include/c++/11/bits/charconv.h:
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/include/c++/11/bits/exception_ptr.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
-
-/home/jwprdpr/geant4/include/Geant4/G4VSolid.hh:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
-
-/usr/include/c++/11/bits/list.tcc:
-
-/home/jwprdpr/geant4/include/Geant4/G4SmartVoxelProxy.icc:
-
-/home/jwprdpr/geant4/include/Geant4/rundefs.hh:
-
-/home/jwprdpr/geant4/include/Geant4/G4Normal3D.hh:
-
-/home/jwprdpr/geant4/include/Geant4/G4TrackVector.hh:
-
-/home/jwprdpr/geant4/include/Geant4/G4AllocatorPool.hh:
-
-/home/jwprdpr/geant4/include/Geant4/pwdefs.hh:
-
-/home/jwprdpr/geant4/include/Geant4/G4PrimaryParticle.hh:
-
-/usr/include/c++/11/bits/stl_set.h:
+/home/jwprdpr/geant4/include/Geant4/CLHEP/Random/RandGauss.h:
 
 /home/jwprdpr/geant4/include/Geant4/G4ThreeVector.hh:
 
@@ -5201,132 +5250,6 @@ CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.o: ../src/SensitiveDetector.cc
 
 /home/jwprdpr/geant4/include/Geant4/CLHEP/Geometry/Normal3D.h:
 
-/home/jwprdpr/geant4/include/Geant4/G4HCofThisEvent.hh:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-/home/jwprdpr/geant4/include/Geant4/PTL/Utility.hh:
-
-/home/jwprdpr/geant4/include/Geant4/G4DCofThisEvent.hh:
-
-/usr/include/c++/11/bits/nested_exception.h:
-
-/home/jwprdpr/geant4/include/Geant4/G4VDigiCollection.hh:
-
-/home/jwprdpr/geant4/include/Geant4/G4TrajectoryContainer.hh:
-
-/home/jwprdpr/geant4/include/Geant4/G4TrackingManager.hh:
-
-/usr/include/x86_64-linux-gnu/bits/signum-generic.h:
-
-/home/jwprdpr/geant4/include/Geant4/G4Profiler.hh:
-
-/home/jwprdpr/geant4/include/Geant4/G4Vector3D.hh:
-
-/home/jwprdpr/geant4/include/Geant4/G4Profiler.icc:
-
-/home/jwprdpr/geant4/include/Geant4/PTL/Globals.hh:
-
-/home/jwprdpr/geant4/include/Geant4/tools/stype:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
-/usr/include/c++/11/set:
-
-/home/jwprdpr/geant4/include/Geant4/G4VisExecutive.icc:
-
-/usr/include/c++/11/bits/stl_multiset.h:
-
-/home/jwprdpr/geant4/include/Geant4/G4EventManager.hh:
-
-/home/jwprdpr/geant4/include/Geant4/G4Cons.hh:
-
-/home/jwprdpr/geant4/include/Geant4/G4OrderedTable.hh:
-
-/home/jwprdpr/geant4/include/Geant4/G4PrimaryVertex.hh:
-
-/usr/include/c++/11/type_traits:
-
-/home/jwprdpr/geant4/include/Geant4/G4StackManager.hh:
-
-/home/jwprdpr/geant4/include/Geant4/G4UserStackingAction.hh:
-
-/usr/include/c++/11/functional:
-
-/home/jwprdpr/geant4/include/Geant4/G4ClassificationOfNewTrack.hh:
-
-/home/jwprdpr/geant4/include/Geant4/G4THnToolsManager.hh:
-
-/home/jwprdpr/geant4/include/Geant4/G4ParticleTable.icc:
-
-/home/jwprdpr/geant4/include/Geant4/CLHEP/Random/RandChiSquare.icc:
-
-/usr/include/c++/11/iosfwd:
-
-/home/jwprdpr/geant4/include/Geant4/G4ParameterisedNavigation.icc:
-
-/home/jwprdpr/geant4/include/Geant4/G4StackedTrack.hh:
-
-/home/jwprdpr/geant4/include/Geant4/tools/histo/b1:
-
-/home/jwprdpr/geant4/include/Geant4/CLHEP/Random/RandLandau.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
-
-/home/jwprdpr/geant4/include/Geant4/G4TrackStack.hh:
-
-/home/jwprdpr/geant4/include/Geant4/G4PhysicsListOrderingParameter.hh:
-
-/home/jwprdpr/geant4/include/Geant4/G4Track.hh:
-
-/home/jwprdpr/geant4/include/Geant4/CLHEP/Units/PhysicalConstants.h:
-
-/home/jwprdpr/geant4/include/Geant4/G4Polycone.icc:
-
-/home/jwprdpr/geant4/include/Geant4/CLHEP/Units/SystemOfUnits.h:
-
-/home/jwprdpr/geant4/include/Geant4/trkdefs.hh:
-
-/home/jwprdpr/geant4/include/Geant4/G4TP1ToolsManager.hh:
-
-/usr/include/c++/11/bits/regex_compiler.tcc:
-
-/home/jwprdpr/geant4/include/Geant4/CLHEP/Utility/memory.h:
-
-/usr/include/c++/11/bits/stl_raw_storage_iter.h:
-
-/home/jwprdpr/geant4/include/Geant4/G4TH1ToolsManager.hh:
-
-/usr/include/c++/11/bits/align.h:
-
-/usr/include/c++/11/ext/concurrence.h:
-
-/home/jwprdpr/geant4/include/Geant4/G4UIdirectory.hh:
-
-/usr/include/c++/11/bits/atomic_base.h:
-
-/home/jwprdpr/geant4/include/Geant4/G4NormalNavigation.hh:
-
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
-
-/usr/include/c++/11/backward/auto_ptr.h:
-
-/home/jwprdpr/geant4/include/Geant4/G4LorentzVector.hh:
-
-/usr/include/c++/11/ostream:
-
-/home/jwprdpr/geant4/include/Geant4/G4Region.hh:
-
-/home/jwprdpr/geant4/include/Geant4/tools/wroot/iobject:
-
-/home/jwprdpr/geant4/include/Geant4/G4BlockingList.hh:
-
-/usr/include/c++/11/bits/regex_error.h:
-
-/usr/include/c++/11/atomic:
-
-/home/jwprdpr/geant4/include/Geant4/G4Region.icc:
-
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
 
 /home/jwprdpr/geant4/include/Geant4/G4VPhysicalVolume.hh:
@@ -5339,9 +5262,9 @@ CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.o: ../src/SensitiveDetector.cc
 
 /home/jwprdpr/geant4/include/Geant4/tools/wroot/wbuf:
 
-/home/jwprdpr/geant4/include/Geant4/G4SensitiveVolumeList.hh:
-
 /home/jwprdpr/geant4/include/Geant4/G4SubtractionSolid.hh:
+
+/home/jwprdpr/geant4/include/Geant4/G4SensitiveVolumeList.hh:
 
 /home/jwprdpr/geant4/include/Geant4/CLHEP/Vector/RotationInterfaces.h:
 
@@ -5355,21 +5278,17 @@ CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.o: ../src/SensitiveDetector.cc
 
 /home/jwprdpr/geant4/include/Geant4/CLHEP/Vector/RotationInterfaces.icc:
 
-/usr/include/c++/11/bits/regex.h:
-
-/home/jwprdpr/geant4/include/Geant4/G4VUserActionInitialization.hh:
-
-/home/jwprdpr/geant4/include/Geant4/CLHEP/Vector/RotationX.h:
-
 /home/jwprdpr/geant4/include/Geant4/CLHEP/Vector/RotationX.icc:
 
 /home/jwprdpr/geant4/include/Geant4/CLHEP/Random/RandGauss.icc:
 
+/home/jwprdpr/geant4/include/Geant4/CLHEP/Units/PhysicalConstants.h:
+
+/home/jwprdpr/geant4/include/Geant4/G4Polycone.icc:
+
+/home/jwprdpr/geant4/include/Geant4/CLHEP/Units/SystemOfUnits.h:
+
 /home/jwprdpr/geant4/include/Geant4/CLHEP/Vector/RotationY.h:
-
-/home/jwprdpr/geant4/include/Geant4/G4BlockingList.icc:
-
-/home/jwprdpr/geant4/include/Geant4/G4GPILSelection.hh:
 
 /home/jwprdpr/geant4/include/Geant4/G4VisAttributes.icc:
 
@@ -5379,43 +5298,51 @@ CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.o: ../src/SensitiveDetector.cc
 
 /home/jwprdpr/geant4/include/Geant4/CLHEP/Vector/RotationZ.h:
 
+/home/jwprdpr/geant4/include/Geant4/G4UserStackingAction.hh:
+
+/usr/include/math.h:
+
+/usr/include/c++/11/bits/charconv.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/c++/11/bits/exception_ptr.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
+
+/home/jwprdpr/geant4/include/Geant4/G4VSolid.hh:
+
+/usr/include/c++/11/ext/concurrence.h:
+
+/usr/include/c++/11/bits/regex_error.h:
+
+/usr/include/c++/11/atomic:
+
+/home/jwprdpr/geant4/include/Geant4/G4UIdirectory.hh:
+
+/usr/include/c++/11/bits/atomic_base.h:
+
+/home/jwprdpr/geant4/include/Geant4/G4NormalNavigation.hh:
+
 /usr/include/c++/11/bits/postypes.h:
 
 /home/jwprdpr/geant4/include/Geant4/G4VPhysicalVolume.icc:
 
-/usr/include/c++/11/exception:
+/home/jwprdpr/geant4/include/Geant4/G4StepPoint.hh:
 
-/home/jwprdpr/geant4/include/Geant4/G4LogicalVolume.icc:
+/home/jwprdpr/geant4/include/Geant4/G4AllocatorPool.hh:
 
-/home/jwprdpr/geant4/include/Geant4/G4DynamicParticle.hh:
+/usr/include/c++/11/bits/localefwd.h:
 
-/usr/include/c++/11/bits/specfun.h:
-
-/home/jwprdpr/geant4/include/Geant4/G4ParticleDefinition.hh:
-
-/home/jwprdpr/geant4/include/Geant4/G4PDefManager.hh:
-
-/usr/include/errno.h:
-
-/usr/include/c++/11/bits/alloc_traits.h:
-
-/home/jwprdpr/geant4/include/Geant4/G4IonisParamMat.hh:
-
-/home/jwprdpr/geant4/include/Geant4/G4ParticleDefinition.icc:
-
-/home/jwprdpr/geant4/include/Geant4/G4ParticleMomentum.hh:
-
-/home/jwprdpr/geant4/include/Geant4/G4TrackStatus.hh:
-
-/home/jwprdpr/geant4/include/Geant4/G4ElectronOccupancy.hh:
-
-/home/jwprdpr/geant4/include/Geant4/CLHEP/Random/RandGeneral.h:
-
-/home/jwprdpr/geant4/include/Geant4/G4DynamicParticle.icc:
+/home/jwprdpr/geant4/include/Geant4/G4StepStatus.hh:
 
 /usr/include/c++/11/debug/assertions.h:
 
 /home/jwprdpr/geant4/include/Geant4/G4TouchableHandle.hh:
+
+/usr/include/c++/11/bits/sstream.tcc:
+
+/home/jwprdpr/geant4/include/Geant4/G4VSDFilter.hh:
 
 /home/jwprdpr/geant4/include/Geant4/G4VTouchable.hh:
 
@@ -5465,23 +5392,21 @@ CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.o: ../src/SensitiveDetector.cc
 
 /home/jwprdpr/geant4/include/Geant4/G4ParameterisedNavigation.hh:
 
-/home/jwprdpr/geant4/include/Geant4/G4LogicalVolume.hh:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h:
-
 /usr/include/c++/11/bits/fstream.tcc:
 
-/home/jwprdpr/geant4/include/Geant4/G4PhysicsVectorType.hh:
-
-/home/jwprdpr/geant4/include/Geant4/G4Step.hh:
-
-/usr/include/signal.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
-
-/home/jwprdpr/geant4/include/Geant4/CLHEP/Random/RandGauss.h:
-
 /home/jwprdpr/geant4/include/Geant4/G4PhysicsVector.icc:
+
+/usr/include/errno.h:
+
+/usr/include/c++/11/bits/alloc_traits.h:
+
+/home/jwprdpr/geant4/include/Geant4/G4IonisParamMat.hh:
+
+/home/jwprdpr/geant4/include/Geant4/G4Cons.hh:
+
+/home/jwprdpr/geant4/include/Geant4/G4OrderedTable.hh:
+
+/home/jwprdpr/geant4/include/Geant4/G4EventManager.hh:
 
 /home/jwprdpr/geant4/include/Geant4/G4DataVector.hh:
 
@@ -5499,15 +5424,205 @@ CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.o: ../src/SensitiveDetector.cc
 
 /usr/include/assert.h:
 
-/home/jwprdpr/geant4/include/Geant4/G4StepPoint.hh:
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h:
 
-/usr/include/c++/11/bits/localefwd.h:
+/home/jwprdpr/geant4/include/Geant4/G4LogicalVolume.hh:
 
-/home/jwprdpr/geant4/include/Geant4/G4StepStatus.hh:
+/usr/include/c++/11/bits/stl_raw_storage_iter.h:
+
+/home/jwprdpr/geant4/include/Geant4/G4TH1ToolsManager.hh:
+
+/usr/include/c++/11/bits/align.h:
+
+/usr/include/c++/11/functional:
+
+/home/jwprdpr/geant4/include/Geant4/G4ClassificationOfNewTrack.hh:
+
+/home/jwprdpr/geant4/include/Geant4/G4THnToolsManager.hh:
+
+/home/jwprdpr/geant4/include/Geant4/G4ParticleTable.icc:
+
+/home/jwprdpr/geant4/include/Geant4/CLHEP/Random/RandChiSquare.icc:
+
+/usr/include/c++/11/iosfwd:
+
+/home/jwprdpr/geant4/include/Geant4/G4ParameterisedNavigation.icc:
+
+/usr/include/c++/11/bits/shared_ptr_atomic.h:
+
+/usr/include/c++/11/bits/regex.h:
+
+/home/jwprdpr/geant4/include/Geant4/CLHEP/Vector/RotationX.h:
+
+/home/jwprdpr/geant4/include/Geant4/G4VUserActionInitialization.hh:
+
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/c++/11/backward/auto_ptr.h:
+
+/home/jwprdpr/geant4/include/Geant4/G4LorentzVector.hh:
+
+/usr/include/c++/11/ostream:
+
+/home/jwprdpr/geant4/include/Geant4/G4Region.hh:
+
+/home/jwprdpr/geant4/include/Geant4/tools/wroot/iobject:
+
+/home/jwprdpr/geant4/include/Geant4/G4BlockingList.hh:
+
+/home/jwprdpr/geant4/include/Geant4/G4Region.icc:
+
+/usr/include/c++/11/exception:
+
+/home/jwprdpr/geant4/include/Geant4/G4LogicalVolume.icc:
+
+/home/jwprdpr/geant4/include/Geant4/G4Normal3D.hh:
+
+/home/jwprdpr/geant4/include/Geant4/G4TrackVector.hh:
+
+/home/jwprdpr/geant4/include/Geant4/G4SmartVoxelProxy.icc:
+
+/home/jwprdpr/geant4/include/Geant4/rundefs.hh:
+
+/usr/include/x86_64-linux-gnu/bits/signum-generic.h:
+
+/home/jwprdpr/geant4/include/Geant4/G4Profiler.hh:
+
+/home/jwprdpr/geant4/include/Geant4/G4Vector3D.hh:
+
+/home/jwprdpr/geant4/include/Geant4/G4Profiler.icc:
+
+/home/jwprdpr/geant4/include/Geant4/PTL/Globals.hh:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/home/jwprdpr/geant4/include/Geant4/PTL/Utility.hh:
+
+/home/jwprdpr/geant4/include/Geant4/G4HCofThisEvent.hh:
+
+/home/jwprdpr/geant4/include/Geant4/tools/stype:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/c++/11/set:
+
+/home/jwprdpr/geant4/include/Geant4/G4PrimaryParticle.hh:
+
+/usr/include/c++/11/bits/stl_set.h:
+
+/home/jwprdpr/geant4/include/Geant4/pwdefs.hh:
+
+/home/jwprdpr/geant4/include/Geant4/G4VisExecutive.icc:
+
+/usr/include/c++/11/bits/stl_multiset.h:
 
 /home/jwprdpr/geant4/include/Geant4/G4DigiFilterFactories.hh:
 
 /home/jwprdpr/geant4/include/Geant4/G4Step.icc:
+
+/home/jwprdpr/geant4/include/Geant4/G4PhysicsListOrderingParameter.hh:
+
+/home/jwprdpr/geant4/include/Geant4/G4Track.hh:
+
+/home/jwprdpr/geant4/include/Geant4/trkdefs.hh:
+
+/home/jwprdpr/geant4/include/Geant4/G4TP1ToolsManager.hh:
+
+/usr/include/c++/11/bits/regex_compiler.tcc:
+
+/home/jwprdpr/geant4/include/Geant4/CLHEP/Utility/memory.h:
+
+/home/jwprdpr/geant4/include/Geant4/G4DynamicParticle.hh:
+
+/usr/include/c++/11/bits/specfun.h:
+
+/home/jwprdpr/geant4/include/Geant4/G4ParticleDefinition.hh:
+
+/home/jwprdpr/geant4/include/Geant4/G4PDefManager.hh:
+
+/home/jwprdpr/geant4/include/Geant4/G4ParticleDefinition.icc:
+
+/home/jwprdpr/geant4/include/Geant4/G4ParticleMomentum.hh:
+
+/home/jwprdpr/geant4/include/Geant4/G4TrackStatus.hh:
+
+/home/jwprdpr/geant4/include/Geant4/G4ElectronOccupancy.hh:
+
+/home/jwprdpr/geant4/include/Geant4/CLHEP/Random/RandGeneral.h:
+
+/home/jwprdpr/geant4/include/Geant4/G4DynamicParticle.icc:
+
+/home/jwprdpr/geant4/include/Geant4/G4TouchableHistory.hh:
+
+/home/jwprdpr/geant4/include/Geant4/G4NavigationHistory.hh:
+
+/home/jwprdpr/geant4/include/Geant4/G4Fcn.hh:
+
+/usr/include/c++/11/bits/ostream.tcc:
+
+/home/jwprdpr/geant4/include/Geant4/G4AffineTransform.hh:
+
+/home/jwprdpr/geant4/include/Geant4/G4Transform3D.hh:
+
+/home/jwprdpr/geant4/include/Geant4/CLHEP/Geometry/Transform3D.icc:
+
+/home/jwprdpr/geant4/include/Geant4/CLHEP/Geometry/Point3D.h:
+
+/home/jwprdpr/geant4/include/Geant4/G4AffineTransform.icc:
+
+/home/jwprdpr/geant4/include/Geant4/tools/wcsv_ntuple:
+
+/usr/include/c++/11/bits/ios_base.h:
+
+/home/jwprdpr/geant4/include/Geant4/CLHEP/Random/RandPoissonQ.icc:
+
+/home/jwprdpr/geant4/include/Geant4/G4VTouchable.icc:
+
+/home/jwprdpr/geant4/include/Geant4/G4NavigationLevel.hh:
+
+/usr/include/c++/11/bits/stl_function.h:
+
+/home/jwprdpr/geant4/include/Geant4/G4NavigationLevelRep.hh:
+
+/home/jwprdpr/geant4/include/Geant4/G4NavigationLevelRep.icc:
+
+/home/jwprdpr/geant4/include/Geant4/G4NavigationHistory.icc:
+
+/usr/include/c++/11/bitset:
+
+/home/jwprdpr/geant4/include/Geant4/G4CollectionNameVector.hh:
+
+/usr/include/c++/11/list:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
+
+/usr/include/c++/11/bits/list.tcc:
+
+/home/jwprdpr/geant4/include/Geant4/G4DCofThisEvent.hh:
+
+/usr/include/c++/11/bits/nested_exception.h:
+
+/home/jwprdpr/geant4/include/Geant4/G4VDigiCollection.hh:
+
+/home/jwprdpr/geant4/include/Geant4/G4TrajectoryContainer.hh:
+
+/home/jwprdpr/geant4/include/Geant4/G4TrackingManager.hh:
+
+/home/jwprdpr/geant4/include/Geant4/G4PrimaryVertex.hh:
+
+/usr/include/c++/11/type_traits:
+
+/home/jwprdpr/geant4/include/Geant4/G4StackManager.hh:
+
+/home/jwprdpr/geant4/include/Geant4/G4StackedTrack.hh:
+
+/home/jwprdpr/geant4/include/Geant4/tools/histo/b1:
+
+/home/jwprdpr/geant4/include/Geant4/CLHEP/Random/RandLandau.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/home/jwprdpr/geant4/include/Geant4/G4TrackStack.hh:
 
 /home/jwprdpr/geant4/include/Geant4/G4PrimaryTransformer.hh:
 
@@ -5587,14 +5702,6 @@ CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.o: ../src/SensitiveDetector.cc
 
 /home/jwprdpr/geant4/include/Geant4/CLHEP/Random/RandPoissonQ.h:
 
-/home/jwprdpr/geant4/include/Geant4/tools/wcsv_ntuple:
-
-/usr/include/c++/11/bits/ios_base.h:
-
-/home/jwprdpr/geant4/include/Geant4/CLHEP/Random/RandPoissonQ.icc:
-
-/home/jwprdpr/geant4/include/Geant4/G4AffineTransform.icc:
-
 /home/jwprdpr/geant4/include/Geant4/CLHEP/Vector/Rotation.h:
 
 /home/jwprdpr/geant4/include/Geant4/CLHEP/Random/RandStudentT.h:
@@ -5604,18 +5711,6 @@ CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.o: ../src/SensitiveDetector.cc
 /home/jwprdpr/geant4/include/Geant4/tools/histo/axis:
 
 /home/jwprdpr/geant4/include/Geant4/G4Navigator.hh:
-
-/home/jwprdpr/geant4/include/Geant4/G4Fcn.hh:
-
-/usr/include/c++/11/bits/ostream.tcc:
-
-/home/jwprdpr/geant4/include/Geant4/G4AffineTransform.hh:
-
-/home/jwprdpr/geant4/include/Geant4/G4Transform3D.hh:
-
-/home/jwprdpr/geant4/include/Geant4/CLHEP/Geometry/Transform3D.icc:
-
-/home/jwprdpr/geant4/include/Geant4/CLHEP/Geometry/Point3D.h:
 
 /home/jwprdpr/geant4/include/Geant4/G4GRSVolume.hh:
 
@@ -5627,22 +5722,6 @@ CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.o: ../src/SensitiveDetector.cc
 
 /home/jwprdpr/geant4/include/Geant4/G4GRSSolid.hh:
 
-/home/jwprdpr/geant4/include/Geant4/G4TouchableHistory.hh:
-
-/home/jwprdpr/geant4/include/Geant4/G4NavigationHistory.hh:
-
-/home/jwprdpr/geant4/include/Geant4/G4VTouchable.icc:
-
-/home/jwprdpr/geant4/include/Geant4/G4NavigationLevel.hh:
-
-/usr/include/c++/11/bits/stl_function.h:
-
-/home/jwprdpr/geant4/include/Geant4/G4NavigationLevelRep.hh:
-
-/home/jwprdpr/geant4/include/Geant4/G4NavigationLevelRep.icc:
-
-/home/jwprdpr/geant4/include/Geant4/G4NavigationHistory.icc:
-
 /home/jwprdpr/geant4/include/Geant4/tools/wroot/tree:
 
 /home/jwprdpr/geant4/include/Geant4/G4VSolid.icc:
@@ -5650,12 +5729,6 @@ CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.o: ../src/SensitiveDetector.cc
 /home/jwprdpr/geant4/include/Geant4/globals.hh:
 
 /home/jwprdpr/geant4/include/Geant4/G4AuxiliaryNavServices.icc:
-
-/home/jwprdpr/geant4/include/Geant4/G4THnMessenger.hh:
-
-/usr/include/c++/11/bits/shared_ptr_base.h:
-
-/home/jwprdpr/geant4/include/Geant4/G4ForceCondition.hh:
 
 /usr/include/c++/11/bits/atomic_lockfree_defines.h:
 
@@ -5694,7 +5767,3 @@ CMakeFiles/exampleED.dir/src/SensitiveDetector.cc.o: ../src/SensitiveDetector.cc
 /home/jwprdpr/geant4/include/Geant4/G4Navigator.icc:
 
 /home/jwprdpr/geant4/include/Geant4/G4PhysicsTable.hh:
-
-/home/jwprdpr/geant4/include/Geant4/G4PhysicsTable.icc:
-
-/home/jwprdpr/geant4/include/Geant4/G4VParticleChange.hh:

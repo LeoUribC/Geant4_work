@@ -32,7 +32,7 @@
 #define EDDetectorConstruction_h 1
 
 #include "G4VUserDetectorConstruction.hh"
-
+#include "SensitiveDetector.hh"
 class G4VPhysicalVolume;
 
 /// Detector construction class to define materials and geometry.
